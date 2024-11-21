@@ -14,32 +14,32 @@ Follow these steps to set up and run the application:
 
 First, clone the  repository to your local machine:
 
-git clone https://github.com/cowcheek/MTAS-Hackathon.git
-cd MTAS-Hackathon
+``` git clone https://github.com/cowcheek/MTAS-Hackathon.git
+cd MTAS-Hackathon ```
 
 ### 2. Set up a Python virtual environment
 It is recommended to use a Python virtual environment to manage dependencies:
 
-python3 -m venv venv
+``` python3 -m venv venv ```
 Activate the virtual environment:
 
 For macOS/Linux:
-source venv/bin/activate
+``` source venv/bin/activate ```
 
 For Windows:
-venv\Scripts\activate
+``` venv\Scripts\activate ```
 
 ### 3. Install dependencies
 Install all the required dependencies using requirements.txt:
 
 
-pip install -r requirements.txt
+``` pip install -r requirements.txt ```
 
 ### 4. Run the application
 Once the environment is set up and dependencies are installed, you can run the application:
 
 
-python app.py
+``` python app.py ```
 This will start the Flask web server, and you should see the following message in your terminal:
 
 
