@@ -1,0 +1,7 @@
+Flask
+sentence-transformers
+torch
+transformers
+pandas
+numpy<2
+openpyxl

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Query Assistant</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Query Assistant</h1>
+        </header>
+        <main>
+            <div class="input-group">
+                <textarea id="queryInput" placeholder="Type your question here..."></textarea>
+                <input type="file" id="fileInput" accept=".txt,.pdf,.docx" />
+            </div>
+            <button id="submitButton">Submit</button>
+        </main>
+        <section id="responseArea">
+            <h2>Response</h2>
+            <div id="responseOutput"></div>
+            <button id="copyButton">Copy to Clipboard</button>
+        </section>
+        <footer>
+            <p>&copy; 2024 AI Query Assistant</p>
+        </footer>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+
+</html>
