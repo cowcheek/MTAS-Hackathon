@@ -8,16 +8,16 @@ body {
     align-items: center;
     height: 100vh; /* Full viewport height */
 }
- 
+
 .container {
-     max-width: 900px;
+    max-width: 900px;
     width: 100%; /* Ensure responsiveness */
     padding: 20px;
     background: white;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
- 
+
 header {
     background-color: #007bff;
     color: white;
@@ -25,15 +25,15 @@ header {
     border-radius: 10px 10px 0 0;
     text-align: center;
 }
- 
+
 h1 {
     margin: 0;
 }
- 
+
 .input-group {
     margin-bottom: 15px;
 }
- 
+
 textarea {
     width: 100%;
     height: 120px;
@@ -45,11 +45,11 @@ textarea {
     font-size: 16px;
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
- 
+
 input[type="file"] {
     margin-bottom: 10px;
 }
- 
+
 button {
     background-color: #28a745;
     color: white;
@@ -61,11 +61,11 @@ button {
     font-size: 16px;
     transition: background-color 0.3s;
 }
- 
+
 button:hover {
     background-color: #218838;
 }
- 
+
 #responseArea {
     margin-top: 20px;
     display: none;
@@ -76,7 +76,7 @@ button:hover {
     max-height: 300px; /* Set a maximum height */
     overflow-y: auto; /* Enable vertical scrolling */
 }
- 
+
 #responseOutput {
     padding: 10px;
     border: 1px solid #ccc;
@@ -84,7 +84,29 @@ button:hover {
     background-color: #f0f0f0;
     margin-bottom: 10px;
 }
- 
+
+.match {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.match p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.match a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.match a:hover {
+    text-decoration: underline;
+}
+
 footer {
     text-align: center;
     margin-top: 20px;

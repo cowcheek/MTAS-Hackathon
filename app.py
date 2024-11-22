@@ -2,6 +2,8 @@ from flask import Flask, request, jsonify, render_template
 import os
 import pandas as pd
 from app.embeddings_processor import match_errors_to_tickets
+from app.clean_logs import extract_error_snippets
+from io import StringIO
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads/'
@@ -23,27 +25,38 @@ def query():
 
     response = {}
     if query:
-        response['query'] = f'Processed your query: "{query}"'
+        # Treat query as a file input if no file is uploaded
+        if file:
+            response = {'error': 'Provide either a file or a query, not both.'}
+        else:
+            try:
+                # Convert the query into a pseudo-file object using StringIO
+                query_file = StringIO(query)
+                
+                # Process the query as if it were a file
+                snippets = extract_error_snippets(query_file, 4)
+                results = match_errors_to_tickets(snippets)
+                
+                # Format the response
+                response = results
+            except Exception as e:
+                return jsonify({'error': f'Error processing query: {str(e)}'}), 500
 
-    if file:
-        # Save the uploaded file
+    else:
+        # Save the uploaded file and process it
         file_path = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
         file.save(file_path)
+        print('found file')
 
         try:
-            # Assuming the log file is a text file
-            with open(file_path, 'r') as f:
-                log_content = f.read()
-
-            # Process the log content and match it with Jira tickets
-            results = match_errors_to_tickets(log_content)
-
-            # Format the response
-            response['matches'] = results
+            snippets = extract_error_snippets(file_path, 4)
+            results = match_errors_to_tickets(snippets)
+            response = results
         except Exception as e:
             return jsonify({'error': f'Error processing file: {str(e)}'}), 500
-
-    return jsonify({'response': response})
+    
+    print('Returning response:', response)
+    return jsonify(response)
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -1,0 +1,129 @@
+2024-11-12T10:51:35.81 0
+2024-11-12T10:51:37.78 "seroius07335.sero.gic.ericsson.se"
+2024-11-12T10:51:37.78 "seroius07360.sero.gic.ericsson.se"
+2024-11-12T10:51:37.78 "seroius07420.sero.gic.ericsson.se"
+2024-11-12T10:51:37.78 "seroius07479.sero.gic.ericsson.se"
+2024-11-12T10:51:37.78 "seroius07485.sero.gic.ericsson.se"
+2024-11-12T10:51:39.34 [CIFW][INFO] Starting script=[ci/nomad/create_ft_cba_pipeline_config.pl] from repository=[mtas/ci]
+2024-11-12T10:51:39.35 [CIFW][INFO] Finished script=[ci/nomad/create_ft_cba_pipeline_config.pl] from repository=[mtas/ci] with result=[SUCCESS]
+2024-11-12T10:51:39.83 ==> Monitoring evaluation "36b76d07"
+2024-11-12T10:51:39.83     Evaluation triggered by job "production_release_1.34_WEL_51"
+2024-11-12T10:51:40.84     Allocation "f6529472" created: node "cf6a5de8", group "EXEC"
+2024-11-12T10:51:40.92     Evaluation status changed: "pending" -> "complete"
+2024-11-12T10:51:40.92 ==> Evaluation "36b76d07" finished with status "complete"
+2024-11-12T10:51:40.92 [CIFW][INFO] Loading module: gcc/7.3.0
+2024-11-12T10:51:41.05 [CIFW][INFO] Unloading module: python/3.8.5
+2024-11-12T10:51:41.09 [CIFW][INFO] Loading module: python/3.8.5
+2024-11-12T10:51:41.27 [CIFW][INFO] Loading module: shellcheck/0.4.7
+2024-11-12T10:51:41.41 [CIFW][INFO] Unloading module: perl/5.26.1-addons-ims
+2024-11-12T10:51:41.45 [CIFW][INFO] Loading module: perl/5.26.1-addons-ims
+2024-11-12T10:51:41.59 [CIFW][INFO] Loading module: maven/3.6.3
+2024-11-12T10:51:41.76 [CIFW][INFO] Unloading module: j2re/1.7.0_121(default)
+2024-11-12T10:51:41.93 [CIFW][INFO] Loading module: jdk/11.0.1
+2024-11-12T10:51:42.08 [CIFW][INFO] Unloading module: jfrogcli/2.9.0
+2024-11-12T10:51:42.12 [CIFW][INFO] Loading module: jfrogcli/1.29.1
+2024-11-12T10:51:42.25 [CIFW][INFO] Loading module: jq/1.6
+2024-11-12T10:51:42.34 [CIFW][INFO] =============================================================================================================
+2024-11-12T10:51:42.34 [CIFW][INFO] Setup virtualenv cifw...
+2024-11-12T10:51:42.34 [CIFW][INFO] =============================================================================================================
+2024-11-12T10:51:42.34 [CIFW][INFO] Virtualenv "cifw" not found in the workspace!
+2024-11-12T10:51:42.35 [CIFW][INFO] =============================================================================================================
+2024-11-12T10:51:42.35 [CIFW][INFO] Build virtualenv cifw...
+2024-11-12T10:51:42.35 [CIFW][INFO] =============================================================================================================
+2024-11-12T10:51:42.35 [CIFW][INFO] Creating virtualenv...
+2024-11-12T10:51:45.54 [CIFW][INFO] Upgrading pip...
+2024-11-12T10:51:49.04 [CIFW][INFO] Installing dependencies...
+2024-11-12T10:52:18.01 WARNING: Package 'pylint' has an invalid Requires-Python: Invalid specifier: '>=3.5.*'
+2024-11-12T10:52:24.13 WARNING: Package 'astroid' has an invalid Requires-Python: Invalid specifier: '>=3.5.*'
+2024-11-12T10:53:38.52 [CIFW][INFO] Activating virtualenv...
+2024-11-12T10:53:38.91 [CIFW][INFO] Fetched flow_id: 185745
+2024-11-12T10:53:38.91 [CIFW][INFO] Total TCs left: 1
+2024-11-12T10:53:39.00 [CIFW][INFO] Execution started on seroius14093 with name production_release_1.34_WEL_51.EXEC[0]
+2024-11-12T10:53:39.03 [CIFW][INFO] Live logs: https://fem10s10-eiffel021.eiffel.gic.ericsson.se:8443/jenkins/job/release_1.34_WEL/51/artifact/ft_exec_0_seroius14093.log
+2024-11-12T10:56:39.08 [CIFW][INFO] tcs_left is equal to get_left_tc_number, incrementing tcs_stuck_counter
+2024-11-12T10:59:39.26 [CIFW][INFO] Total TCs left: 1
+2024-11-12T10:59:39.26 [CIFW][INFO] tcs_left is equal to get_left_tc_number, incrementing tcs_stuck_counter
+2024-11-12T11:02:39.42 [CIFW][INFO] Total TCs left: 1
+2024-11-12T11:02:39.42 [CIFW][INFO] tcs_left is equal to get_left_tc_number, incrementing tcs_stuck_counter
+2024-11-12T11:05:39.57 [CIFW][INFO] Total TCs left: 1
+2024-11-12T11:05:39.57 [CIFW][INFO] tcs_left is equal to get_left_tc_number, incrementing tcs_stuck_counter
+2024-11-12T11:08:39.77 [CIFW][INFO] Total TCs left: 1
+2024-11-12T11:08:39.77 [CIFW][INFO] tcs_left is equal to get_left_tc_number, incrementing tcs_stuck_counter
+2024-11-12T11:11:40.03 [CIFW][INFO] Total TCs left: 1
+2024-11-12T11:11:40.03 [CIFW][INFO] tcs_left is equal to get_left_tc_number, incrementing tcs_stuck_counter
+2024-11-12T11:14:40.27 [CIFW][INFO] Total TCs left: 1
+2024-11-12T11:14:40.27 [CIFW][INFO] tcs_left is equal to get_left_tc_number, incrementing tcs_stuck_counter
+2024-11-12T11:17:40.48 [CIFW][INFO] Total TCs left: 1
+2024-11-12T11:17:40.48 [CIFW][INFO] tcs_left is equal to get_left_tc_number, incrementing tcs_stuck_counter
+2024-11-12T11:20:40.65 [CIFW][INFO] Total TCs left: 1
+2024-11-12T11:20:40.65 [CIFW][INFO] tcs_left is equal to get_left_tc_number, incrementing tcs_stuck_counter
+2024-11-12T11:23:40.84 [CIFW][INFO] Total TCs left: 1
+2024-11-12T11:23:40.84 [CIFW][INFO] tcs_left is equal to get_left_tc_number, incrementing tcs_stuck_counter
+2024-11-12T11:26:36.49 ./FuncTest-ExecNomad_seroius06027_40.script: line 21:  5920 Terminated              /local/scratch/mtasbin/slave/workspace/release_1.34_WEL/ci/refactor/components/nomad/monitor_nomad_job.py --nomad-hosts http://"seroius07335.sero.gic.ericsson.se":4646,http://"seroius07360.sero.gic.ericsson.se":4646,http://"seroius07420.sero.gic.ericsson.se":4646,http://"seroius07479.sero.gic.ericsson.se":4646,http://"seroius07485.sero.gic.ericsson.se":4646
+2024-11-12T11:26:36.49 [CIFW][INFO] Total TCs left: 1
+2024-11-12T11:26:47.33 ==> Monitoring evaluation "b662d0ee"
+2024-11-12T11:26:47.33     Evaluation triggered by job "production_release_1.34_WEL_51"
+2024-11-12T11:26:48.33     Evaluation status changed: "pending" -> "complete"
+2024-11-12T11:26:48.34 ==> Evaluation "b662d0ee" finished with status "complete"
+2024-11-12T11:26:48.34 [CIFW][INFO]
+2024-11-12T11:26:48.34 Starting
+2024-11-12T11:26:48.34 script=[ci/loops/save_artifacts.sh] from repository=[mtas/ci]
+2024-11-12T11:26:48.47 tar: Removing leading `/' from member names
+2024-11-12T11:26:48.48 /local/scratch/mtasbin/slave/workspace/release_1.34_WEL
+2024-11-12T11:26:48.48 [CIFW][INFO]
+2024-11-12T11:26:48.48 Starting
+2024-11-12T11:26:48.49 script=[ci/loops/publish_artifacts.sh] from repository=[mtas/ci]
+2024-11-12T11:26:48.49 
+2024-11-12T11:26:48.54 
+2024-11-12T11:26:48.54 ================================
+2024-11-12T11:26:48.54 
+2024-11-12T11:26:48.60 [Info] [Thread 0] Uploading artifact: /proj/eiffel021_config_fem10s10/eiffel_home/jobs/release_1.34_WEL/builds/51/archive/nomad_client_logs.tgz
+2024-11-12T11:26:48.72 publish_pattern for pushing to artifactory: /proj/eiffel021_config_fem10s10/eiffel_home/jobs/release_1.34_WEL/builds/51/archive/*.tgz
+2024-11-12T11:26:48.72 Provided publish_pattern will be used for pushing to artifactory
+2024-11-12T11:26:48.72 
+2024-11-12T11:26:48.72 location_in_artifactory is provided, using: production/MTAS/release/1.34/94c00f947ef9c3193c30af3ac7873827630b4ad8/CBA/FT/e2a14df3c394a9f03f20c354d5c70d3df4dc5df3/release_1.34_WEL-51/
+2024-11-12T11:26:48.72 
+2024-11-12T11:26:48.72 properties are provided, using: mtas.branch=release/1.34;mtas.commit=94c00f947ef9c3193c30af3ac7873827630b4ad8;mtas.platform=CBA;ft.branch=release/1.34;ft.commit=e2a14df3c394a9f03f20c354d5c70d3df4dc5df3;ft.author=prateek.sharma.ext@ericsson.com;ci.branch=universal;ci.commit=8574268d739bd8948eee7e7906df2ab2421ec39a;ci.author=surendra.battireddy.ext@ericsson.com;loop.type=WEL;job.name=release_1.34_WEL;build.number=51;build.date=1731407208348254995;build.env=production;log.type=nomad
+2024-11-12T11:26:48.72 
+2024-11-12T11:26:48.72 
+2024-11-12T11:26:48.72 Pushing file(s)
+2024-11-12T11:26:48.72 {
+2024-11-12T11:26:48.72   "status": "success",
+2024-11-12T11:26:48.72   "totals": {
+2024-11-12T11:26:48.72     "success": 3,
+2024-11-12T11:26:48.72     "failure": 0
+2024-11-12T11:26:48.72   }
+2024-11-12T11:26:48.72 }
+2024-11-12T11:26:48.72 ================================
+2024-11-12T11:26:48.73 
+2024-11-12T11:26:48.73 [CIFW][INFO]
+2024-11-12T11:26:48.73 Finished
+2024-11-12T11:26:48.73 script=[ci/loops/publish_artifacts.sh] from repository=[mtas/ci]
+2024-11-12T11:26:48.73  with result=[SUCCESS]
+2024-11-12T11:26:48.73 [CIFW][INFO][Artifact] Elapsed time:  0 sec
+2024-11-12T11:26:48.73 [CIFW][INFO]
+2024-11-12T11:26:48.73 Finished
+2024-11-12T11:26:48.74 script=[ci/loops/save_artifacts.sh] from repository=[mtas/ci]
+2024-11-12T11:26:48.74  with result=[SUCCESS]
+2024-11-12T11:26:48.79 [CIFW][INFO] Loading module: gcc/7.3.0
+2024-11-12T11:26:48.90 [CIFW][INFO] Unloading module: python/3.8.5
+2024-11-12T11:26:48.94 [CIFW][INFO] Loading module: python/3.8.5
+2024-11-12T11:26:49.10 [CIFW][INFO] Loading module: shellcheck/0.4.7
+2024-11-12T11:26:49.20 [CIFW][INFO] Loading module: perl/5.26.1-addons-ims
+2024-11-12T11:26:49.31 [CIFW][INFO] Loading module: maven/3.6.3
+2024-11-12T11:26:49.46 [CIFW][INFO] Unloading module: j2re/1.7.0_121(default)
+2024-11-12T11:26:49.60 [CIFW][INFO] Loading module: jdk/11.0.1
+2024-11-12T11:26:49.72 [CIFW][INFO] Unloading module: jfrogcli/2.9.0
+2024-11-12T11:26:49.76 [CIFW][INFO] Loading module: jfrogcli/1.29.1
+2024-11-12T11:26:49.87 [CIFW][INFO] Loading module: jq/1.6
+2024-11-12T11:26:49.94 [CIFW][INFO] =============================================================================================================
+2024-11-12T11:26:49.94 [CIFW][INFO] Setup virtualenv cifw...
+2024-11-12T11:26:49.94 [CIFW][INFO] =============================================================================================================
+2024-11-12T11:26:49.94 [CIFW][INFO] Virtualenv "cifw" already exists in the workspace!
+2024-11-12T11:26:51.76 [CIFW][INFO] Activating virtualenv...
+2024-11-12T11:27:37.14 [Info] [Thread 2] Uploading artifact: /proj/eiffel021_config_fem10s10/eiffel_home/jobs/release_1.34_WEL/builds/51/archive/ss7log.tgz
+2024-11-12T11:27:37.14 [Info] [Thread 1] Uploading artifact: /proj/eiffel021_config_fem10s10/eiffel_home/jobs/release_1.34_WEL/builds/51/archive/ft_exec_logs.tgz
+2024-11-12T11:27:37.14 ./FuncTest-ExecNomad_seroius06027_41.script: line 8: 23402 Terminated              "/local/scratch/mtasbin/slave/workspace/release_1.34_WEL/ci/refactor/components/artifact/artifact_manager_ft.py" search --labels ["ft_tc_log"] --upload --file-path="/local/scratch/mtasbin/slave/workspace/release_1.34_WEL/tc_logs.txt" --file-format="file_name_list"
+2024-11-12T11:27:37.14 Can't open perl script "/local/scratch/mtasbin/slave/workspace/release_1.34_WEL/ci/ft/report/report.pl": No such file or directory
+2024-11-12T11:27:37.15 cp: cannot stat 'tc_logs.txt': No such file or directory
+2024-11-12T11:27:37.15 cp: cannot stat 'testsuite.xml': No such file or directory

@@ -1,0 +1,1659 @@
+2024-11-21T23:05:51.08 [CIFW][INFO] Execution on seroius09403
+2024-11-21T23:05:51.14 Warning: Permanently added '10.155.129.132' (ECDSA) to the list of known hosts.
+2024-11-21T23:05:51.27 Warning: Permanently added '[10.155.129.154]:2203' (ECDSA) to the list of known hosts.
+2024-11-21T23:05:53.50 Warning: Permanently added '[10.155.129.154]:2203' (ECDSA) to the list of known hosts.
+2024-11-21T23:05:55.87 Warning: Permanently added '[10.155.129.154]:2203' (ECDSA) to the list of known hosts.
+2024-11-21T23:05:57.86 Warning: Permanently added '[10.155.129.154]:2203' (ECDSA) to the list of known hosts.
+2024-11-21T23:05:57.97 /local/scratch/mtasbin/st/system_test /local/scratch/mtasbin
+2024-11-21T23:05:58.10 
+2024-11-21T23:06:01.05 Creating virtualenv for python 3 in /local/scratch/mtasbin/st/python/3
+2024-11-21T23:06:01.05 Collecting pip==21.0.1
+2024-11-21T23:06:01.24   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/fe/ef/60d7ba03b5c442309ef42e7d69959f73aacccd0d86008362a681c4698e83/pip-21.0.1-py3-none-any.whl (1.5MB)
+2024-11-21T23:06:01.48 Collecting setuptools==54.2.0
+2024-11-21T23:06:02.26   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/9e/d4/b99a960314121a003e9f39c61dfde01a1010bb47661e193a7722f7f32d52/setuptools-54.2.0-py3-none-any.whl (785kB)
+2024-11-21T23:06:02.40 Collecting wheel==0.36.2
+2024-11-21T23:06:02.62   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/65/63/39d04c74222770ed1589c0eaba06c05891801219272420b40311cd60c880/wheel-0.36.2-py2.py3-none-any.whl
+2024-11-21T23:06:02.64 Installing collected packages: pip, setuptools, wheel
+2024-11-21T23:06:02.64   Found existing installation: pip 9.0.1
+2024-11-21T23:06:02.68     Uninstalling pip-9.0.1:
+2024-11-21T23:06:02.69       Successfully uninstalled pip-9.0.1
+2024-11-21T23:06:03.54   Found existing installation: setuptools 39.0.1
+2024-11-21T23:06:03.59     Uninstalling setuptools-39.0.1:
+2024-11-21T23:06:03.60       Successfully uninstalled setuptools-39.0.1
+2024-11-21T23:06:03.96 Successfully installed pip-21.0.1 setuptools-54.2.0 wheel-0.36.2
+2024-11-21T23:06:04.55 Looking in indexes: https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/simple
+2024-11-21T23:06:04.62 Collecting altgraph==0.17.2
+2024-11-21T23:06:04.66   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/84/3f/1a5c9bef54cac9bf41edd6f4aaf61cd52ed578e10ccc607e0278012cb4a5/altgraph-0.17.2-py2.py3-none-any.whl (21 kB)
+2024-11-21T23:06:04.69 Collecting appdirs==1.4.4
+2024-11-21T23:06:04.80   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/3b/00/2344469e2084fb287c2e0b57b72910309874c3245463acd6cf5e3db69324/appdirs-1.4.4-py2.py3-none-any.whl (9.6 kB)
+2024-11-21T23:06:04.83 Collecting appserver==0.4.6
+2024-11-21T23:06:04.87   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/1e/e3/1286419dceb9c9d085922c6217987068fee30d9a67c98d8277151a5a1866/appserver-0.4.6.tar.gz (3.2 kB)
+2024-11-21T23:06:05.23 Collecting attrs==21.2.0
+2024-11-21T23:06:05.28   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/20/a9/ba6f1cd1a1517ff022b35acd6a7e4246371dfab08b8e42b829b6d07913cc/attrs-21.2.0-py2.py3-none-any.whl (53 kB)
+2024-11-21T23:06:05.70 Collecting autopage==0.4.0
+2024-11-21T23:06:05.72   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/18/a7/901e943318925f8ca3f7963616660065b3cf4e143b0327f88076ba5c4e22/autopage-0.4.0-py3-none-any.whl (20 kB)
+2024-11-21T23:06:05.78 Collecting babel==2.9.1
+2024-11-21T23:06:05.81   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/aa/96/4ba93c5f40459dc850d25f9ba93f869a623e77aaecc7a9344e19c01942cf/Babel-2.9.1-py2.py3-none-any.whl (8.8 MB)
+2024-11-21T23:06:06.18 Collecting bcrypt==3.2.0
+2024-11-21T23:06:06.26   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/c0/75/323f3e9e051726cef8a1d71d340a208ed5fe9dbdebc13b83428355c1382e/bcrypt-3.2.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl (61 kB)
+2024-11-21T23:06:06.64 Collecting case-converter==1.1.0
+2024-11-21T23:06:06.67   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/b9/32/20d0de7482c40aff9b42002b98a169adcaf0e5e50b59278e8f6405361278/case_converter-1.1.0-py3-none-any.whl (14 kB)
+2024-11-21T23:06:06.74 Collecting certifi==2021.10.8
+2024-11-21T23:06:06.82   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/37/45/946c02767aabb873146011e665728b680884cd8fe70dde973c640e45b775/certifi-2021.10.8-py2.py3-none-any.whl (149 kB)
+2024-11-21T23:06:07.43 Collecting cffi==1.15.0
+2024-11-21T23:06:07.47   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/49/7b/449daf9cacfd7355cea1b4106d2be614315c29ac16567e01756167f6daab/cffi-1.15.0-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (405 kB)
+2024-11-21T23:06:07.52 Collecting chardet==4.0.0
+2024-11-21T23:06:07.57   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/19/c7/fa589626997dd07bd87d9269342ccb74b1720384a4d739a1872bd84fbe68/chardet-4.0.0-py2.py3-none-any.whl (178 kB)
+2024-11-21T23:06:07.65 Collecting click==8.0.3
+2024-11-21T23:06:07.72   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/48/58/c8aa6a8e62cc75f39fee1092c45d6b6ba684122697d7ce7d53f64f98a129/click-8.0.3-py3-none-any.whl (97 kB)
+2024-11-21T23:06:08.02 Collecting cliff==3.10.0
+2024-11-21T23:06:08.10   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/19/80/d1b21a80864c6386c72d69de2e343188f3d97f7ab5646525c43f0e72b6fb/cliff-3.10.0-py3-none-any.whl (80 kB)
+2024-11-21T23:06:08.25 Collecting cmd2==2.3.3
+2024-11-21T23:06:08.31   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/8c/0b/3d6c9940c81b55750cda9aa941599161e62678bd6baaea9863b5c75ad42b/cmd2-2.3.3-py3-none-any.whl (149 kB)
+2024-11-21T23:06:09.26 Collecting cryptography==36.0.1
+2024-11-21T23:06:09.35   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/d8/0c/c0f8790bdeff9813722811500fd735c40a6c50fe0b4f8f6f4444f7a49cc0/cryptography-36.0.1-cp36-abi3-manylinux_2_24_x86_64.whl (3.6 MB)
+2024-11-21T23:06:09.81 Collecting daemon-application==0.5.2
+2024-11-21T23:06:09.91   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/6d/a4/eac9051276a050358244e4305bb93d70012013cff40825a93ef51efe283f/daemon-application-0.5.2.tar.gz (9.0 kB)
+2024-11-21T23:06:10.67 Collecting dataclasses==0.8
+2024-11-21T23:06:10.78   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/fe/ca/75fac5856ab5cfa51bbbcefa250182e50441074fdc3f803f6e76451fab43/dataclasses-0.8-py3-none-any.whl (19 kB)
+2024-11-21T23:06:10.85 Collecting debtcollector==2.3.0
+2024-11-21T23:06:10.89   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/01/f2/a08f299e66a4c689f6d86491a28571460b9dc2aca25097c1f46685be6cc5/debtcollector-2.3.0-py3-none-any.whl (23 kB)
+2024-11-21T23:06:10.95 Collecting decorator==5.1.0
+2024-11-21T23:06:11.03   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/3d/cc/d7b758e54779f7e465179427de7e78c601d3330d6c411ea7ba9ae2f38102/decorator-5.1.0-py3-none-any.whl (9.1 kB)
+2024-11-21T23:06:11.38 Collecting dictop==0.1.4
+2024-11-21T23:06:11.47   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/0d/57/88f5202f606aa8048473e2d788c8a4cd899db5ec1f63bef492af8328327c/dictop-0.1.4.tar.gz (2.1 kB)
+2024-11-21T23:06:11.80 Collecting dogpile.cache==1.1.4
+2024-11-21T23:06:11.85   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/cb/a6/8828683c0fc1e638cf97cb0a3acf0aff279c7e0c2835cb692d0230464967/dogpile.cache-1.1.4-py3-none-any.whl (50 kB)
+2024-11-21T23:06:11.93 Collecting flask==1.1.2
+2024-11-21T23:06:11.98   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/f2/28/2a03252dfb9ebf377f40fba6a7841b47083260bf8bd8e737b0c6952df83f/Flask-1.1.2-py2.py3-none-any.whl (94 kB)
+2024-11-21T23:06:12.03 Collecting gitdb==4.0.9
+2024-11-21T23:06:12.13   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/a3/7c/5d747655049bfbf75b5fcec57c8115896cb78d6fafa84f6d3ef4c0f13a98/gitdb-4.0.9-py3-none-any.whl (63 kB)
+2024-11-21T23:06:12.26 Collecting gitpython==3.1.18
+2024-11-21T23:06:12.28   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/bc/91/b38c4fabb6e5092ab23492ded4f318ab7299b19263272b703478038c0fbc/GitPython-3.1.18-py3-none-any.whl (170 kB)
+2024-11-21T23:06:12.79 Collecting humanfriendly==10.0
+2024-11-21T23:06:12.89   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/f0/0f/310fb31e39e2d734ccaa2c0fb981ee41f7bd5056ce9bc29b2248bd569169/humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+2024-11-21T23:06:12.95 Collecting idna==2.10
+2024-11-21T23:06:13.03   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/a2/38/928ddce2273eaa564f6f50de919327bf3a00f091b5baba8dfa9460f3a8a8/idna-2.10-py2.py3-none-any.whl (58 kB)
+2024-11-21T23:06:13.19 Collecting importlib-metadata==4.8.3
+2024-11-21T23:06:13.22   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/a0/a1/b153a0a4caf7a7e3f15c2cd56c7702e2cf3d89b1b359d1f1c5e59d68f4ce/importlib_metadata-4.8.3-py3-none-any.whl (17 kB)
+2024-11-21T23:06:13.33 Collecting importlib-resources==5.4.0
+2024-11-21T23:06:13.35   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/24/1b/33e489669a94da3ef4562938cd306e8fa915e13939d7b8277cb5569cb405/importlib_resources-5.4.0-py3-none-any.whl (28 kB)
+2024-11-21T23:06:13.39 Collecting iniconfig==1.1.1
+2024-11-21T23:06:13.48   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/9b/dd/b3c12c6d707058fa947864b67f0c4e0c39ef8610988d7baea9578f3c48f3/iniconfig-1.1.1-py2.py3-none-any.whl (5.0 kB)
+2024-11-21T23:06:13.53 Collecting ipaddress==1.0.23
+2024-11-21T23:06:13.59   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/c2/f8/49697181b1651d8347d24c095ce46c7346c37335ddc7d255833e7cde674d/ipaddress-1.0.23-py2.py3-none-any.whl (18 kB)
+2024-11-21T23:06:13.65 Collecting iso8601==1.0.2
+2024-11-21T23:06:13.70   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/df/e5/589bc81d410139ec4e4f37d9af5a50987566abf6d087b3c4fbed708109a9/iso8601-1.0.2-py3-none-any.whl (9.7 kB)
+2024-11-21T23:06:13.75 Collecting itsdangerous==2.0.1
+2024-11-21T23:06:13.81   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/9c/96/26f935afba9cd6140216da5add223a0c465b99d0f112b68a4ca426441019/itsdangerous-2.0.1-py3-none-any.whl (18 kB)
+2024-11-21T23:06:13.87 Collecting jinja2==2.11.3
+2024-11-21T23:06:13.93   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/7e/c2/1eece8c95ddbc9b1aeb64f5783a9e07a286de42191b7204d67b7496ddf35/Jinja2-2.11.3-py2.py3-none-any.whl (125 kB)
+2024-11-21T23:06:13.98 Collecting jmespath==0.10.0
+2024-11-21T23:06:14.07   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/07/cb/5f001272b6faeb23c1c9e0acc04d48eaaf5c862c17709d20e3469c6e0139/jmespath-0.10.0-py2.py3-none-any.whl (24 kB)
+2024-11-21T23:06:14.14 Collecting jsonpatch==1.32
+2024-11-21T23:06:14.23   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/a3/55/f7c93bae36d869292aedfbcbae8b091386194874f16390d680136edd2b28/jsonpatch-1.32-py2.py3-none-any.whl (12 kB)
+2024-11-21T23:06:14.29 Collecting jsonpointer==2.2
+2024-11-21T23:06:14.34   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/fe/38/6d04fe1f9bc0b5769cd2bb35868c862b59edbd2efcdb296671c9c982ef0f/jsonpointer-2.2-py2.py3-none-any.whl (7.5 kB)
+2024-11-21T23:06:14.45 Collecting jsonschema==3.2.0
+2024-11-21T23:06:14.54   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/c5/8f/51e89ce52a085483359217bc72cdbf6e75ee595d5b1d4b5ade40c7e018b8/jsonschema-3.2.0-py2.py3-none-any.whl (56 kB)
+2024-11-21T23:06:14.70 Collecting keystoneauth1==4.3.1
+2024-11-21T23:06:14.75   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/7a/1b/8c5d1fd19b9e08d3a3b64492d078039c7ddd166c3cf029154f1c5f0439f7/keystoneauth1-4.3.1-py3-none-any.whl (314 kB)
+2024-11-21T23:06:15.14 Collecting ldap3==2.9.1
+2024-11-21T23:06:15.18   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/4e/f6/71d6ec9f18da0b2201287ce9db6afb1a1f637dedb3f0703409558981c723/ldap3-2.9.1-py2.py3-none-any.whl (432 kB)
+2024-11-21T23:06:16.25 Collecting lxml==4.7.1
+2024-11-21T23:06:16.28   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/a2/09/ab27864e197f0a94d2abd2ce01d768604a5c355e84f8263af01fa3fa2a14/lxml-4.7.1-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl (6.4 MB)
+2024-11-21T23:06:16.86 Collecting magic-import==0.1.3
+2024-11-21T23:06:16.89   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/35/fe/2090fd9e2560b01fd61d1b41bc578ba05a7e879ff3e9332f15e572831806/magic-import-0.1.3.tar.gz (2.3 kB)
+2024-11-21T23:06:17.49 Collecting markupsafe==2.0.1
+2024-11-21T23:06:17.57   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/e2/a9/eafee9babd4b3aed918d286fbe1c20d1a22d347b30d2bddb3c49919548fa/MarkupSafe-2.0.1-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (30 kB)
+2024-11-21T23:06:17.93 Collecting msgpack==1.0.3
+2024-11-21T23:06:17.96   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/19/4d/36932c75d85c7f891ea93cb7491be45c8eb9dfcdfdd1679c57c463c67284/msgpack-1.0.3-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (299 kB)
+2024-11-21T23:06:18.01 Collecting munch==2.5.0
+2024-11-21T23:06:18.05   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/cc/ab/85d8da5c9a45e072301beb37ad7f833cd344e04c817d97e0cc75681d248f/munch-2.5.0-py2.py3-none-any.whl (10 kB)
+2024-11-21T23:06:18.13 Collecting netaddr==0.8.0
+2024-11-21T23:06:18.23   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/ff/cd/9cdfea8fc45c56680b798db6a55fa60a22e2d3d3ccf54fc729d083b50ce4/netaddr-0.8.0-py2.py3-none-any.whl (1.9 MB)
+2024-11-21T23:06:18.35 Collecting netifaces==0.11.0
+2024-11-21T23:06:18.39   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/47/49/bf6c18d33682ec5cca15ba37f86d0a04979cfa15a9e51c86673c1831d04c/netifaces-0.11.0-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (32 kB)
+2024-11-21T23:06:19.43 Collecting numpy==1.19.5
+2024-11-21T23:06:19.50   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/14/32/d3fa649ad7ec0b82737b92fefd3c4dd376b0bb23730715124569f38f3a08/numpy-1.19.5-cp36-cp36m-manylinux2010_x86_64.whl (14.8 MB)
+2024-11-21T23:06:19.89 Collecting openstacksdk==0.61.0
+2024-11-21T23:06:19.92   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/c2/31/a3501e87efc4ad83ab998502d681dde5fefbfe7d75225cabe268f815dad6/openstacksdk-0.61.0-py3-none-any.whl (1.4 MB)
+2024-11-21T23:06:20.03 Collecting os-client-config==2.1.0
+2024-11-21T23:06:20.13   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/2d/8d/bc4f707cc56ad430d1b355c7d5a855a15305bae8a96ccf821c3f301b104d/os_client_config-2.1.0-py3-none-any.whl (31 kB)
+2024-11-21T23:06:20.17 Collecting os-service-types==1.7.0
+2024-11-21T23:06:20.24   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/10/2d/318b2b631f68e0fc221ba8f45d163bf810cdb795cf242fe85ad3e5d45639/os_service_types-1.7.0-py2.py3-none-any.whl (24 kB)
+2024-11-21T23:06:20.46 Collecting osc-lib==2.4.2
+2024-11-21T23:06:20.49   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/6a/7d/749c356bad53e62af9e7dea0e33fded71d7ca54fbb2635c345c08eecfec0/osc_lib-2.4.2-py3-none-any.whl (88 kB)
+2024-11-21T23:06:20.64 Collecting oslo.config==8.7.1
+2024-11-21T23:06:20.70   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/35/3a/62f4f3e724151d78b97608b8c72a285decdaa91ac2073946381ef042ebb1/oslo.config-8.7.1-py3-none-any.whl (128 kB)
+2024-11-21T23:06:20.80 Collecting oslo.context==3.4.0
+2024-11-21T23:06:20.90   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/84/41/fc05b93c31f1734a4aa23c87bf0ed0718c6ce4c73140be66ea12ff6e7497/oslo.context-3.4.0-py3-none-any.whl (19 kB)
+2024-11-21T23:06:20.99 Collecting oslo.i18n==5.1.0
+2024-11-21T23:06:21.06   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/0d/78/d4079dc5a6adc19e91ed3f62af3061a3e3be2d4de12fdd802db38ceaeec1/oslo.i18n-5.1.0-py3-none-any.whl (46 kB)
+2024-11-21T23:06:21.22 Collecting oslo.log==4.6.1
+2024-11-21T23:06:21.26   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/97/22/736c2af4a12e8813ecd394181cb15fe344692b58e945a7516723e6055247/oslo.log-4.6.1-py3-none-any.whl (71 kB)
+2024-11-21T23:06:21.37 Collecting oslo.serialization==4.2.0
+2024-11-21T23:06:21.47   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/86/d6/09d7a7ad96656ca2ada11294039d767c27416890715bc2308f816bb39d1e/oslo.serialization-4.2.0-py3-none-any.whl (25 kB)
+2024-11-21T23:06:21.61 Collecting oslo.utils==4.12.0
+2024-11-21T23:06:21.70   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/f6/56/67f6828ebf2a120a98061caccf808526f935fa87701ca5a19585e8e3ebf5/oslo.utils-4.12.0-py3-none-any.whl (101 kB)
+2024-11-21T23:06:21.79 Collecting packaging==21.3
+2024-11-21T23:06:21.81   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/05/8e/8de486cbd03baba4deef4142bd643a3e7bbe954a784dc1bb17142572d127/packaging-21.3-py3-none-any.whl (40 kB)
+2024-11-21T23:06:22.52 Collecting pandas==1.1.5
+2024-11-21T23:06:22.57   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/c3/e2/00cacecafbab071c787019f00ad84ca3185952f6bb9bca9550ed83870d4d/pandas-1.1.5-cp36-cp36m-manylinux1_x86_64.whl (9.5 MB)
+2024-11-21T23:06:22.85 Collecting paramiko==2.7.2
+2024-11-21T23:06:22.95   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/95/19/124e9287b43e6ff3ebb9cdea3e5e8e88475a873c05ccdf8b7e20d2c4201e/paramiko-2.7.2-py2.py3-none-any.whl (206 kB)
+2024-11-21T23:06:23.04 Collecting pbr==5.8.0
+2024-11-21T23:06:23.13   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/73/c3/d45171501210b0305f4c93fafe50950f0c2228e87034ceb51744bd03ff08/pbr-5.8.0-py2.py3-none-any.whl (112 kB)
+2024-11-21T23:06:23.17 Collecting pep517==0.13.1
+2024-11-21T23:06:23.23   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/25/6e/ca4a5434eb0e502210f591b97537d322546e4833dcb4d470a48c375c5540/pep517-0.13.1-py3-none-any.whl (19 kB)
+2024-11-21T23:06:23.27 Collecting pexpect==4.8.0
+2024-11-21T23:06:23.29   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/39/7b/88dbb785881c28a102619d46423cb853b46dbccc70d3ac362d99773a78ce/pexpect-4.8.0-py2.py3-none-any.whl (59 kB)
+2024-11-21T23:06:23.74 Collecting pip-tools==6.4.0
+2024-11-21T23:06:23.85   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/96/8c/3644dc1b7f08e8709d980a753740507edf996222890a1cb49fd0d1d11695/pip_tools-6.4.0-py3-none-any.whl (47 kB)
+2024-11-21T23:06:24.22 Collecting pip2pi==0.8.1
+2024-11-21T23:06:24.29   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/d0/da/4e3e0608a626251ddf195b106c97e1b3824e0a3c1f32a84503b37813772a/pip2pi-0.8.1-py2.py3-none-any.whl (10 kB)
+2024-11-21T23:06:24.34 Collecting pluggy==0.13.1
+2024-11-21T23:06:24.38   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/a0/28/85c7aa31b80d150b772fbe4a229487bc6644da9ccb7e427dd8cc60cb8a62/pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
+2024-11-21T23:06:24.45 Collecting prettytable==0.7.2
+2024-11-21T23:06:24.48   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/23/4a/9785a37ed6425918af69909af715ced0fa261e518601a0c70309a708fd08/prettytable-0.7.2.zip (28 kB)
+2024-11-21T23:06:25.25 Collecting psutil==5.8.0
+2024-11-21T23:06:25.32   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/da/82/56cd16a4c5f53e3e5dd7b2c30d5c803e124f218ebb644ca9c30bc907eadd/psutil-5.8.0-cp36-cp36m-manylinux2010_x86_64.whl (291 kB)
+2024-11-21T23:06:25.37 Collecting ptyprocess==0.7.0
+2024-11-21T23:06:25.39   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/22/a6/858897256d0deac81a172289110f31629fc4cee19b6f01283303e18c8db3/ptyprocess-0.7.0-py2.py3-none-any.whl (13 kB)
+2024-11-21T23:06:25.46 Collecting py==1.11.0
+2024-11-21T23:06:25.56   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/f6/f0/10642828a8dfb741e5f3fbaac830550a518a775c7fff6f04a007259b0548/py-1.11.0-py2.py3-none-any.whl (98 kB)
+2024-11-21T23:06:25.68 Collecting pyasn1==0.4.8
+2024-11-21T23:06:25.76   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/62/1e/a94a8d635fa3ce4cfc7f506003548d0a2447ae76fd5ca53932970fe3053f/pyasn1-0.4.8-py2.py3-none-any.whl (77 kB)
+2024-11-21T23:06:25.87 Collecting pyasn1-modules==0.2.8
+2024-11-21T23:06:25.98   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/95/de/214830a981892a3e286c3794f41ae67a4495df1108c3da8a9f62159b9a9d/pyasn1_modules-0.2.8-py2.py3-none-any.whl (155 kB)
+2024-11-21T23:06:26.03 Collecting pycparser==2.21
+2024-11-21T23:06:26.05   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/62/d5/5f610ebe421e85889f2e55e33b7f9a6795bd982198517d912eb1c76e1a53/pycparser-2.21-py2.py3-none-any.whl (118 kB)
+2024-11-21T23:06:26.50 Collecting pygments==2.10.0
+2024-11-21T23:06:26.55   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/78/c8/8d9be2f72d8f465461f22b5f199c04f7ada933add4dae6e2468133c17471/Pygments-2.10.0-py3-none-any.whl (1.0 MB)
+2024-11-21T23:06:26.60 Collecting pyinotify==0.9.6
+2024-11-21T23:06:26.62   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/e3/c0/fd5b18dde17c1249658521f69598f3252f11d9d7a980c5be8619970646e1/pyinotify-0.9.6.tar.gz (60 kB)
+2024-11-21T23:06:27.55 Collecting pyinstaller==4.3
+2024-11-21T23:06:27.63   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/b6/27/a006fcadba0db30819c968eb8decb4937cda398ca7a44d8874172cdc228a/pyinstaller-4.3.tar.gz (3.7 MB)
+2024-11-21T23:06:28.16   Installing build dependencies: started
+2024-11-21T23:06:31.07   Installing build dependencies: finished with status 'done'
+2024-11-21T23:06:31.08   Getting requirements to build wheel: started
+2024-11-21T23:06:31.33   Getting requirements to build wheel: finished with status 'done'
+2024-11-21T23:06:31.33     Preparing wheel metadata: started
+2024-11-21T23:06:31.68     Preparing wheel metadata: finished with status 'done'
+2024-11-21T23:06:32.15 Collecting pyinstaller-hooks-contrib==2021.4
+2024-11-21T23:06:32.20   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/80/74/4c885df43604c4ae570610e187052f29d806d582e398c2e48b83dad74610/pyinstaller_hooks_contrib-2021.4-py2.py3-none-any.whl (215 kB)
+2024-11-21T23:06:32.31 Collecting pynacl==1.4.0
+2024-11-21T23:06:32.40   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/9d/57/2f5e6226a674b2bcb6db531e8b383079b678df5b10cdaa610d6cf20d77ba/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64.whl (961 kB)
+2024-11-21T23:06:32.49 Collecting pyopenssl==21.0.0
+2024-11-21T23:06:32.59   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/85/3a/fe3c98435856a1ed798977981f3da82d2685cf9df97e4d9546340d2b83db/pyOpenSSL-21.0.0-py2.py3-none-any.whl (55 kB)
+2024-11-21T23:06:32.72 Collecting pyparsing==3.0.6
+2024-11-21T23:06:32.79   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/a0/34/895006117f6fce0b4de045c87e154ee4a20c68ec0a4c9a36d900888fb6bc/pyparsing-3.0.6-py3-none-any.whl (97 kB)
+2024-11-21T23:06:32.84 Collecting pyperclip==1.8.2
+2024-11-21T23:06:32.85   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/a7/2c/4c64579f847bd5d539803c8b909e54ba087a79d01bb3aba433a95879a6c5/pyperclip-1.8.2.tar.gz (20 kB)
+2024-11-21T23:06:33.75 Collecting pyrsistent==0.18.0
+2024-11-21T23:06:33.80   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/6c/19/1af501f6f388a40ede6d0185ba481bdb18ffc99deab0dd0d092b173bc0f4/pyrsistent-0.18.0-cp36-cp36m-manylinux1_x86_64.whl (117 kB)
+2024-11-21T23:06:33.99 Collecting pytest==6.2.2
+2024-11-21T23:06:34.02   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/a1/cf/7f67585bd2fc0359ec482cf3c430bce3ef6d3f40bc468137225a733e3069/pytest-6.2.2-py3-none-any.whl (280 kB)
+2024-11-21T23:06:34.44 Collecting pytest-mock==3.5.1
+2024-11-21T23:06:34.47   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/1d/ba/8bf763e2f300c1eba8f07506efd87a3c1c346e751d4dc618c444924b7c22/pytest_mock-3.5.1-py3-none-any.whl (12 kB)
+2024-11-21T23:06:34.53 Collecting python-dateutil==2.8.2
+2024-11-21T23:06:34.55   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/36/7a/87837f39d0296e723bb9b62bbb257d0355c7f6128853c78955f57342a56d/python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+2024-11-21T23:06:34.64 Collecting python-glanceclient==3.3.0
+2024-11-21T23:06:34.69   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/79/6f/afb7b81cb94ccbf24d1672f87d4317b7cb47d5a7c8f3ff391607d68f0604/python_glanceclient-3.3.0-py3-none-any.whl (197 kB)
+2024-11-21T23:06:34.79 Collecting python-heatclient==2.3.0
+2024-11-21T23:06:34.88   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/34/75/9619d4e55f8b87430c037889baead59154ec7d69189f00bcddc4878db1a4/python_heatclient-2.3.0-py3-none-any.whl (213 kB)
+2024-11-21T23:06:34.97 Collecting python-keystoneclient==4.3.0
+2024-11-21T23:06:35.11   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/9c/18/90620c5b2afbb23382c646cfe294f7213b5322c776bc4087991fc7b3d190/python_keystoneclient-4.3.0-py3-none-any.whl (397 kB)
+2024-11-21T23:06:35.20 Collecting python-ldap==3.3.1
+2024-11-21T23:06:35.26   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/9d/e2/deb47064d443344b708ffb5899ea269b201d7c22dcc653ebadcbb44c57d5/python-ldap-3.3.1.tar.gz (379 kB)
+2024-11-21T23:06:35.71 Collecting python-neutronclient==7.3.0
+2024-11-21T23:06:35.73   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/51/1f/742477d86955ad25dc33e7126473656c8d21d01a7a77809722ca83abbffa/python_neutronclient-7.3.0-py3-none-any.whl (436 kB)
+2024-11-21T23:06:35.84 Collecting python-novaclient==17.4.0
+2024-11-21T23:06:35.92   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/52/1b/29374d988f104d7b2ed6f7915802ce42517bf5ba192c33162e099c0b03c4/python_novaclient-17.4.0-py3-none-any.whl (332 kB)
+2024-11-21T23:06:36.00 Collecting python-swiftclient==3.13.0
+2024-11-21T23:06:36.10   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/f6/5f/6784a830e618a89272f8efee784930e614be285a6d3e82986916076fe69e/python_swiftclient-3.13.0-py2.py3-none-any.whl (86 kB)
+2024-11-21T23:06:36.32 Collecting pytz==2021.1
+2024-11-21T23:06:36.41   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/70/94/784178ca5dd892a98f113cdd923372024dc04b8d40abe77ca76b5fb90ca6/pytz-2021.1-py2.py3-none-any.whl (510 kB)
+2024-11-21T23:06:36.94 Collecting pyvcloud==23.0.0
+2024-11-21T23:06:37.01   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/0c/ea/43e838bed7ab125a30d16225cf79e606809d880a18c9d0b3bbb01251506c/pyvcloud-23.0.0-py3-none-any.whl (217 kB)
+2024-11-21T23:06:37.22 Collecting pyyaml==5.4.1
+2024-11-21T23:06:37.29   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/7a/5b/bc0b5ab38247bba158504a410112b6c03f153c652734ece1849749e5f518/PyYAML-5.4.1-cp36-cp36m-manylinux1_x86_64.whl (640 kB)
+2024-11-21T23:06:37.48 Collecting requests==2.25.1
+2024-11-21T23:06:37.52   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/29/c1/24814557f1d22c56d50280771a17307e6bf87b70727d975fd6b2ce6b014a/requests-2.25.1-py2.py3-none-any.whl (61 kB)
+2024-11-21T23:06:37.56 Collecting requestsexceptions==1.4.0
+2024-11-21T23:06:37.61   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/01/8c/49ca60ea8c907260da4662582c434bec98716177674e88df3fd340acf06d/requestsexceptions-1.4.0-py2.py3-none-any.whl (3.8 kB)
+2024-11-21T23:06:37.66 Collecting rfc3986==1.5.0
+2024-11-21T23:06:37.75   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/c4/e5/63ca2c4edf4e00657584608bee1001302bbf8c5f569340b78304f2f446cb/rfc3986-1.5.0-py2.py3-none-any.whl (31 kB)
+2024-11-21T23:06:38.14 Collecting sftpd==0.1.2
+2024-11-21T23:06:38.26   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/b5/80/1daf92bf12ad864d8a84ccc6d45e2c8bffcf2ce0deb7151e7c284b571396/sftpd-0.1.2.tar.gz (6.1 kB)
+2024-11-21T23:06:39.01 Collecting simplejson==3.17.6
+2024-11-21T23:06:39.03   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/ec/e5/a4d5b615e4d3bf6ddde77b5f1c801adb869cb5ad565deda2402edc631388/simplejson-3.17.6-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (129 kB)
+2024-11-21T23:06:39.09 Collecting six==1.16.0
+2024-11-21T23:06:39.10   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl (11 kB)
+2024-11-21T23:06:39.14 Collecting smmap==5.0.0
+2024-11-21T23:06:39.20   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/6d/01/7caa71608bc29952ae09b0be63a539e50d2484bc37747797a66a60679856/smmap-5.0.0-py3-none-any.whl (24 kB)
+2024-11-21T23:06:39.37 Collecting stevedore==3.5.0
+2024-11-21T23:06:39.47   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/7a/bc/fcce9e50da73ea23af6d236e05e15db8a02da1099a5e0a479451bcea3833/stevedore-3.5.0-py3-none-any.whl (49 kB)
+2024-11-21T23:06:39.83 Collecting toml==0.10.2
+2024-11-21T23:06:39.89   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/44/6f/7120676b6d73228c96e17f1f794d8ab046fc910d781c8d151120c3f1569e/toml-0.10.2-py2.py3-none-any.whl (16 kB)
+2024-11-21T23:06:39.95 Collecting tomli==1.2.3
+2024-11-21T23:06:40.00   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/05/e4/74f9440db36734d7ba83c574c1e7024009ce849208a41f90e94a134dc6d1/tomli-1.2.3-py3-none-any.whl (12 kB)
+2024-11-21T23:06:40.07 Collecting typing-extensions==4.0.1
+2024-11-21T23:06:40.10   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/05/e4/baf0031e39cf545f0c9edd5b1a2ea12609b7fcba2d58e118b11753d68cf0/typing_extensions-4.0.1-py3-none-any.whl (22 kB)
+2024-11-21T23:06:40.50 Collecting tzlocal==2.1
+2024-11-21T23:06:40.54   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/5d/94/d47b0fd5988e6b7059de05720a646a2930920fff247a826f61674d436ba4/tzlocal-2.1-py2.py3-none-any.whl (16 kB)
+2024-11-21T23:06:40.94 Collecting unittest-xml-reporting==3.0.4
+2024-11-21T23:06:40.98   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/3a/da/cfe167186083aee23122d7bc5978d1064767c794637cbf0debff8762c8ab/unittest_xml_reporting-3.0.4-py2.py3-none-any.whl (19 kB)
+2024-11-21T23:06:41.11 Collecting urllib3==1.26.7
+2024-11-21T23:06:41.13   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/af/f4/524415c0744552cce7d8bf3669af78e8a069514405ea4fcbd0cc44733744/urllib3-1.26.7-py2.py3-none-any.whl (138 kB)
+2024-11-21T23:06:41.50 Collecting vcd-api-schemas-type==10.3.0.dev72
+2024-11-21T23:06:41.60   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/03/9e/a36eaf9e3bb2bd2a02eb9536e4656ade77126960c7bb2aabeceaeafc1f8d/vcd_api_schemas_type-10.3.0.dev72-py3-none-any.whl (3.0 MB)
+2024-11-21T23:06:41.70 Collecting warlock==1.3.3
+2024-11-21T23:06:41.72   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/c2/36/178b26a338cd6d30523246da4721b1114306f588deb813f3f503052825ee/warlock-1.3.3.tar.gz (11 kB)
+2024-11-21T23:06:42.05 Collecting wcwidth==0.2.5
+2024-11-21T23:06:42.07   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/59/7c/e39aca596badaf1b78e8f547c807b04dae603a433d3e7a7e04d67f2ef3e5/wcwidth-0.2.5-py2.py3-none-any.whl (30 kB)
+2024-11-21T23:06:42.17 Collecting werkzeug==2.0.2
+2024-11-21T23:06:42.21   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/1e/73/51137805d1b8d97367a8a77cae4a792af14bb7ce58fbd071af294c740cf0/Werkzeug-2.0.2-py3-none-any.whl (288 kB)
+2024-11-21T23:06:42.22 Requirement already satisfied: wheel==0.36.2 in /local/scratch/mtasbin/st/python/3/lib/python3.6/site-packages (from -r /local/scratch/mtasbin/st/st_fw/lib/env/requirements3.6.txt (line 412)) (0.36.2)
+2024-11-21T23:06:42.74 Collecting wrapt==1.13.3
+2024-11-21T23:06:42.82   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/e2/0f/89c9c2d8ba06709a3d471507a78be443e2c2d9f1321d3e1154c76f44150c/wrapt-1.13.3-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (78 kB)
+2024-11-21T23:06:42.87 Collecting xmltodict==0.12.0
+2024-11-21T23:06:42.91   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/28/fd/30d5c1d3ac29ce229f6bdc40bbc20b28f716e8b363140c26eff19122d8a5/xmltodict-0.12.0-py2.py3-none-any.whl (9.2 kB)
+2024-11-21T23:06:43.30 Collecting zipp==3.6.0
+2024-11-21T23:06:43.38   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/bd/df/d4a4974a3e3957fd1c1fa3082366d7fff6e428ddb55f074bf64876f8e8ad/zipp-3.6.0-py3-none-any.whl (5.3 kB)
+2024-11-21T23:06:43.53 Collecting pip==21.3.1
+2024-11-21T23:06:43.59   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/a4/6d/6463d49a933f547439d6b5b98b46af8742cc03ae83543e4d7688c2420f8b/pip-21.3.1-py3-none-any.whl (1.7 MB)
+2024-11-21T23:06:43.63 Requirement already satisfied: setuptools==54.2.0 in /local/scratch/mtasbin/st/python/3/lib/python3.6/site-packages (from -r /local/scratch/mtasbin/st/st_fw/lib/env/requirements3.6.txt (line 434)) (54.2.0)
+2024-11-21T23:06:47.18 Building wheels for collected packages: appserver, daemon-application, dictop, magic-import, prettytable, pyinotify, pyinstaller, pyperclip, python-ldap, sftpd, warlock
+2024-11-21T23:06:47.18   Building wheel for appserver (setup.py): started
+2024-11-21T23:06:47.50   Building wheel for appserver (setup.py): finished with status 'done'
+2024-11-21T23:06:47.50   Created wheel for appserver: filename=appserver-0.4.6-py3-none-any.whl size=4101 sha256=a6587d15752b0792166c4af9276cb97bf5fea6c6455d98884f5fa35ec597c8e9
+2024-11-21T23:06:47.50   Stored in directory: /home/mtasbin/.cache/pip/wheels/f5/4e/4b/e0baa83b6e93af7143a88feca27ade6e3e22b845f731a4d86e
+2024-11-21T23:06:47.50   Building wheel for daemon-application (setup.py): started
+2024-11-21T23:06:47.83   Building wheel for daemon-application (setup.py): finished with status 'done'
+2024-11-21T23:06:47.83   Created wheel for daemon-application: filename=daemon_application-0.5.2-py3-none-any.whl size=8534 sha256=c6dc2f967afaed6cf23c09532fbf9325af15e8b0e6f32152c9ce78ac7712ba95
+2024-11-21T23:06:47.83   Stored in directory: /home/mtasbin/.cache/pip/wheels/18/cb/89/4215c654515915a376ea0577c40f40848197f4831d8491db78
+2024-11-21T23:06:47.83   Building wheel for dictop (setup.py): started
+2024-11-21T23:06:48.15   Building wheel for dictop (setup.py): finished with status 'done'
+2024-11-21T23:06:48.15   Created wheel for dictop: filename=dictop-0.1.4-py3-none-any.whl size=2199 sha256=21e578a6f1f0e4e5dd6c8e456338368b4a50a61807bc7f303a50ba0307969561
+2024-11-21T23:06:48.15   Stored in directory: /home/mtasbin/.cache/pip/wheels/a9/66/79/2bdb09946914059aef70d3e294a30cd4e18e3b80cbadd808f6
+2024-11-21T23:06:48.15   Building wheel for magic-import (setup.py): started
+2024-11-21T23:06:48.46   Building wheel for magic-import (setup.py): finished with status 'done'
+2024-11-21T23:06:48.46   Created wheel for magic-import: filename=magic_import-0.1.3-py3-none-any.whl size=2364 sha256=4c2a4017a6159aea357eacb552105a2acbf45f7b5ad455712cab19ee45db8b91
+2024-11-21T23:06:48.47   Stored in directory: /home/mtasbin/.cache/pip/wheels/67/fb/87/cd827ad50adfdf8d6c1a939f82160905462c59f1bcd3ef090e
+2024-11-21T23:06:48.47   Building wheel for prettytable (setup.py): started
+2024-11-21T23:06:48.79   Building wheel for prettytable (setup.py): finished with status 'done'
+2024-11-21T23:06:48.79   Created wheel for prettytable: filename=prettytable-0.7.2-py3-none-any.whl size=13699 sha256=25537a25c634e687cd388999a793d0c70b59e095ddf8fcba044db6fa0a7efe21
+2024-11-21T23:06:48.79   Stored in directory: /home/mtasbin/.cache/pip/wheels/fa/83/24/8c208acd4e5f2cb4279748b280e1a5a43bc490f5b53df8bf06
+2024-11-21T23:06:48.79   Building wheel for pyinotify (setup.py): started
+2024-11-21T23:06:49.11   Building wheel for pyinotify (setup.py): finished with status 'done'
+2024-11-21T23:06:49.11   Created wheel for pyinotify: filename=pyinotify-0.9.6-py3-none-any.whl size=25339 sha256=f9a74f38ecba9f12e57815c8c120c4a56ddb3b7709780e0599cf540b5a48e106
+2024-11-21T23:06:49.12   Stored in directory: /home/mtasbin/.cache/pip/wheels/de/5b/fd/38f466d2e03743dbf1a3311e039167bbe78f0a218f6f763d18
+2024-11-21T23:06:49.12   Building wheel for pyinstaller (PEP 517): started
+2024-11-21T23:06:50.01   Building wheel for pyinstaller (PEP 517): finished with status 'done'
+2024-11-21T23:06:50.02   Created wheel for pyinstaller: filename=pyinstaller-4.3-py3-none-any.whl size=2457323 sha256=0d28d51549214a3d1e7378a7c64864395797f613d1b569ad5aefc3f9498558f6
+2024-11-21T23:06:50.03   Stored in directory: /home/mtasbin/.cache/pip/wheels/ef/9f/1c/2b66f6bb4dd90461a3d3247440ce924290b72b18119b26a931
+2024-11-21T23:06:50.03   Building wheel for pyperclip (setup.py): started
+2024-11-21T23:06:50.35   Building wheel for pyperclip (setup.py): finished with status 'done'
+2024-11-21T23:06:50.35   Created wheel for pyperclip: filename=pyperclip-1.8.2-py3-none-any.whl size=11107 sha256=e54e79869b760a3b52ca86f2943e3b96478986c784b334a9324e080ce34e8f9e
+2024-11-21T23:06:50.35   Stored in directory: /home/mtasbin/.cache/pip/wheels/ba/4d/d9/b33cb2265c1ab870f77c1673408dd1a0c72c6d4d0c5b750548
+2024-11-21T23:06:50.35   Building wheel for python-ldap (setup.py): started
+2024-11-21T23:06:53.06   Building wheel for python-ldap (setup.py): finished with status 'done'
+2024-11-21T23:06:53.06   Created wheel for python-ldap: filename=python_ldap-3.3.1-cp36-cp36m-linux_x86_64.whl size=317383 sha256=4434ce89873c0308003357c1360518853e19c60472a34f025c1fcc02ba25cb87
+2024-11-21T23:06:53.06   Stored in directory: /home/mtasbin/.cache/pip/wheels/91/77/a4/422f9488c415caf045da7dd640f73195d8c1545f74dbb7ca15
+2024-11-21T23:06:53.06   Building wheel for sftpd (setup.py): started
+2024-11-21T23:06:53.39   Building wheel for sftpd (setup.py): finished with status 'done'
+2024-11-21T23:06:53.39   Created wheel for sftpd: filename=sftpd-0.1.2-py3-none-any.whl size=6860 sha256=4fa94fd98718473996868a5038008c6b15e38f4c28d57ed130fabfcc2e29b17b
+2024-11-21T23:06:53.39   Stored in directory: /home/mtasbin/.cache/pip/wheels/e8/78/80/cc3d20a6b9a07e08551952e3419719c151138b9ec1d6421736
+2024-11-21T23:06:53.39   Building wheel for warlock (setup.py): started
+2024-11-21T23:06:53.72   Building wheel for warlock (setup.py): finished with status 'done'
+2024-11-21T23:06:53.72   Created wheel for warlock: filename=warlock-1.3.3-py2.py3-none-any.whl size=9818 sha256=ef96b24f159b9b314aafb7574eb1fd3b4f8eafdf8b3b6b401409c841260e7df2
+2024-11-21T23:06:53.73   Stored in directory: /home/mtasbin/.cache/pip/wheels/5a/4b/2c/627cf876b398da65700acbeebb26c5c19fb747a3d5a6891ba4
+2024-11-21T23:06:53.73 Successfully built appserver daemon-application dictop magic-import prettytable pyinotify pyinstaller pyperclip python-ldap sftpd warlock
+2024-11-21T23:06:54.42 Installing collected packages: zipp, typing-extensions, wrapt, urllib3, six, pyparsing, pycparser, pbr, importlib-resources, importlib-metadata, idna, chardet, certifi, wcwidth, stevedore, requests, pytz, pyperclip, packaging, oslo.i18n, os-service-types, netifaces, netaddr, jsonpointer, iso8601, decorator, debtcollector, cffi, attrs, rfc3986, requestsexceptions, pyyaml, pyrsistent, psutil, prettytable, oslo.utils, munch, msgpack, keystoneauth1, jsonpatch, jmespath, dogpile.cache, dictop, cryptography, cmd2, click, autopage, appdirs, tomli, toml, smmap, simplejson, python-dateutil, pynacl, pyinotify, pyasn1, py, pluggy, oslo.serialization, oslo.context, oslo.config, openstacksdk, markupsafe, magic-import, jsonschema, iniconfig, dataclasses, daemon-application, cliff, bcrypt, werkzeug, warlock, vcd-api-schemas-type, unittest-xml-reporting, python-swiftclient, python-keystoneclient, pytest, pyopenssl, pyinstaller-hooks-contrib, pygments, pyasn1-modules, ptyprocess, pip, pep517, paramiko, oslo.log, osc-lib, os-client-config, numpy, lxml, jinja2, itsdangerous, humanfriendly, gitdb, babel, appserver, altgraph, xmltodict, tzlocal, sftpd, pyvcloud, python-novaclient, python-neutronclient, python-ldap, python-heatclient, python-glanceclient, pytest-mock, pyinstaller, pip2pi, pip-tools, pexpect, pandas, ldap3, ipaddress, gitpython, flask, case-converter
+2024-11-21T23:07:02.31   Attempting uninstall: pip
+2024-11-21T23:07:02.31     Found existing installation: pip 21.0.1
+2024-11-21T23:07:02.49     Uninstalling pip-21.0.1:
+2024-11-21T23:07:02.50       Successfully uninstalled pip-21.0.1
+2024-11-21T23:07:11.75 Successfully installed altgraph-0.17.2 appdirs-1.4.4 appserver-0.4.6 attrs-21.2.0 autopage-0.4.0 babel-2.9.1 bcrypt-3.2.0 case-converter-1.1.0 certifi-2021.10.8 cffi-1.15.0 chardet-4.0.0 click-8.0.3 cliff-3.10.0 cmd2-2.3.3 cryptography-36.0.1 daemon-application-0.5.2 dataclasses-0.8 debtcollector-2.3.0 decorator-5.1.0 dictop-0.1.4 dogpile.cache-1.1.4 flask-1.1.2 gitdb-4.0.9 gitpython-3.1.18 humanfriendly-10.0 idna-2.10 importlib-metadata-4.8.3 importlib-resources-5.4.0 iniconfig-1.1.1 ipaddress-1.0.23 iso8601-1.0.2 itsdangerous-2.0.1 jinja2-2.11.3 jmespath-0.10.0 jsonpatch-1.32 jsonpointer-2.2 jsonschema-3.2.0 keystoneauth1-4.3.1 ldap3-2.9.1 lxml-4.7.1 magic-import-0.1.3 markupsafe-2.0.1 msgpack-1.0.3 munch-2.5.0 netaddr-0.8.0 netifaces-0.11.0 numpy-1.19.5 openstacksdk-0.61.0 os-client-config-2.1.0 os-service-types-1.7.0 osc-lib-2.4.2 oslo.config-8.7.1 oslo.context-3.4.0 oslo.i18n-5.1.0 oslo.log-4.6.1 oslo.serialization-4.2.0 oslo.utils-4.12.0 packaging-21.3 pandas-1.1.5 paramiko-2.7.2 pbr-5.8.0 pep517-0.13.1 pexpect-4.8.0 pip-21.3.1 pip-tools-6.4.0 pip2pi-0.8.1 pluggy-0.13.1 prettytable-0.7.2 psutil-5.8.0 ptyprocess-0.7.0 py-1.11.0 pyasn1-0.4.8 pyasn1-modules-0.2.8 pycparser-2.21 pygments-2.10.0 pyinotify-0.9.6 pyinstaller-4.3 pyinstaller-hooks-contrib-2021.4 pynacl-1.4.0 pyopenssl-21.0.0 pyparsing-3.0.6 pyperclip-1.8.2 pyrsistent-0.18.0 pytest-6.2.2 pytest-mock-3.5.1 python-dateutil-2.8.2 python-glanceclient-3.3.0 python-heatclient-2.3.0 python-keystoneclient-4.3.0 python-ldap-3.3.1 python-neutronclient-7.3.0 python-novaclient-17.4.0 python-swiftclient-3.13.0 pytz-2021.1 pyvcloud-23.0.0 pyyaml-5.4.1 requests-2.25.1 requestsexceptions-1.4.0 rfc3986-1.5.0 sftpd-0.1.2 simplejson-3.17.6 six-1.16.0 smmap-5.0.0 stevedore-3.5.0 toml-0.10.2 tomli-1.2.3 typing-extensions-4.0.1 tzlocal-2.1 unittest-xml-reporting-3.0.4 urllib3-1.26.7 vcd-api-schemas-type-10.3.0.dev72 warlock-1.3.3 wcwidth-0.2.5 werkzeug-2.0.2 wrapt-1.13.3 xmltodict-0.12.0 zipp-3.6.0
+2024-11-21T23:07:12.05 
+2024-11-21T23:07:12.16 
+2024-11-21T23:07:12.34 Creating virtualenv for python 2.7 in /local/scratch/mtasbin/st/python/2.7
+2024-11-21T23:07:12.34 New python executable in /local/scratch/mtasbin/st/python/2.7/bin/python2
+2024-11-21T23:07:13.65 Also creating executable in /local/scratch/mtasbin/st/python/2.7/bin/python
+2024-11-21T23:07:13.65 Please make sure you remove any previous custom paths from your /home/mtasbin/.pydistutils.cfg file.
+2024-11-21T23:07:13.65 Installing setuptools, pkg_resources, pip, wheel...done.
+2024-11-21T23:07:13.65 Running virtualenv with interpreter /usr/bin/python2
+2024-11-21T23:07:14.36 Collecting pip==20.3.4
+2024-11-21T23:07:14.37   Cache entry deserialization failed, entry ignored
+2024-11-21T23:07:14.57   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/27/79/8a850fe3496446ff0d584327ae44e7500daf6764ca1a382d2d02789accf7/pip-20.3.4-py2.py3-none-any.whl (1.5MB)
+2024-11-21T23:07:14.82 Collecting setuptools==44.1.1
+2024-11-21T23:07:14.82   Cache entry deserialization failed, entry ignored
+2024-11-21T23:07:15.65   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/e1/b7/182161210a13158cd3ccc41ee19aadef54496b74f2817cc147006ec932b4/setuptools-44.1.1-py2.py3-none-any.whl (583kB)
+2024-11-21T23:07:15.75 Collecting wheel==0.36.2
+2024-11-21T23:07:15.75   Cache entry deserialization failed, entry ignored
+2024-11-21T23:07:15.85   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/65/63/39d04c74222770ed1589c0eaba06c05891801219272420b40311cd60c880/wheel-0.36.2-py2.py3-none-any.whl
+2024-11-21T23:07:15.86 Installing collected packages: pip, setuptools, wheel
+2024-11-21T23:07:15.88   Found existing installation: pip 9.0.1
+2024-11-21T23:07:15.88     Uninstalling pip-9.0.1:
+2024-11-21T23:07:15.89       Successfully uninstalled pip-9.0.1
+2024-11-21T23:07:16.66   Found existing installation: setuptools 39.0.1
+2024-11-21T23:07:16.68     Uninstalling setuptools-39.0.1:
+2024-11-21T23:07:16.70       Successfully uninstalled setuptools-39.0.1
+2024-11-21T23:07:16.91   Found existing installation: wheel 0.30.0
+2024-11-21T23:07:16.92     Uninstalling wheel-0.30.0:
+2024-11-21T23:07:16.92       Successfully uninstalled wheel-0.30.0
+2024-11-21T23:07:16.95 Successfully installed pip-20.3.4 setuptools-44.1.1 wheel-0.36.2
+2024-11-21T23:07:17.26 DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+2024-11-21T23:07:17.44 Looking in indexes: https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/simple
+2024-11-21T23:07:17.52 Collecting appdirs==1.4.4
+2024-11-21T23:07:17.52   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/3b/00/2344469e2084fb287c2e0b57b72910309874c3245463acd6cf5e3db69324/appdirs-1.4.4-py2.py3-none-any.whl (9.6 kB)
+2024-11-21T23:07:17.93 Collecting atomicwrites==1.4.0
+2024-11-21T23:07:18.04   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/2c/a0/da5f49008ec6e9a658dbf5d7310a4debd397bce0b4db03cf8a410066bb87/atomicwrites-1.4.0-py2.py3-none-any.whl (6.8 kB)
+2024-11-21T23:07:18.11 Collecting attrs==20.3.0
+2024-11-21T23:07:18.21   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/c3/aa/cb45262569fcc047bf070b5de61813724d6726db83259222cd7b4c79821a/attrs-20.3.0-py2.py3-none-any.whl (49 kB)
+2024-11-21T23:07:18.31 Collecting babel==2.9.0
+2024-11-21T23:07:18.34   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/dd/a5/81076e10b5ef74493cf08a8e419e61b64324c9c55db4aa7f89c0240c4873/Babel-2.9.0-py2.py3-none-any.whl (8.8 MB)
+2024-11-21T23:07:18.93 Collecting backports.functools-lru-cache==1.6.4
+2024-11-21T23:07:18.95   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/e5/c1/1a48a4bb9b515480d6c666977eeca9243be9fa9e6fb5a34be0ad9627f737/backports.functools_lru_cache-1.6.4-py2.py3-none-any.whl (5.9 kB)
+2024-11-21T23:07:19.22 Collecting bcrypt==3.1.7
+2024-11-21T23:07:19.25   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/ad/36/9a0227d048e98409f012570f7bef8a8c2373b9c9c5dfbf82963cbae05ede/bcrypt-3.1.7-cp27-cp27mu-manylinux1_x86_64.whl (59 kB)
+2024-11-21T23:07:19.34 Collecting certifi==2020.12.5
+2024-11-21T23:07:19.43   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/5e/a0/5f06e1e1d463903cf0c0eebeb751791119ed7a4b3737fdc9a77f1cdfb51f/certifi-2020.12.5-py2.py3-none-any.whl (147 kB)
+2024-11-21T23:07:20.12 Collecting cffi==1.14.5
+2024-11-21T23:07:20.19   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/ab/a7/1df1dcd222c9a35d2d0c4c123bd55a533ed2d07b09909ad085829deea4d6/cffi-1.14.5-cp27-cp27mu-manylinux1_x86_64.whl (389 kB)
+2024-11-21T23:07:20.25 Collecting chardet==4.0.0
+2024-11-21T23:07:20.25   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/19/c7/fa589626997dd07bd87d9269342ccb74b1720384a4d739a1872bd84fbe68/chardet-4.0.0-py2.py3-none-any.whl (178 kB)
+2024-11-21T23:07:20.57 Collecting cliff==2.18.0
+2024-11-21T23:07:20.61   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/55/2f/f1484035545a36de978c686b90a6d81c0b09a8e3002faf761737eef54cdc/cliff-2.18.0-py2.py3-none-any.whl (79 kB)
+2024-11-21T23:07:20.78 Collecting cmd2==0.8.9
+2024-11-21T23:07:20.84   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/e9/40/a71caa2aaff10c73612a7106e2d35f693e85b8cf6e37ab0774274bca3cf9/cmd2-0.8.9-py2.py3-none-any.whl (53 kB)
+2024-11-21T23:07:20.92 Collecting configparser==4.0.2
+2024-11-21T23:07:20.99   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/7a/2a/95ed0501cf5d8709490b1d3a3f9b5cf340da6c433f896bbe9ce08dbe6785/configparser-4.0.2-py2.py3-none-any.whl (22 kB)
+2024-11-21T23:07:21.06 Collecting contextlib2==0.6.0.post1
+2024-11-21T23:07:21.08   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/85/60/370352f7ef6aa96c52fb001831622f50f923c1d575427d021b8ab3311236/contextlib2-0.6.0.post1-py2.py3-none-any.whl (9.8 kB)
+2024-11-21T23:07:22.17 Collecting cryptography==3.3.2
+2024-11-21T23:07:22.24   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/bf/a0/c630e9e3b7e7ea2492db1ca47ef7f741ef1a09f19c6642ef1a16ce996d9b/cryptography-3.3.2-cp27-cp27mu-manylinux2010_x86_64.whl (2.6 MB)
+2024-11-21T23:07:22.39 Collecting debtcollector==1.22.0
+2024-11-21T23:07:22.46   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/ca/ab/e34b13877f84a198b043166a82baf0ae8b9ed1daa83b6ebde776e8628b0a/debtcollector-1.22.0-py2.py3-none-any.whl (23 kB)
+2024-11-21T23:07:22.56 Collecting decorator==4.4.2
+2024-11-21T23:07:22.61   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/ed/1b/72a1821152d07cf1d8b6fce298aeb06a7eb90f4d6d41acec9861e7cc6df0/decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+2024-11-21T23:07:22.69 Collecting dogpile.cache==0.9.2
+2024-11-21T23:07:22.83   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/b5/02/9692c82808341747afc87a7c2b701c8eed76c05ec6bc98844c102a537de7/dogpile.cache-0.9.2.tar.gz (329 kB)
+2024-11-21T23:07:23.15 Collecting enum34==1.1.10
+2024-11-21T23:07:23.20   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/6f/2c/a9386903ece2ea85e9807e0e062174dc26fdce8b05f216d00491be29fad5/enum34-1.1.10-py2-none-any.whl (11 kB)
+2024-11-21T23:07:23.24 Collecting funcsigs==1.0.2
+2024-11-21T23:07:23.31   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/69/cb/f5be453359271714c01b9bd06126eaf2e368f1fddfff30818754b5ac2328/funcsigs-1.0.2-py2.py3-none-any.whl (17 kB)
+2024-11-21T23:07:23.35 Collecting functools32==3.2.3.post2
+2024-11-21T23:07:23.41   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/c5/60/6ac26ad05857c601308d8fb9e87fa36d0ebf889423f47c3502ef034365db/functools32-3.2.3-2.tar.gz (31 kB)
+2024-11-21T23:07:23.63 Collecting futures==3.3.0
+2024-11-21T23:07:23.74   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/d8/a6/f46ae3f1da0cd4361c344888f59ec2f5785e69c872e175a748ef6071cdb5/futures-3.3.0-py2-none-any.whl (16 kB)
+2024-11-21T23:07:23.84 Collecting flask==1.0.2
+2024-11-21T23:07:23.88   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/7f/e7/08578774ed4536d3242b14dacb4696386634607af824ea997202cd0edb4b/Flask-1.0.2-py2.py3-none-any.whl (91 kB)
+2024-11-21T23:07:23.96 Collecting idna==2.10
+2024-11-21T23:07:23.96   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/a2/38/928ddce2273eaa564f6f50de919327bf3a00f091b5baba8dfa9460f3a8a8/idna-2.10-py2.py3-none-any.whl (58 kB)
+2024-11-21T23:07:24.16 Collecting importlib-metadata==2.1.1
+2024-11-21T23:07:24.28   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/98/b8/8ec57a8ef46fbe7f185318c7ff7df9a06c9df451d9a59a067bfa851bb828/importlib_metadata-2.1.1-py2.py3-none-any.whl (10 kB)
+2024-11-21T23:07:24.42 Collecting importlib-resources==3.3.1
+2024-11-21T23:07:24.44   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/8d/94/2f6ceee0c4e63bff0177c07e68d27c937a19f6bc77c4739755b49f5adb04/importlib_resources-3.3.1-py2.py3-none-any.whl (26 kB)
+2024-11-21T23:07:24.51 Collecting ipaddress==1.0.23
+2024-11-21T23:07:24.52   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/c2/f8/49697181b1651d8347d24c095ce46c7346c37335ddc7d255833e7cde674d/ipaddress-1.0.23-py2.py3-none-any.whl (18 kB)
+2024-11-21T23:07:24.58 Collecting iso8601==0.1.14
+2024-11-21T23:07:24.65   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/c5/10/da48dc228b821a64407c2527e1e8ee98917b36e80a181f2ca06ea3cb676b/iso8601-0.1.14-py2.py3-none-any.whl (9.5 kB)
+2024-11-21T23:07:24.73 Collecting jinja2==2.11.3
+2024-11-21T23:07:24.73   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/7e/c2/1eece8c95ddbc9b1aeb64f5783a9e07a286de42191b7204d67b7496ddf35/Jinja2-2.11.3-py2.py3-none-any.whl (125 kB)
+2024-11-21T23:07:24.79 Collecting jmespath==0.10.0
+2024-11-21T23:07:24.79   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/07/cb/5f001272b6faeb23c1c9e0acc04d48eaaf5c862c17709d20e3469c6e0139/jmespath-0.10.0-py2.py3-none-any.whl (24 kB)
+2024-11-21T23:07:24.86 Collecting jsonpatch==1.32
+2024-11-21T23:07:24.87   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/a3/55/f7c93bae36d869292aedfbcbae8b091386194874f16390d680136edd2b28/jsonpatch-1.32-py2.py3-none-any.whl (12 kB)
+2024-11-21T23:07:24.93 Collecting jsonpointer==2.1
+2024-11-21T23:07:24.98   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/23/52/05f67532aa922e494c351344e0d9624a01f74f5dd8402fe0d1b563a6e6fc/jsonpointer-2.1-py2.py3-none-any.whl (7.4 kB)
+2024-11-21T23:07:25.11 Collecting jsonschema==3.2.0
+2024-11-21T23:07:25.11   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/c5/8f/51e89ce52a085483359217bc72cdbf6e75ee595d5b1d4b5ade40c7e018b8/jsonschema-3.2.0-py2.py3-none-any.whl (56 kB)
+2024-11-21T23:07:25.41 Collecting keystoneauth1==4.0.1
+2024-11-21T23:07:25.47   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/b8/b7/1f2ef8ff5f20319fa15f53d76990817bfdb02b56cac00aeca17ba495cc40/keystoneauth1-4.0.1.tar.gz (257 kB)
+2024-11-21T23:07:26.97 Collecting markupsafe==1.1.1
+2024-11-21T23:07:27.05   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/fb/40/f3adb7cf24a8012813c5edb20329eb22d5d8e2a0ecf73d21d6b85865da11/MarkupSafe-1.1.1-cp27-cp27mu-manylinux1_x86_64.whl (24 kB)
+2024-11-21T23:07:27.12 Collecting mock==3.0.5
+2024-11-21T23:07:27.22   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/05/d2/f94e68be6b17f46d2c353564da56e6fb89ef09faeeff3313a046cb810ca9/mock-3.0.5-py2.py3-none-any.whl (25 kB)
+2024-11-21T23:07:27.28 Collecting monotonic==1.6
+2024-11-21T23:07:27.31   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/9a/67/7e8406a29b6c45be7af7740456f7f37025f0506ae2e05fb9009a53946860/monotonic-1.6-py2.py3-none-any.whl (8.2 kB)
+2024-11-21T23:07:27.81 Collecting more-itertools==5.0.0
+2024-11-21T23:07:27.93   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/2f/9d/dcfe59e213093695f108508af1214cf9cd95cc5489e46877ec5cb56369e5/more_itertools-5.0.0-py2-none-any.whl (52 kB)
+2024-11-21T23:07:28.38 Collecting msgpack==1.0.2
+2024-11-21T23:07:28.39   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/59/04/87fc6708659c2ed3b0b6d4954f270b6e931def707b227c4554f99bd5401e/msgpack-1.0.2.tar.gz (123 kB)
+2024-11-21T23:07:28.66 Collecting munch==2.5.0
+2024-11-21T23:07:28.66   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/cc/ab/85d8da5c9a45e072301beb37ad7f833cd344e04c817d97e0cc75681d248f/munch-2.5.0-py2.py3-none-any.whl (10 kB)
+2024-11-21T23:07:28.81 Collecting netaddr==0.8.0
+2024-11-21T23:07:28.81   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/ff/cd/9cdfea8fc45c56680b798db6a55fa60a22e2d3d3ccf54fc729d083b50ce4/netaddr-0.8.0-py2.py3-none-any.whl (1.9 MB)
+2024-11-21T23:07:28.93 Collecting netifaces==0.10.9
+2024-11-21T23:07:29.04   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/7e/02/ad1a92a72620cc17d448fe4dbdfbdf8fe1487ee7bfd82bb48308712c2f3c/netifaces-0.10.9-cp27-cp27mu-manylinux1_x86_64.whl (31 kB)
+2024-11-21T23:07:29.19 Collecting openstacksdk==0.45.0
+2024-11-21T23:07:29.27   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/41/bd/ae617abe3ef5e86f467f29ca67d45b16d08bb0c07eb2bd7704c6c2b13639/openstacksdk-0.45.0-py2.py3-none-any.whl (1.3 MB)
+2024-11-21T23:07:29.41 Collecting os-client-config==2.1.0
+2024-11-21T23:07:29.47   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/58/be/ba2e4d71dd57653c8fefe8577ade06bf5f87826e835b3c7d5bb513225227/os-client-config-2.1.0.tar.gz (48 kB)
+2024-11-21T23:07:30.37 Collecting os-service-types==1.7.0
+2024-11-21T23:07:30.37   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/10/2d/318b2b631f68e0fc221ba8f45d163bf810cdb795cf242fe85ad3e5d45639/os_service_types-1.7.0-py2.py3-none-any.whl (24 kB)
+2024-11-21T23:07:30.58 Collecting osc-lib==2.0.0
+2024-11-21T23:07:30.60   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/72/f3/d872dd8b6d8a15456958f517eb9913aa98b10d82d3996b40f96a4adaf2d9/osc_lib-2.0.0-py2.py3-none-any.whl (89 kB)
+2024-11-21T23:07:30.77 Collecting oslo.config==7.0.0
+2024-11-21T23:07:30.86   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/5c/45/53255cdbabefabc4ac8ae36671ecbd8a92a6d029363fcae9126a27fb81d7/oslo.config-7.0.0-py2.py3-none-any.whl (125 kB)
+2024-11-21T23:07:30.98 Collecting oslo.context==2.23.1
+2024-11-21T23:07:30.99   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/1a/19/323ab3d2f43171c8df7c93a24aba716c76bc81a5929a18a557a6266dec67/oslo.context-2.23.1-py2.py3-none-any.whl (19 kB)
+2024-11-21T23:07:31.08 Collecting oslo.i18n==3.25.1
+2024-11-21T23:07:31.10   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/4e/a4/e2c71ea714266097b2edc5188462cfc8f0fffd277ef148a33430199b4a0a/oslo.i18n-3.25.1-py2.py3-none-any.whl (47 kB)
+2024-11-21T23:07:31.26 Collecting oslo.log==3.45.2
+2024-11-21T23:07:31.27   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/94/f9/d181d6e07e317ca9a485f5d28cde73cfa9eb01f8710c61c058d02bf51053/oslo.log-3.45.2-py2.py3-none-any.whl (72 kB)
+2024-11-21T23:07:31.43 Collecting oslo.serialization==2.29.3
+2024-11-21T23:07:31.53   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/61/9b/6d92b3aa34bb9c5c42944b1c2f6ed7768badec08449bdd463bf7ad8cbd5e/oslo.serialization-2.29.3-py2.py3-none-any.whl (28 kB)
+2024-11-21T23:07:31.69 Collecting oslo.utils==3.42.1
+2024-11-21T23:07:31.72   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/82/9c/568e90a41b29b255dcdb5d39d4ad2ad4c92ba7ed1af9746ddbd7680768ba/oslo.utils-3.42.1-py2.py3-none-any.whl (100 kB)
+2024-11-21T23:07:31.83 Collecting packaging==20.9
+2024-11-21T23:07:31.93   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/3e/89/7ea760b4daa42653ece2380531c90f64788d979110a2ab51049d92f408af/packaging-20.9-py2.py3-none-any.whl (40 kB)
+2024-11-21T23:07:32.08 Collecting paramiko==2.7.2
+2024-11-21T23:07:32.08   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/95/19/124e9287b43e6ff3ebb9cdea3e5e8e88475a873c05ccdf8b7e20d2c4201e/paramiko-2.7.2-py2.py3-none-any.whl (206 kB)
+2024-11-21T23:07:32.54 Collecting pathlib2==2.3.5
+2024-11-21T23:07:32.59   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/e9/45/9c82d3666af4ef9f221cbb954e1d77ddbb513faf552aea6df5f37f1a4859/pathlib2-2.3.5-py2.py3-none-any.whl (18 kB)
+2024-11-21T23:07:32.70 Collecting pbr==5.5.1
+2024-11-21T23:07:32.81   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/fb/48/69046506f6ac61c1eaa9a0d42d22d54673b69e176d30ca98e3f61513e980/pbr-5.5.1-py2.py3-none-any.whl (106 kB)
+2024-11-21T23:07:32.87 Collecting pexpect==4.8.0
+2024-11-21T23:07:32.87   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/39/7b/88dbb785881c28a102619d46423cb853b46dbccc70d3ac362d99773a78ce/pexpect-4.8.0-py2.py3-none-any.whl (59 kB)
+2024-11-21T23:07:32.94 Collecting pip2pi==0.8.1
+2024-11-21T23:07:32.94   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/d0/da/4e3e0608a626251ddf195b106c97e1b3824e0a3c1f32a84503b37813772a/pip2pi-0.8.1-py2.py3-none-any.whl (10 kB)
+2024-11-21T23:07:33.01 Collecting pluggy==0.13.1
+2024-11-21T23:07:33.01   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/a0/28/85c7aa31b80d150b772fbe4a229487bc6644da9ccb7e427dd8cc60cb8a62/pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
+2024-11-21T23:07:33.09 Collecting prettytable==0.7.2
+2024-11-21T23:07:33.16   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/ef/30/4b0746848746ed5941f052479e7c23d2b56d174b82f4fd34a25e389831f5/prettytable-0.7.2.tar.bz2 (21 kB)
+2024-11-21T23:07:33.39 Collecting ptyprocess==0.7.0
+2024-11-21T23:07:33.40   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/22/a6/858897256d0deac81a172289110f31629fc4cee19b6f01283303e18c8db3/ptyprocess-0.7.0-py2.py3-none-any.whl (13 kB)
+2024-11-21T23:07:33.48 Collecting py==1.10.0
+2024-11-21T23:07:33.59   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/67/32/6fe01cfc3d1a27c92fdbcdfc3f67856da8cbadf0dd9f2e18055202b2dc62/py-1.10.0-py2.py3-none-any.whl (97 kB)
+2024-11-21T23:07:33.64 Collecting pycparser==2.20
+2024-11-21T23:07:33.76   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/ae/e7/d9c3a176ca4b02024debf82342dab36efadfc5776f9c8db077e8f6e71821/pycparser-2.20-py2.py3-none-any.whl (112 kB)
+2024-11-21T23:07:33.80 Collecting pyinotify==0.9.6
+2024-11-21T23:07:33.80   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/e3/c0/fd5b18dde17c1249658521f69598f3252f11d9d7a980c5be8619970646e1/pyinotify-0.9.6.tar.gz (60 kB)
+2024-11-21T23:07:34.16 Collecting pynacl==1.4.0
+2024-11-21T23:07:34.25   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/de/63/bb36279da38df643c6df3a8a389f29a6ff4a8854468f4c9b9d925b27d57d/PyNaCl-1.4.0-cp27-cp27mu-manylinux1_x86_64.whl (964 kB)
+2024-11-21T23:07:34.35 Collecting pyopenssl==20.0.1
+2024-11-21T23:07:34.42   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/b2/5e/06351ede29fd4899782ad335c2e02f1f862a887c20a3541f17c3fa1a3525/pyOpenSSL-20.0.1-py2.py3-none-any.whl (54 kB)
+2024-11-21T23:07:34.58 Collecting pyparsing==2.4.7
+2024-11-21T23:07:34.68   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/8a/bb/488841f56197b13700afd5658fc279a2025a39e22449b7cf29864669b15d/pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+2024-11-21T23:07:34.76 Collecting pyperclip==1.8.2
+2024-11-21T23:07:34.76   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/a7/2c/4c64579f847bd5d539803c8b909e54ba087a79d01bb3aba433a95879a6c5/pyperclip-1.8.2.tar.gz (20 kB)
+2024-11-21T23:07:35.07 Collecting pyrsistent==0.16.1
+2024-11-21T23:07:35.11   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/80/18/1492d651693ef7d40e0a40377ed56a8cc5c5fe86073eb6c56e53513f4480/pyrsistent-0.16.1.tar.gz (108 kB)
+2024-11-21T23:07:35.41 Collecting pytest-mock==2.0.0
+2024-11-21T23:07:35.47   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/99/95/d108de3eed0ae29d98c94c918c1245713e7f222dead2d77c24bc4ca7ca0c/pytest_mock-2.0.0-py2.py3-none-any.whl (10 kB)
+2024-11-21T23:07:35.70 Collecting pytest==4.6.11
+2024-11-21T23:07:35.76   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/70/c7/e8cb4a537ee4fc497ac80a606a667fd1832f28ad3ddbfa25bf30473eae13/pytest-4.6.11-py2.py3-none-any.whl (231 kB)
+2024-11-21T23:07:35.87 Collecting python-dateutil==2.8.1
+2024-11-21T23:07:35.93   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/d4/70/d60450c3dd48ef87586924207ae8907090de0b306af2bce5d134d78615cb/python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
+2024-11-21T23:07:36.04 Collecting python-glanceclient==3.0.0
+2024-11-21T23:07:36.08   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/d4/d6/ff897833f9c06ced63a95754125d855b7faa5a0dd0460e2ebc7dde93b756/python_glanceclient-3.0.0-py2.py3-none-any.whl (197 kB)
+2024-11-21T23:07:36.19 Collecting python-heatclient==1.18.1
+2024-11-21T23:07:36.23   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/28/73/c8ecb9cdca2befd2ca127b135bf3f74a2f379605aa2f0d8780c98d85f7d1/python_heatclient-1.18.1-py2.py3-none-any.whl (209 kB)
+2024-11-21T23:07:36.36 Collecting python-keystoneclient==3.22.0
+2024-11-21T23:07:36.39   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/b2/f4/871eb251ea31e5923961a51f730def9553f7d63a74d6e10827c7a346501a/python_keystoneclient-3.22.0-py2.py3-none-any.whl (397 kB)
+2024-11-21T23:07:36.50 Collecting python-neutronclient==7.1.0
+2024-11-21T23:07:36.56   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/6b/f9/b73139de173bc058e5415917a99a0d53559da07bb71b0f9428364b394190/python-neutronclient-7.1.0.tar.gz (294 kB)
+2024-11-21T23:07:37.69 Collecting python-novaclient==16.0.0
+2024-11-21T23:07:37.73   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/35/36/696c4dbd8f195ef0124f849a24fa045889bf2bdf4bc299f79179795b8696/python_novaclient-16.0.0-py2.py3-none-any.whl (330 kB)
+2024-11-21T23:07:37.83 Collecting python-swiftclient==3.11.1
+2024-11-21T23:07:37.90   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/49/e5/692e4383986f5b5893d495961d8582501679082b51ab139ca8153abff07d/python_swiftclient-3.11.1-py2.py3-none-any.whl (86 kB)
+2024-11-21T23:07:38.21 Collecting pytz==2021.1
+2024-11-21T23:07:38.21   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/70/94/784178ca5dd892a98f113cdd923372024dc04b8d40abe77ca76b5fb90ca6/pytz-2021.1-py2.py3-none-any.whl (510 kB)
+2024-11-21T23:07:38.46 Collecting pyyaml==5.4.1
+2024-11-21T23:07:38.52   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/ba/d4/3cf562876e0cda0405e65d351b835077ab13990e5b92912ef2bf1a2280e0/PyYAML-5.4.1-cp27-cp27mu-manylinux1_x86_64.whl (574 kB)
+2024-11-21T23:07:38.67 Collecting requests==2.25.1
+2024-11-21T23:07:38.68   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/29/c1/24814557f1d22c56d50280771a17307e6bf87b70727d975fd6b2ce6b014a/requests-2.25.1-py2.py3-none-any.whl (61 kB)
+2024-11-21T23:07:38.73 Collecting requestsexceptions==1.4.0
+2024-11-21T23:07:38.73   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/01/8c/49ca60ea8c907260da4662582c434bec98716177674e88df3fd340acf06d/requestsexceptions-1.4.0-py2.py3-none-any.whl (3.8 kB)
+2024-11-21T23:07:38.77 Collecting rfc3986==1.4.0
+2024-11-21T23:07:38.85   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/78/be/7b8b99fd74ff5684225f50dd0e865393d2265656ef3b4ba9eaaaffe622b8/rfc3986-1.4.0-py2.py3-none-any.whl (31 kB)
+2024-11-21T23:07:39.25 Collecting scandir==1.10.0
+2024-11-21T23:07:39.28   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/df/f5/9c052db7bd54d0cbf1bc0bb6554362bba1012d03e5888950a4f5c5dadc4e/scandir-1.10.0.tar.gz (33 kB)
+2024-11-21T23:07:40.08 Collecting simplejson==3.17.2
+2024-11-21T23:07:40.14   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/90/68/bced6ede6012c9c25a555e149238e16b85bc091940d605f16bd3b499d16e/simplejson-3.17.2-cp27-cp27mu-manylinux2010_x86_64.whl (131 kB)
+2024-11-21T23:07:40.64 Collecting singledispatch==3.6.1
+2024-11-21T23:07:40.66   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/7a/12/2b10635e91ec4007e2a287812b1a1c8649cf68686ff2d69ed97553cf8a7a/singledispatch-3.6.1-py2.py3-none-any.whl (9.5 kB)
+2024-11-21T23:07:40.73 Collecting six==1.15.0
+2024-11-21T23:07:40.78   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/ee/ff/48bde5c0f013094d729fe4b0316ba2a24774b3ff1c52d924a8a4cb04078a/six-1.15.0-py2.py3-none-any.whl (10 kB)
+2024-11-21T23:07:40.93 Collecting stevedore==1.32.0
+2024-11-21T23:07:40.94   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/e6/49/a35dd566626892d577e426dbe5ea424dd7fbe10645f2c1070dcba474eca9/stevedore-1.32.0-py2.py3-none-any.whl (43 kB)
+2024-11-21T23:07:41.00 Collecting subprocess32==3.5.4
+2024-11-21T23:07:41.04   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/93/dc/3a0ae313f1cf0f59b582e8e14891196e51fca5db193558b7661bd32b8801/subprocess32-3.5.4-cp27-cp27mu-manylinux2014_x86_64.whl (69 kB)
+2024-11-21T23:07:41.51 Collecting typing==3.7.4.3
+2024-11-21T23:07:41.54   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/3b/c0/e44213fcb799eac02881e2485724ba5b0914600bc9df6ed922e364fdc059/typing-3.7.4.3-py2-none-any.whl (26 kB)
+2024-11-21T23:07:41.58 Collecting unicodecsv==0.14.1
+2024-11-21T23:07:41.60   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/6f/a4/691ab63b17505a26096608cc309960b5a6bdf39e4ba1a793d5f9b1a53270/unicodecsv-0.14.1.tar.gz (10 kB)
+2024-11-21T23:07:41.92 Collecting urllib3==1.26.4
+2024-11-21T23:07:41.97   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/09/c6/d3e3abe5b4f4f16cf0dfc9240ab7ce10c2baa0e268989a4e3ec19e90c84e/urllib3-1.26.4-py2.py3-none-any.whl (153 kB)
+2024-11-21T23:07:42.04 Collecting warlock==1.3.3
+2024-11-21T23:07:42.04   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/c2/36/178b26a338cd6d30523246da4721b1114306f588deb813f3f503052825ee/warlock-1.3.3.tar.gz (11 kB)
+2024-11-21T23:07:42.27 Collecting wcwidth==0.2.5
+2024-11-21T23:07:42.27   Using cached https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/59/7c/e39aca596badaf1b78e8f547c807b04dae603a433d3e7a7e04d67f2ef3e5/wcwidth-0.2.5-py2.py3-none-any.whl (30 kB)
+2024-11-21T23:07:42.29 Requirement already satisfied: wheel==0.36.2 in /local/scratch/mtasbin/st/python/2.7/lib/python2.7/site-packages (from -r /local/scratch/mtasbin/st/st_fw/lib/env/requirements2.7.txt (line 388)) (0.36.2)
+2024-11-21T23:07:42.87 Collecting wrapt==1.12.1
+2024-11-21T23:07:42.91   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/82/f7/e43cefbe88c5fd371f4cf0cf5eb3feccd07515af9fd6cf7dbf1d1793a797/wrapt-1.12.1.tar.gz (27 kB)
+2024-11-21T23:07:43.19 Collecting zipp==1.2.0
+2024-11-21T23:07:43.30   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/96/0a/67556e9b7782df7118c1f49bdc494da5e5e429c93aa77965f33e81287c8c/zipp-1.2.0-py2.py3-none-any.whl (4.8 kB)
+2024-11-21T23:07:43.31 Requirement already satisfied: pip==20.3.4 in /local/scratch/mtasbin/st/python/2.7/lib/python2.7/site-packages (from -r /local/scratch/mtasbin/st/st_fw/lib/env/requirements2.7.txt (line 400)) (20.3.4)
+2024-11-21T23:07:43.32 Requirement already satisfied: setuptools==44.1.1 in /local/scratch/mtasbin/st/python/2.7/lib/python2.7/site-packages (from -r /local/scratch/mtasbin/st/st_fw/lib/env/requirements2.7.txt (line 404)) (44.1.1)
+2024-11-21T23:07:43.37 Collecting itsdangerous>=0.24
+2024-11-21T23:07:43.49   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/76/ae/44b03b253d6fade317f32c24d100b3b35c2239807046a4c953c7b89fa49e/itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+2024-11-21T23:07:43.65 Collecting Werkzeug>=0.14
+2024-11-21T23:07:43.76   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/cc/94/5f7079a0e00bd6863ef8f1da638721e9da21e5bacee597595b318f71d62e/Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+2024-11-21T23:07:43.89 Collecting click>=5.1
+2024-11-21T23:07:43.98   Downloading https://arm.sero.gic.ericsson.se/artifactory/api/pypi/pypi-remote/packages/packages/d2/3d/fa76db83bf75c4f8d338c2fd15c8d33fdd7ad23a9b5e57eb6c5de26b430e/click-7.1.2-py2.py3-none-any.whl (82 kB)
+2024-11-21T23:07:43.99 Building wheels for collected packages: dogpile.cache, functools32, keystoneauth1, msgpack, os-client-config, prettytable, pyinotify, pyperclip, pyrsistent, python-neutronclient, scandir, unicodecsv, warlock, wrapt
+2024-11-21T23:07:43.99   Building wheel for dogpile.cache (setup.py): started
+2024-11-21T23:07:44.23   Building wheel for dogpile.cache (setup.py): finished with status 'done'
+2024-11-21T23:07:44.23   Created wheel for dogpile.cache: filename=dogpile.cache-0.9.2-py2.py3-none-any.whl size=45344 sha256=d84afc737b65c959f4a7d454306dd0e32dc95d0aea61f6a1c02f18b80983c676
+2024-11-21T23:07:44.23   Stored in directory: /home/mtasbin/.cache/pip/wheels/df/1c/1e/f2768a9c6b416078c62d4bc32911a2d2581b530c7da7aec0ac
+2024-11-21T23:07:44.23   Building wheel for functools32 (setup.py): started
+2024-11-21T23:07:44.43   Building wheel for functools32 (setup.py): finished with status 'done'
+2024-11-21T23:07:44.43   Created wheel for functools32: filename=functools32-3.2.3.post2-py2-none-any.whl size=14556 sha256=0cb6f2231150535f2415e4f5199f5db2b9823dfda049dad774c8b8fb0b5c074c
+2024-11-21T23:07:44.43   Stored in directory: /home/mtasbin/.cache/pip/wheels/9c/35/07/44dedf927a366b770c13ad4d69216af617486fe2042ab32e3f
+2024-11-21T23:07:44.43   Building wheel for keystoneauth1 (setup.py): started
+2024-11-21T23:07:44.91   Building wheel for keystoneauth1 (setup.py): finished with status 'done'
+2024-11-21T23:07:44.92   Created wheel for keystoneauth1: filename=keystoneauth1-4.0.1-py2-none-any.whl size=310824 sha256=793a7689c8159139faaa5cc7c694153e73bc44b13f3965e395093f441b9e98b6
+2024-11-21T23:07:44.92   Stored in directory: /home/mtasbin/.cache/pip/wheels/88/07/f5/e5f7bcaecfef6ceda3378e14811cd2a79be6e2d25cfbc336d1
+2024-11-21T23:07:44.92   Building wheel for msgpack (setup.py): started
+2024-11-21T23:07:45.12   Building wheel for msgpack (setup.py): finished with status 'done'
+2024-11-21T23:07:45.12   Created wheel for msgpack: filename=msgpack-1.0.2-py2-none-any.whl size=15813 sha256=318ddfe618e0a2c712ffc43fe7891288c82c62cde3d8c74226b6ff41f6626a39
+2024-11-21T23:07:45.12   Stored in directory: /home/mtasbin/.cache/pip/wheels/96/a0/9d/5ce603544b9df994ceabee4480456261694006d6bf6a5c8082
+2024-11-21T23:07:45.12   Building wheel for os-client-config (setup.py): started
+2024-11-21T23:07:45.39   Building wheel for os-client-config (setup.py): finished with status 'done'
+2024-11-21T23:07:45.39   Created wheel for os-client-config: filename=os_client_config-2.1.0-py2-none-any.whl size=31556 sha256=c3a03c931ae3ea4d194e09cd800a94b9fd6e8ced52ee8c834e728b3a2544d2ea
+2024-11-21T23:07:45.40   Stored in directory: /home/mtasbin/.cache/pip/wheels/86/6d/ea/b2afd278384a19df3f0141a9a0278d6bf478100956505be442
+2024-11-21T23:07:45.40   Building wheel for prettytable (setup.py): started
+2024-11-21T23:07:45.60   Building wheel for prettytable (setup.py): finished with status 'done'
+2024-11-21T23:07:45.60   Created wheel for prettytable: filename=prettytable-0.7.2-py2-none-any.whl size=13698 sha256=539df1213e5147735195c5e5dc5a875b0d4ce77950de1c23cfaf04e58198e08b
+2024-11-21T23:07:45.60   Stored in directory: /home/mtasbin/.cache/pip/wheels/e4/62/24/b333de948a973bb2a0ffb92aa34bad794366b281322471ace3
+2024-11-21T23:07:45.60   Building wheel for pyinotify (setup.py): started
+2024-11-21T23:07:45.81   Building wheel for pyinotify (setup.py): finished with status 'done'
+2024-11-21T23:07:45.81   Created wheel for pyinotify: filename=pyinotify-0.9.6-py2-none-any.whl size=25427 sha256=aa697a2b39a11009279d6b7f2ca92d6d48c3123829eb3f1cd3f9187338d30e5b
+2024-11-21T23:07:45.81   Stored in directory: /home/mtasbin/.cache/pip/wheels/43/b7/ee/5f7157fc4e4bbfb6c9b8eb89ae3acec071c2b24db20d4973fc
+2024-11-21T23:07:45.81   Building wheel for pyperclip (setup.py): started
+2024-11-21T23:07:46.01   Building wheel for pyperclip (setup.py): finished with status 'done'
+2024-11-21T23:07:46.01   Created wheel for pyperclip: filename=pyperclip-1.8.2-py2-none-any.whl size=11108 sha256=18eac1ba541dc156e1cdfdf286a94a727cd9326455a39c0e86d2a7be131a0b52
+2024-11-21T23:07:46.01   Stored in directory: /home/mtasbin/.cache/pip/wheels/29/46/97/e3a704bf2f658bba701ff225f1f619de7533cf743d9c37d011
+2024-11-21T23:07:46.01   Building wheel for pyrsistent (setup.py): started
+2024-11-21T23:07:46.46   Building wheel for pyrsistent (setup.py): finished with status 'done'
+2024-11-21T23:07:46.46   Created wheel for pyrsistent: filename=pyrsistent-0.16.1-cp27-cp27mu-linux_x86_64.whl size=83295 sha256=ec1847293c0fbd8348052da26f4ee08fe8c19d76abf96673a9bf94cdb1a5d35c
+2024-11-21T23:07:46.46   Stored in directory: /home/mtasbin/.cache/pip/wheels/95/fb/5c/2a718539618a993290bf1cf64d1ea6b9aa2b37a60fd5df5438
+2024-11-21T23:07:46.46   Building wheel for python-neutronclient (setup.py): started
+2024-11-21T23:07:46.99   Building wheel for python-neutronclient (setup.py): finished with status 'done'
+2024-11-21T23:07:46.99   Created wheel for python-neutronclient: filename=python_neutronclient-7.1.0-py2-none-any.whl size=436539 sha256=9f4d68fb4fcab62eeeb3396c954003edd9f884f585d9e97178126102b6d2b6c3
+2024-11-21T23:07:46.99   Stored in directory: /home/mtasbin/.cache/pip/wheels/dd/1f/44/c4217c42a6320affe5ae7d673be01557281652e40a58fba279
+2024-11-21T23:07:46.99   Building wheel for scandir (setup.py): started
+2024-11-21T23:07:47.36   Building wheel for scandir (setup.py): finished with status 'done'
+2024-11-21T23:07:47.36   Created wheel for scandir: filename=scandir-1.10.0-cp27-cp27mu-linux_x86_64.whl size=33231 sha256=3f9e7377d39facb12a56a390e45289ca81f81b8a13b6dd18a68bb943aa798d39
+2024-11-21T23:07:47.36   Stored in directory: /home/mtasbin/.cache/pip/wheels/4a/32/cb/b1462c3528817e08e0578af448f1ec060cfb8cbd523b7034c6
+2024-11-21T23:07:47.36   Building wheel for unicodecsv (setup.py): started
+2024-11-21T23:07:47.56   Building wheel for unicodecsv (setup.py): finished with status 'done'
+2024-11-21T23:07:47.56   Created wheel for unicodecsv: filename=unicodecsv-0.14.1-py2-none-any.whl size=10767 sha256=52aee314d4e679fd746edb395d41300e82e2c21d86a7e8354348c3f0a7244f84
+2024-11-21T23:07:47.56   Stored in directory: /home/mtasbin/.cache/pip/wheels/fe/b7/15/ddede21f3984a54b18994b6c1524100ef063650d09a7c89169
+2024-11-21T23:07:47.56   Building wheel for warlock (setup.py): started
+2024-11-21T23:07:47.77   Building wheel for warlock (setup.py): finished with status 'done'
+2024-11-21T23:07:47.77   Created wheel for warlock: filename=warlock-1.3.3-py2.py3-none-any.whl size=9818 sha256=c217cfd9583dc19e5213ddb2779cc85e5aa414b0de9a1c0bf4de600db35a8c88
+2024-11-21T23:07:47.77   Stored in directory: /home/mtasbin/.cache/pip/wheels/6a/14/75/ea4ca904ab4880624ba5262154cccad9edbcd804eda94a1658
+2024-11-21T23:07:47.77   Building wheel for wrapt (setup.py): started
+2024-11-21T23:07:48.23   Building wheel for wrapt (setup.py): finished with status 'done'
+2024-11-21T23:07:48.23   Created wheel for wrapt: filename=wrapt-1.12.1-cp27-cp27mu-linux_x86_64.whl size=49359 sha256=941c598c90e5d2d0f14526d822e4080a8765b2bbcc92fa1ad546e34e05c8b339
+2024-11-21T23:07:48.23   Stored in directory: /home/mtasbin/.cache/pip/wheels/59/ab/a1/1a441a1c63f578ab7e8040c33fa641ad234713a12efb09dfce
+2024-11-21T23:07:48.23 Successfully built dogpile.cache functools32 keystoneauth1 msgpack os-client-config prettytable pyinotify pyperclip pyrsistent python-neutronclient scandir unicodecsv warlock wrapt
+2024-11-21T23:07:48.79 Installing collected packages: appdirs, atomicwrites, attrs, pytz, babel, backports.functools-lru-cache, pycparser, cffi, six, bcrypt, certifi, chardet, prettytable, pbr, stevedore, pyparsing, pyyaml, contextlib2, subprocess32, wcwidth, pyperclip, enum34, cmd2, unicodecsv, cliff, configparser, ipaddress, cryptography, wrapt, funcsigs, debtcollector, decorator, dogpile.cache, functools32, futures, itsdangerous, markupsafe, jinja2, Werkzeug, click, flask, idna, zipp, scandir, pathlib2, importlib-metadata, typing, singledispatch, importlib-resources, iso8601, jmespath, jsonpointer, jsonpatch, pyrsistent, jsonschema, urllib3, requests, os-service-types, keystoneauth1, mock, monotonic, more-itertools, msgpack, munch, netaddr, netifaces, requestsexceptions, openstacksdk, os-client-config, simplejson, oslo.i18n, oslo.utils, osc-lib, rfc3986, oslo.config, oslo.context, pyinotify, python-dateutil, oslo.serialization, oslo.log, packaging, pynacl, paramiko, ptyprocess, pexpect, pip2pi, pluggy, py, pyopenssl, pytest, pytest-mock, warlock, python-glanceclient, python-swiftclient, python-heatclient, python-keystoneclient, python-neutronclient, python-novaclient
+2024-11-21T23:07:55.47 Successfully installed Werkzeug-1.0.1 appdirs-1.4.4 atomicwrites-1.4.0 attrs-20.3.0 babel-2.9.0 backports.functools-lru-cache-1.6.4 bcrypt-3.1.7 certifi-2020.12.5 cffi-1.14.5 chardet-4.0.0 click-7.1.2 cliff-2.18.0 cmd2-0.8.9 configparser-4.0.2 contextlib2-0.6.0.post1 cryptography-3.3.2 debtcollector-1.22.0 decorator-4.4.2 dogpile.cache-0.9.2 enum34-1.1.10 flask-1.0.2 funcsigs-1.0.2 functools32-3.2.3.post2 futures-3.3.0 idna-2.10 importlib-metadata-2.1.1 importlib-resources-3.3.1 ipaddress-1.0.23 iso8601-0.1.14 itsdangerous-1.1.0 jinja2-2.11.3 jmespath-0.10.0 jsonpatch-1.32 jsonpointer-2.1 jsonschema-3.2.0 keystoneauth1-4.0.1 markupsafe-1.1.1 mock-3.0.5 monotonic-1.6 more-itertools-5.0.0 msgpack-1.0.2 munch-2.5.0 netaddr-0.8.0 netifaces-0.10.9 openstacksdk-0.45.0 os-client-config-2.1.0 os-service-types-1.7.0 osc-lib-2.0.0 oslo.config-7.0.0 oslo.context-2.23.1 oslo.i18n-3.25.1 oslo.log-3.45.2 oslo.serialization-2.29.3 oslo.utils-3.42.1 packaging-20.9 paramiko-2.7.2 pathlib2-2.3.5 pbr-5.5.1 pexpect-4.8.0 pip2pi-0.8.1 pluggy-0.13.1 prettytable-0.7.2 ptyprocess-0.7.0 py-1.10.0 pycparser-2.20 pyinotify-0.9.6 pynacl-1.4.0 pyopenssl-20.0.1 pyparsing-2.4.7 pyperclip-1.8.2 pyrsistent-0.16.1 pytest-4.6.11 pytest-mock-2.0.0 python-dateutil-2.8.1 python-glanceclient-3.0.0 python-heatclient-1.18.1 python-keystoneclient-3.22.0 python-neutronclient-7.1.0 python-novaclient-16.0.0 python-swiftclient-3.11.1 pytz-2021.1 pyyaml-5.4.1 requests-2.25.1 requestsexceptions-1.4.0 rfc3986-1.4.0 scandir-1.10.0 simplejson-3.17.2 singledispatch-3.6.1 six-1.15.0 stevedore-1.32.0 subprocess32-3.5.4 typing-3.7.4.3 unicodecsv-0.14.1 urllib3-1.26.4 warlock-1.3.3 wcwidth-0.2.5 wrapt-1.12.1 zipp-1.2.0
+2024-11-21T23:07:55.93 
+2024-11-21T23:07:56.01 /local/scratch/mtasbin
+2024-11-21T23:07:56.10 INFO:root:Got custom test output from JCAT config xml: /local/scratch/mtasbin
+2024-11-21T23:07:56.11 INFO:root:~ 23.27562713623047 GB free space on the load PC path- /
+2024-11-21T23:07:56.14 INFO:root:Current path: '/local/scratch/mtasbin'
+2024-11-21T23:07:56.27 INFO:root:Getting URLs for the artifacts
+2024-11-21T23:07:56.27 INFO:root:Downloading artifacts
+2024-11-21T23:07:57.06 INFO:root:Downloaded: /local/scratch/mtasbin/test-output-2024-11-21-23-07-56/jcatLogs/mtasST/artifacts/mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar
+2024-11-21T23:07:57.06 INFO:root:Using package downloaded from ARM: ['mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar']
+2024-11-21T23:07:57.06 INFO:root:Suite XML stored as: /local/scratch/mtasbin/test-output-2024-11-21-23-07-56/jcatLogs/mtasST/suite_xml/suite.20241121230757.mtas-cba-mtas-stc-stability-14288-loadpc-receiver.xml
+2024-11-21T23:07:57.06 INFO:root:Calculating heap size...
+2024-11-21T23:07:57.06 INFO:root:Total memory: 16040 MB
+2024-11-21T23:07:57.06 INFO:root:Calculated heap size: 12030 MB
+2024-11-21T23:07:57.06 INFO:root:java_cli: java -XX:-AllowUserSignalHandlers -Xms12030m -Xmx12030m -XX:+UseG1GC -XX:+UseStringDeduplication -Dmtas.output=/local/scratch/mtasbin/test-output-2024-11-21-23-07-56 -Dmtas.config.path=jcatConfig.xml -Dmtas.kpiconfig.path=jcat_NFL_STABILITY_CUSTOM.xml -cp /local/scratch/mtasbin/test-output-2024-11-21-23-07-56/jcatLogs/mtasST/artifacts/mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar org.testng.TestNG /local/scratch/mtasbin/test-output-2024-11-21-23-07-56/jcatLogs/mtasST/suite_xml/suite.20241121230757.mtas-cba-mtas-stc-stability-14288-loadpc-receiver.xml -listener se.ericsson.jcat.fw.fixture.testng.JcatNGTestListener,se.ericsson.jcat.fw.fixture.testng.JcatNGSuiteListener -d /local/scratch/mtasbin/test-output-2024-11-21-23-07-56/jcatLogs/testNG/
+2024-11-21T23:07:57.06 INFO:root:Starting test...
+2024-11-21T23:07:57.07 bash: cannot set terminal process group (1410): Inappropriate ioctl for device
+2024-11-21T23:07:57.07 bash: no job control in this shell
+2024-11-21T23:07:57.07 bash: module: command not found
+2024-11-21T23:07:57.07 bash: module: command not found
+2024-11-21T23:07:58.16 ERROR StatusConsoleListener Script support is not enabled
+2024-11-21T23:07:58.20 ERROR StatusConsoleListener File contains an invalid element or attribute "filePattern"
+2024-11-21T23:07:58.22 ERROR StatusConsoleListener appender File has no parameter that matches element SizeBasedTriggeringPolicy
+2024-11-21T23:07:58.27 ERROR StatusConsoleListener Unable to locate appender "longLog" for logger config "root"
+2024-11-21T23:07:58.27 ERROR StatusConsoleListener Unable to locate appender "longLog" for logger config "localLogger"
+2024-11-21T23:07:58.27 ERROR StatusConsoleListener Unable to locate appender "longLog" for logger config "se.ericsson.tsp"
+2024-11-21T23:07:58.52 WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2024-11-21T23:07:58.55 ERROR StatusConsoleListener Script support is not enabled
+2024-11-21T23:07:58.56 ERROR StatusConsoleListener File contains an invalid element or attribute "filePattern"
+2024-11-21T23:07:58.56 ERROR StatusConsoleListener appender File has no parameter that matches element SizeBasedTriggeringPolicy
+2024-11-21T23:07:58.58 ERROR StatusConsoleListener Unable to locate appender "longLog" for logger config "root"
+2024-11-21T23:07:58.58 ERROR StatusConsoleListener Unable to locate appender "longLog" for logger config "localLogger"
+2024-11-21T23:07:58.58 ERROR StatusConsoleListener Unable to locate appender "longLog" for logger config "se.ericsson.tsp"
+2024-11-21T23:07:58.64 Current logging level for Log4j2: DEBUG
+2024-11-21T23:07:58.64 Current config file for Log4j2: jar:file:/local/scratch/mtasbin/test-output-2024-11-21-23-07-56/jcatLogs/mtasST/artifacts/mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar!/log4j2.xml
+2024-11-21T23:07:58.84 [TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+2024-11-21T23:07:58.89 Mtas artifact output location: /local/scratch/mtasbin/test-output-2024-11-21-23-07-56
+2024-11-21T23:07:58.89 Base path: /local/scratch/mtasbin/test-output-2024-11-21-23-07-56
+2024-11-21T23:07:58.89 Setting jcat log directory to: /local/scratch/mtasbin/test-output-2024-11-21-23-07-56/jcatLogs/jcathtml
+2024-11-21T23:07:58.89 Setting commit id as system property
+2024-11-21T23:07:58.90 git.commit.id:c7404118914ff46df40924f3f8a2f2ef34c2560a
+2024-11-21T23:07:58.90 git.commit.id.describe:MTASJCAT_REL_MERGE_77-dirty
+2024-11-21T23:07:58.90 ...Reading System Properties...
+2024-11-21T23:07:59.20 Created JCAT log directory: /local/scratch/mtasbin/test-output-2024-11-21-23-07-56/jcatLogs/jcathtml
+2024-11-21T23:07:59.21 Created JCAT log directory: /local/scratch/mtasbin/test-output-2024-11-21-23-07-56/jcatLogs/jcathtml
+2024-11-21T23:07:59.21 Current logging level for Log4j2: DEBUG
+2024-11-21T23:07:59.21 Current config file for Log4j2: jar:file:/local/scratch/mtasbin/test-output-2024-11-21-23-07-56/jcatLogs/mtasST/artifacts/mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar!/log4j2.xml
+2024-11-21T23:07:59.22 ...Initializing JCAT framework...
+2024-11-21T23:07:59.23 ############## JCAT Bundle ###################
+2024-11-21T23:07:59.23 R6S
+2024-11-21T23:07:59.23 ##############################################
+2024-11-21T23:07:59.52 Start JenkinsLogWriter
+2024-11-21T23:07:59.79 WARNING: An illegal reflective access operation has occurred
+2024-11-21T23:07:59.84 Load top frame template from default_top_frame.json
+2024-11-21T23:08:00.38 Initialising shutdown Hook
+2024-11-21T23:08:00.38 End of Shutdown hook invocation thread.
+2024-11-21T23:08:00.38 ==================================================
+2024-11-21T23:08:00.38 Test step [1] begin Setting up test case and environment
+2024-11-21T23:08:00.39 Initializing configuration parameters
+2024-11-21T23:08:00.39 Using Mtas Jcat config xml file: jcatConfig.xml
+2024-11-21T23:08:00.39 Using Mtas Jcat KPI config xml file: jcat_NFL_STABILITY_CUSTOM.xml
+2024-11-21T23:08:00.57 TS data:{"user" : "mtas-cba-mtas-stc-stability-14288-loadpc-receiver_mtasbin","fwVersion" : "R6S","javaVersion" : "11.0.19+7-post-Ubuntu-0ubuntu118.04.1"}
+2024-11-21T23:08:01.11 Handling disabled scenarios...
+2024-11-21T23:08:01.11 Path for disabled scenarios was not defined - all scenarios will be taken into account during verification
+2024-11-21T23:08:01.11 MTAS JCAT Build Id: mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar
+2024-11-21T23:08:01.11 ==================================================
+2024-11-21T23:08:01.11 Sub Test step [1_1] begin Pre_00. Get hold of input parameters
+2024-11-21T23:08:01.12 Could not get upgrade dummy mode from config xml!
+2024-11-21T23:08:01.16 UserParam [dateFormat=2024_11_21_23_08_01_143
+2024-11-21T23:08:01.36 newTrafficWeightStr=null
+2024-11-21T23:08:01.36 abortModeEnum=NO_PRE_EVALUATION
+2024-11-21T23:08:01.36 upgradeDummyMode=NONE
+2024-11-21T23:08:01.36 hss=[]
+2024-11-21T23:08:01.36 eventParameters=[]
+2024-11-21T23:08:01.36 provisioningIntensity=[]
+2024-11-21T23:08:01.36 ethInterface=eth0
+2024-11-21T23:08:01.36 receiver=mtas-cba-mtas-stc-stability-14288-loadpc-receiver
+2024-11-21T23:08:01.36 sender=mtas-cba-mtas-stc-stability-14288-loadpc-sender
+2024-11-21T23:08:01.36 titan=mtas-cba-mtas-stc-stability-14288-loadpc-titansim
+2024-11-21T23:08:01.36 nodeName=MTAS-CBA-MTAS-STC-Stability-14288
+2024-11-21T23:08:01.36 trafficMix=MMT_NA_Bin
+2024-11-21T23:08:01.36 cfgNodeSkip=false
+2024-11-21T23:08:01.36 createConfigFilesSkip=false
+2024-11-21T23:08:01.36 finetuneTrafficSkip=false
+2024-11-21T23:08:01.36 installLicensesSkip=false
+2024-11-21T23:08:01.36 kpiCalculationSkip=false
+2024-11-21T23:08:01.36 longTerminationSkip=false
+2024-11-21T23:08:01.36 mtasHealthCheckSkip=false
+2024-11-21T23:08:01.36 pmConfigurationSkip=false
+2024-11-21T23:08:01.36 pre160Skip=true
+2024-11-21T23:08:01.36 preregistrationSkip=false
+2024-11-21T23:08:01.36 runTrafficSkip=false
+2024-11-21T23:08:01.36 tearDownSkip=false
+2024-11-21T23:08:01.36 clusterReloadSkipInNodeConfig=false
+2024-11-21T23:08:01.36 trafficStabilisationSkip=false
+2024-11-21T23:08:01.36 disableProvisioning=false
+2024-11-21T23:08:01.36 enableAppTrace=true
+2024-11-21T23:08:01.36 enableMemoryProfiling=false
+2024-11-21T23:08:01.36 enableCpuProfiling=false
+2024-11-21T23:08:01.36 durationCpuProfiling=0
+2024-11-21T23:08:01.36 enableDecodingCpuProfilingData=false
+2024-11-21T23:08:01.36 upgradeNwRedundant=false
+2024-11-21T23:08:01.36 upgradeReleaseTestMode=false
+2024-11-21T23:08:01.36 upgradeRollback=false
+2024-11-21T23:08:01.36 upgradeRemoveIPv6Entries=false
+2024-11-21T23:08:01.36 seamLessStart=false
+2024-11-21T23:08:01.36 platform=cba
+2024-11-21T23:08:01.36 abortMode=NO_PRE_EVALUATION
+2024-11-21T23:08:01.36 build=NO_BUILD_DEFINED
+2024-11-21T23:08:01.36 candiScenarios=
+2024-11-21T23:08:01.36 candiScenarioGroup=
+2024-11-21T23:08:01.36 charging=null
+2024-11-21T23:08:01.36 clusterSize=2+2
+2024-11-21T23:08:01.36 customTitanSimBinary=
+2024-11-21T23:08:01.36 env=development
+2024-11-21T23:08:01.36 eventParameter=
+2024-11-21T23:08:01.36 flavor=
+2024-11-21T23:08:01.36 ignoredAlarmList=/proj/tas/mtasbin/IgnoredAlarms/IGNORED_ALARMS.xml
+2024-11-21T23:08:01.36 customAppTrace=
+2024-11-21T23:08:01.36 ignoredNotificationList=
+2024-11-21T23:08:01.36 largeNodeConfig=
+2024-11-21T23:08:01.36 largeNodeHss=
+2024-11-21T23:08:01.36 mrfcServiceLocation=
+2024-11-21T23:08:01.36 mtasUAT=
+2024-11-21T23:08:01.36 mtasUpgradePackageDir=
+2024-11-21T23:08:01.36 networkLayer=
+2024-11-21T23:08:01.36 restoreBackup=
+2024-11-21T23:08:01.37 restoreTimeOut=1800
+2024-11-21T23:08:01.37 stfwTarball=
+2024-11-21T23:08:01.37 stfwPath=/local/scratch/mtasbin/st/
+2024-11-21T23:08:01.37 stfwInstallPath=
+2024-11-21T23:08:01.37 trafficLoadMode=normal
+2024-11-21T23:08:01.37 transportProtocol=
+2024-11-21T23:08:01.37 upgradeCustomEventRulesDir=
+2024-11-21T23:08:01.37 rollbackCustomEventRuleFiles=
+2024-11-21T23:08:01.37 username=mtasbin
+2024-11-21T23:08:01.37 duration=180
+2024-11-21T23:08:01.37 durationBeforeEvent=180
+2024-11-21T23:08:01.37 durationAfterEvent=180
+2024-11-21T23:08:01.37 durationDuringEvent=0
+2024-11-21T23:08:01.37 durationAfterRollback=180
+2024-11-21T23:08:01.37 mrfx=null
+2024-11-21T23:08:01.37 startTwValue=null
+2024-11-21T23:08:01.37 subscriberNumber=null
+2024-11-21T23:08:01.37 upgradeCpuLoad=30
+2024-11-21T23:08:01.37 pui=
+2024-11-21T23:08:01.37 diskSize=200
+2024-11-21T23:08:01.37 gracefulShutdownTimeoutMins=15
+2024-11-21T23:08:01.37 shProt=
+2024-11-21T23:08:01.37 rxProt=
+2024-11-21T23:08:01.37 oamCheckParameters=
+2024-11-21T23:08:01.37 serviceNames=
+2024-11-21T23:08:01.37 subServiceNames=
+2024-11-21T23:08:01.37 minutesWaitBeforeForcefulShutdown=30
+2024-11-21T23:08:01.37 disableAia=false
+2024-11-21T23:08:01.37 rollbackCpuLoad=20
+2024-11-21T23:08:01.37 
+2024-11-21T23:08:01.37 scFlavor=
+2024-11-21T23:08:01.37 plFlavor=
+2024-11-21T23:08:01.37 fsFlavor=
+2024-11-21T23:08:01.37 psoVolumeSize= null
+2024-11-21T23:08:01.37 dbn=null
+2024-11-21T23:08:01.37 dbnRecordHeap=null
+2024-11-21T23:08:01.37 multimmap=null
+2024-11-21T23:08:01.37 localDiskSize=null
+2024-11-21T23:08:01.37 jvmInitHeap=null
+2024-11-21T23:08:01.37 jvmInitHeapEden=null
+2024-11-21T23:08:01.37 jvmMaxHeap=null
+2024-11-21T23:08:01.37 wfp=null
+2024-11-21T23:08:01.37 vsip=null
+2024-11-21T23:08:01.37 targetProcessorsNumbers=null
+2024-11-21T23:08:01.37 ipv4SysmgmtTopology=
+2024-11-21T23:08:01.37 aiaVersionFilter=
+2024-11-21T23:08:01.37 trafficProfile=null
+2024-11-21T23:08:01.37 dbnVmSharedMemoryPercentage=null
+2024-11-21T23:08:01.37 multiMMapMaxMem=null
+2024-11-21T23:08:01.37 topCommandStatisticsSkip=false
+2024-11-21T23:08:01.37 titanSimLogLevel=null
+2024-11-21T23:08:01.37 uri=null
+2024-11-21T23:08:01.37 secUri=null
+2024-11-21T23:08:01.37 cbaCpuProfilerCommandParameters
+2024-11-21T23:08:01.37 useLegacyHotGenerator=false
+2024-11-21T23:08:01.37 pvip=null
+2024-11-21T23:08:01.37 pnvip=null
+2024-11-21T23:08:01.37 skipCreateBackup=false
+2024-11-21T23:08:01.37 networkType=null
+2024-11-21T23:08:01.37 vmHaPolicySc=null
+2024-11-21T23:08:01.37 vmHaPolicyPl=null
+2024-11-21T23:08:01.37 skipPlatformInstall=false
+2024-11-21T23:08:01.37 skipInitialBackup=false
+2024-11-21T23:08:01.37 packetDelay=0
+2024-11-21T23:08:01.37 packetLoss=0.0
+2024-11-21T23:08:01.37 failoverBreakageParams=null
+2024-11-21T23:08:01.37 tcpdumpFilter=
+2024-11-21T23:08:01.37 waitHandler=false
+2024-11-21T23:08:01.37 cloudTimeout=null
+2024-11-21T23:08:01.37 idleSystemStabilityTest=false
+2024-11-21T23:08:01.37 enablePacketCountingOnFEE=false
+2024-11-21T23:08:01.37 binaryTransparentData=null
+2024-11-21T23:08:01.37 troubleshootingMode=Both
+2024-11-21T23:08:01.37 sipTcpSessionDelayAck=null
+2024-11-21T23:08:01.37 sipTcpSessionNoDelay=null
+2024-11-21T23:08:01.37 reinstantiationBuild=NO_BUILD_DEFINED
+2024-11-21T23:08:01.37 createIpV6TunnelForScsv=false
+2024-11-21T23:08:01.37 noOfCai3gSessions=null
+2024-11-21T23:08:01.37 captureTCPDumpForWholeDuration=false
+2024-11-21T23:08:01.37 durationOfCuts=[]
+2024-11-21T23:08:01.37 intervalBetweenCuts=[]
+2024-11-21T23:08:01.37 subRackList=[]
+2024-11-21T23:08:01.37 numberOfCuts=null
+2024-11-21T23:08:01.37 tipcLinkTolerance=5000
+2024-11-21T23:08:01.37 promoteActiverTimer=0
+2024-11-21T23:08:01.37 delayNodeFailoverTimeout=5
+2024-11-21T23:08:01.37 delayNodeWaitTimeout=180
+2024-11-21T23:08:01.37 scAbsenceAllowed=900
+2024-11-21T23:08:01.37 noOfOcfNodes=null
+2024-11-21T23:08:01.37 noOfCcfNodes=null
+2024-11-21T23:08:01.37 customTestOutputPath=/local/scratch/mtasbin
+2024-11-21T23:08:01.37 timeBomb=false
+2024-11-21T23:08:01.37 skipStfwCleanUp=false
+2024-11-21T23:08:01.37 diameterConnectionNumberSh=null
+2024-11-21T23:08:01.37 diameterConnectionNumberXdms=null
+2024-11-21T23:08:01.37 diameterConnectionNumberCharging=null
+2024-11-21T23:08:01.37 kernelControl=null
+2024-11-21T23:08:01.37 kernelPayload=null
+2024-11-21T23:08:01.37 useChargingType=null
+2024-11-21T23:08:01.37 numberOfPlsToScale=null
+2024-11-21T23:08:01.37 plsToBeScaledIn=[]
+2024-11-21T23:08:01.37 scaleInType=GRACEFUL
+2024-11-21T23:08:01.37 licenseConstant=null
+2024-11-21T23:08:01.37 invokeECCmode=
+2024-11-21T23:08:01.37 nwMeasureCollectionInterval=null
+2024-11-21T23:08:01.37 mtasMaxLimitAps=null
+2024-11-21T23:08:01.37 loadRegCpuAvgLimit=null
+2024-11-21T23:08:01.37 ocfMachine=
+2024-11-21T23:08:01.37 charging5GPercent=null
+2024-11-21T23:08:01.37 charging4GPercent=null
+2024-11-21T23:08:01.37 charging4GOnlinePercent=null
+2024-11-21T23:08:01.37 charging4GOnlineOfflinePercent=null
+2024-11-21T23:08:01.37 charging4GOfflinePercent=null
+2024-11-21T23:08:01.37 enableEBM=false
+2024-11-21T23:08:01.37 enableEventSelection=false
+2024-11-21T23:08:01.37 enableEbmSuppressEventInfo=
+2024-11-21T23:08:01.37 ebmEventLevelForNotification=
+2024-11-21T23:08:01.37 ebmEventLevelForSessionSetup=
+2024-11-21T23:08:01.37 ebmEventLevelForSessionRelease=
+2024-11-21T23:08:01.37 enableJvmGcStats=false
+2024-11-21T23:08:01.37 mrfcNodeRecoveryTimer=null
+2024-11-21T23:08:01.37 signalingChangeJsonPath=
+2024-11-21T23:08:01.37 loadRegTurnOffCpuMax=false
+2024-11-21T23:08:01.37 mtasMultiIrsSubscribeTimer=null
+2024-11-21T23:08:01.37 mtasSubsDataDefaultRegTimer=null
+2024-11-21T23:08:01.37 loadRegCollectionEnabled=false
+2024-11-21T23:08:01.37 aggregateCsvScriptPath=
+2024-11-21T23:08:01.37 enableEnhancedSubscriberDataQuery=false
+2024-11-21T23:08:01.37 generateBatchSamplerLog=false
+2024-11-21T23:08:01.37 enableAppTraceForBeforeEvent=false
+2024-11-21T23:08:01.37 enableAppTraceForPrimaryEvent=false
+2024-11-21T23:08:01.37 enableAppTraceForAfterEvent=false
+2024-11-21T23:08:01.37 customAppTraceForBeforeEvent=
+2024-11-21T23:08:01.37 customAppTraceForPrimaryEvent=
+2024-11-21T23:08:01.37 customAppTraceForAfterEvent=
+2024-11-21T23:08:01.37 enableEBMRecCollection=false
+2024-11-21T23:08:01.37 enableKafka=false
+2024-11-21T23:08:01.37 enableKafkaFqdn=false
+2024-11-21T23:08:01.37 enableSubscriberDataEncryption=false
+2024-11-21T23:08:01.37 enableIPSec=false
+2024-11-21T23:08:01.37 ipsecInterface=vip_traf
+2024-11-21T23:08:01.37 enableEBMRecCollection=false
+2024-11-21T23:08:01.37 enableSubscriberDataEncryption=false
+2024-11-21T23:08:01.37 enableMsisdnValidation=false
+2024-11-21T23:08:01.37 validationScenarioSubsCnt=40000
+2024-11-21T23:08:01.37 validationScenarioPbxCnt=4
+2024-11-21T23:08:01.37 useGenericPort=false
+2024-11-21T23:08:01.37 cai3gUserName=
+2024-11-21T23:08:01.37 cai3gPassword=]
+2024-11-21T23:08:01.37 Setting up trafficweight data access
+2024-11-21T23:08:01.38 pathToStorageOfAllArtifacts /local/scratch/mtasbin/test-output-2024-11-21-23-07-56
+2024-11-21T23:08:01.39 Setting up authentication between load machines (takes ~30 seconds)
+2024-11-21T23:08:03.03 Extracting st-tarball package: /local/scratch/mtasbin to: /local/scratch/mtasbin
+2024-11-21T23:08:03.03 Distributing tarball content...
+2024-11-21T23:08:03.03 Syncing st-data to remote: mtas-cba-mtas-stc-stability-14288-loadpc-sender:/local/scratch/mtasbin/st
+2024-11-21T23:08:28.58 Syncing st-data to remote: mtas-cba-mtas-stc-stability-14288-loadpc-receiver:/local/scratch/mtasbin/st
+2024-11-21T23:08:29.46 Syncing st-data to remote: mtas-cba-mtas-stc-stability-14288-loadpc-titansim:/local/scratch/mtasbin/st
+2024-11-21T23:08:40.62 Generating setup.pl script from JCAT parameters...
+2024-11-21T23:08:41.41 Initializing MTAS Core components
+2024-11-21T23:08:51.67 Checking IF STC Environment
+2024-11-21T23:08:51.90 STC Environment
+2024-11-21T23:08:51.90 Fetching Cloud Environment Name
+2024-11-21T23:08:52.11 Checking IF STC Environment
+2024-11-21T23:08:52.34 STC Environment
+2024-11-21T23:08:54.20 Licence functionality is not handled by JCAT for vMTAS
+2024-11-21T23:08:54.20 Start syncing st files on configured LoadPCs
+2024-11-21T23:08:55.40 Initializing TitanSim session
+2024-11-21T23:08:56.23 Initializing I-CSCF simulator session
+2024-11-21T23:08:56.62 Initializing MTAS Configurator session
+2024-11-21T23:08:57.78 Initializing SIPp simulator session
+2024-11-21T23:08:58.75 Trying to kill old SIPp processes on Receiver and Sender machines...
+2024-11-21T23:08:58.80 Setting up Data Collection
+2024-11-21T23:08:58.81 Sub Test Step End: Pre_00. Get hold of input parameters - 0:0:57.698
+2024-11-21T23:08:58.81 Test Step 1 End: Setting up test case and environment - 0:0:58.427
+2024-11-21T23:08:58.81 *** OVERALL CONFIGURATION METHOD RESULT ***
+2024-11-21T23:08:58.81 Assertion Passed
+2024-11-21T23:08:58.85 ==================================================
+2024-11-21T23:08:58.85 Test step [1] begin Start executing test procedures
+2024-11-21T23:08:58.85 Test Step 1 End: Start executing test procedures - 0:0:0.001
+2024-11-21T23:08:58.85 ==================================================
+2024-11-21T23:08:58.85 Test step [2] begin ST Environment Setup and Preconditions
+2024-11-21T23:08:58.85 ==================================================
+2024-11-21T23:08:58.85 Sub Test step [2_1] begin Pre_10. Install the node
+2024-11-21T23:08:58.86 Skip installing of MTAS: The MTAS build was not defined in configuration
+2024-11-21T23:08:58.86 Sub Test Step End: Pre_10. Install the node - 0:0:0.002
+2024-11-21T23:08:58.86 ==================================================
+2024-11-21T23:08:58.86 Sub Test step [2_2] begin Pre_20. Create configuration files
+2024-11-21T23:08:58.86 Generating MMT_NA_Bin SIPp traffic configuration...
+2024-11-21T23:10:03.03 Sub Test Step End: Pre_20. Create configuration files - 0:1:4.172
+2024-11-21T23:10:03.03 ==================================================
+2024-11-21T23:10:03.03 Sub Test step [2_3] begin Pre_30. Configure the node
+2024-11-21T23:19:46.89 Node configured successfully!
+2024-11-21T23:19:54.10 Setting up sessions to SUT and surrounding machines...
+2024-11-21T23:19:54.10 Checking IF STC Environment
+2024-11-21T23:19:54.34 STC Environment
+2024-11-21T23:20:09.03 MTAS release version: 1.35.0
+2024-11-21T23:20:09.15 Total Number of core in SC is:- 6
+2024-11-21T23:20:12.04 MTAS release version: 1.35.0
+2024-11-21T23:20:15.05 Short term solution for https://cc-jira.rnd.ki.sw.ericsson.se/browse/MTASJCAT-2199
+2024-11-21T23:20:16.96 Modifying OAM-IP firewall rules to accept more than 10 connections per second...
+2024-11-21T23:20:16.96 Created directory: /local/scratch/mtasbin/test-output-2024-11-21-23-07-56/sutLogs/clurunLogs/
+2024-11-21T23:20:18.71 Sub Test Step End: Pre_30. Configure the node - 0:10:15.673
+2024-11-21T23:20:18.71 ==================================================
+2024-11-21T23:20:18.71 Sub Test step [2_4] begin Pre_40. Visualize assertions
+2024-11-21T23:20:18.71 Sub Test Step End: Pre_40. Visualize assertions - 0:0:0.001
+2024-11-21T23:20:18.71 ==================================================
+2024-11-21T23:20:18.71 Sub Test step [2_5] begin Pre_50. Create DBN backup
+2024-11-21T23:20:19.50 Starting creating backup: mtas-configured_2024_11_21_232018
+2024-11-21T23:20:20.22 Waiting for backup completion...
+2024-11-21T23:24:16.21 Backup creation successfully completed.
+2024-11-21T23:24:16.22 Sub Test Step End: Pre_50. Create DBN backup - 0:3:57.505
+2024-11-21T23:24:16.22 ==================================================
+2024-11-21T23:24:16.22 Sub Test step [2_6] begin Pre_60. Delete TSP PM counter log files
+2024-11-21T23:24:16.22 Done in Trace_10.
+2024-11-21T23:24:16.22 Sub Test Step End: Pre_60. Delete TSP PM counter log files - 0:0:0.000
+2024-11-21T23:24:16.22 ==================================================
+2024-11-21T23:24:16.22 Sub Test step [2_7] begin Pre_70. Delete MTAS PM counter log files
+2024-11-21T23:24:16.22 Done in Trace_10.
+2024-11-21T23:24:16.22 Sub Test Step End: Pre_70. Delete MTAS PM counter log files - 0:0:0.001
+2024-11-21T23:24:16.22 ==================================================
+2024-11-21T23:24:16.22 Sub Test step [2_8] begin Pre_80. Verify that all PM counters are enabled
+2024-11-21T23:24:17.92 PlatformMeasurment is configured!
+2024-11-21T23:24:17.93 Sub Test Step End: Pre_80. Verify that all PM counters are enabled - 0:0:1.707
+2024-11-21T23:24:17.93 ==================================================
+2024-11-21T23:24:17.93 Sub Test step [2_9] begin Pre_90. Verify Load Regulation limit
+2024-11-21T23:24:18.43 Sub Test Step End: Pre_90. Verify Load Regulation limit - 0:0:0.505
+2024-11-21T23:24:18.43 ==================================================
+2024-11-21T23:24:18.43 Sub Test step [2_10] begin Pre_100. Verify node configuration
+2024-11-21T23:24:18.43 Not supported
+2024-11-21T23:24:18.43 Sub Test Step End: Pre_100. Verify node configuration - 0:0:0.000
+2024-11-21T23:24:18.44 ==================================================
+2024-11-21T23:24:18.44 Sub Test step [2_11] begin Pre_105. Start IPSec configuration
+2024-11-21T23:24:18.44 Skip IPSec configuration, as enableIPSec is not set
+2024-11-21T23:24:18.44 Sub Test Step End: Pre_105. Start IPSec configuration - 0:0:0.001
+2024-11-21T23:24:18.44 ==================================================
+2024-11-21T23:24:18.44 Sub Test step [2_12] begin Pre_110. Start tools for traffic generators/responders, except S-CSCF
+2024-11-21T23:24:18.52 Starting TitanSim...
+2024-11-21T23:24:49.78 Starting TitanSim traffic...
+2024-11-21T23:24:50.04 Waiting for diameter links to come up...
+2024-11-21T23:25:32.86 Link status OK according to at4st chkconf!
+2024-11-21T23:25:37.78 Start to check for Diameter link alarms on the node
+2024-11-21T23:25:42.17 No Diameter link alarms found on the node
+2024-11-21T23:25:49.17 Disabled by input parameter
+2024-11-21T23:25:50.02 Sub Test Step End: Pre_110. Start tools for traffic generators/responders, except S-CSCF - 0:1:31.587
+2024-11-21T23:25:50.02 ==================================================
+2024-11-21T23:25:50.02 Sub Test step [2_13] begin Pre_115. MtasHealthCheck
+2024-11-21T23:25:50.02 Checking IF STC Environment
+2024-11-21T23:25:50.25 STC Environment
+2024-11-21T23:25:51.46 Skip installing of MTAS: The MTAS build was not defined in configuration
+2024-11-21T23:25:51.99 Executing MTAS health check and collecting results...
+2024-11-21T23:25:51.99 MTAS release version: 1.35.0
+2024-11-21T23:25:52.00 Type: Full
+2024-11-21T23:27:21.39 MTAS release version: 1.35.0
+2024-11-21T23:27:22.17 MTAS release version: 1.35.0
+2024-11-21T23:27:22.58 Sub Test Step End: Pre_115. MtasHealthCheck - 0:1:32.556
+2024-11-21T23:27:22.58 ==================================================
+2024-11-21T23:27:22.58 Sub Test step [2_14] begin Pre_120. Register subscribers for [ALL_GROUPS]
+2024-11-21T23:27:22.59 preRegistrationSession is waiting : 30 seconds.
+2024-11-21T23:27:52.59 
+2024-11-21T23:27:52.59 Timeout set to: 360 minutes
+2024-11-22T00:10:51.20 Registration started...
+2024-11-22T00:10:51.22 Registration finished! Time: 42 [min] 58 [s]
+2024-11-22T00:12:01.48 Start to check for Diameter link alarms on the node
+2024-11-22T00:12:06.00 No Diameter link alarms found on the node
+2024-11-22T00:12:06.00 Sub Test Step End: Pre_120. Register subscribers for [ALL_GROUPS] - 0:44:43.438
+2024-11-22T00:12:06.00 ==================================================
+2024-11-22T00:12:06.00 Sub Test step [2_15] begin Pre_130. Start S-CSCF traffic responders (receiving side) for ALL_GROUPS
+2024-11-22T00:12:06.01 Sub Test Step End: Pre_130. Start S-CSCF traffic responders (receiving side) for ALL_GROUPS - 0:0:0.003
+2024-11-22T00:12:06.01 ==================================================
+2024-11-22T00:12:06.01 Sub Test step [2_16] begin Pre_140. Start S-CSCF traffic generators (sending side) for ALL_GROUPS
+2024-11-22T00:12:06.01 senderSession is waiting : 120 seconds.
+2024-11-22T00:14:27.42 
+2024-11-22T00:14:27.42 64 processes started on receiving side
+2024-11-22T00:14:27.42 69 processes started on sending side
+2024-11-22T00:14:27.42 Sub Test Step End: Pre_140. Start S-CSCF traffic generators (sending side) for ALL_GROUPS - 0:2:21.415
+2024-11-22T00:14:27.42 ==================================================
+2024-11-22T00:14:27.42 Sub Test step [2_17] begin Pre_150. Schedule automatic DBN backup
+2024-11-22T00:14:27.42 Starting scheduler...
+2024-11-22T00:14:28.19 Scheduler successfully started!
+2024-11-22T00:14:28.19 Sub Test Step End: Pre_150. Schedule automatic DBN backup - 0:0:0.769
+2024-11-22T00:14:28.19 ==================================================
+2024-11-22T00:14:28.20 Sub Test step [2_18] begin Pre_160. Checking alarms
+2024-11-22T00:14:28.20 Skipping pre_160 since skipPre160 is set
+2024-11-22T00:14:28.20 Sub Test Step End: Pre_160. Checking alarms - 0:0:0.001
+2024-11-22T00:14:28.20 Test Step 2 End: ST Environment Setup and Preconditions - 1:5:29.362
+2024-11-22T00:14:28.86 ==================================================
+2024-11-22T00:14:28.86 Test step [3] begin Logging and Monitoring
+2024-11-22T00:14:28.86 ==================================================
+2024-11-22T00:14:28.86 Sub Test step [3_1] begin Trace_5. Collect sut logs
+2024-11-22T00:14:29.58 Sub Test Step End: Trace_5. Collect sut logs - 0:0:0.718
+2024-11-22T00:14:29.58 ==================================================
+2024-11-22T00:14:29.58 Sub Test step [3_2] begin Trace_10. Initializing logging
+2024-11-22T00:14:33.55 Execution of 'EchoCmd' command unsuccessful: ' echo  "" | tee /storage/no-backup/var/log/messages > /dev/null'
+2024-11-22T00:14:35.17 Sub Test Step End: Trace_10. Initializing logging - 0:0:5.586
+2024-11-22T00:14:35.17 ==================================================
+2024-11-22T00:14:35.17 Sub Test step [3_3] begin Trace_20. OPTIONAL Start AppTrace
+2024-11-22T00:14:35.17 Starting AppTrace on CBA...
+2024-11-22T00:14:51.36 Sub Test Step End: Trace_20. OPTIONAL Start AppTrace - 0:0:16.191
+2024-11-22T00:14:51.37 ==================================================
+2024-11-22T00:14:51.37 Sub Test step [3_4] begin Trace_30. OPTIONAL: Start visual monitoring
+2024-11-22T00:14:51.37 Not supported
+2024-11-22T00:14:51.37 Sub Test Step End: Trace_30. OPTIONAL: Start visual monitoring - 0:0:0.000
+2024-11-22T00:14:51.37 Test Step 3 End: Logging and Monitoring - 0:0:22.509
+2024-11-22T00:14:51.37 ==================================================
+2024-11-22T00:14:51.37 Test step [4] begin Traffic Execution
+2024-11-22T00:14:51.37 ==================================================
+2024-11-22T00:14:51.37 Sub Test step [4_1] begin Exec_10. Start TitanSim traffic
+2024-11-22T00:14:51.37 TitanSim has already been started in PRE110
+2024-11-22T00:14:51.37 Sub Test Step End: Exec_10. Start TitanSim traffic - 0:0:0.001
+2024-11-22T00:14:51.37 ==================================================
+2024-11-22T00:14:51.37 Sub Test step [4_2] begin Exec_11. Verify that all TitanSim traffic cases have been started
+2024-11-22T00:14:51.37 Not supported
+2024-11-22T00:14:51.37 Sub Test Step End: Exec_11. Verify that all TitanSim traffic cases have been started - 0:0:0.001
+2024-11-22T00:14:51.37 ==================================================
+2024-11-22T00:14:51.37 Sub Test step [4_3] begin Exec_30. Start SIPp traffic with target cpu load as: 50.0
+2024-11-22T00:14:51.37 Read traffic weight's from database: jdbc:mysql://mtas_jcat_st-mysql-1228.sero.gic.ericsson.se:6446/mtas_jcat_st?serverTimezone=UTC
+2024-11-22T00:14:51.38 Direct configuration of the Flyway object has been deprecated and will be removed in Flyway 6.0. Use Flyway.configure() instead.
+2024-11-22T00:14:51.39 Direct configuration of the Flyway object has been deprecated and will be removed in Flyway 6.0. Use Flyway.configure() instead.
+2024-11-22T00:14:51.39 Direct configuration of the Flyway object has been deprecated and will be removed in Flyway 6.0. Use Flyway.configure() instead.
+2024-11-22T00:14:52.00 Direct configuration retrieval from the Flyway object has been deprecated and will be removed in Flyway 6.0. Use Flyway.getConfiguration() instead.
+2024-11-22T00:14:52.05 No match.
+2024-11-22T00:14:52.05 Could not get Traffic weight from DB.
+2024-11-22T00:14:52.05 Using default startTwValue: 50
+2024-11-22T00:14:52.05 Target TW value: 50 (starting from: 0)
+2024-11-22T00:35:20.34 Fine tuning traffic weight...
+2024-11-22T00:45:23.49 Current TW: 54 - Current CPU load: 50.55633353333333
+2024-11-22T00:45:25.30 Fine tuning done. Current CPU load: 50.55633353333333 with TW value: 54
+2024-11-22T00:45:25.30 Sub Test Step End: Exec_30. Start SIPp traffic with target cpu load as: 50.0 - 0:30:33.929
+2024-11-22T00:45:25.30 ==================================================
+2024-11-22T00:45:25.30 Sub Test step [4_4] begin Exec_31. Verify that all SIPp traffic scenarios have been started
+2024-11-22T00:45:28.56 Sub Test Step End: Exec_31. Verify that all SIPp traffic scenarios have been started - 0:0:3.258
+2024-11-22T00:45:28.56 Test Step 4 End: Traffic Execution - 0:30:37.197
+2024-11-22T00:45:28.57 ==================================================
+2024-11-22T00:45:28.57 Test step [5] begin Start Data Collection
+2024-11-22T00:45:28.57 PM counter sampling interval 900000 milliSeconds
+2024-11-22T00:45:32.35 Retrieved 10 trafficCases from TitanSim in 3778 ms
+2024-11-22T00:45:32.56 Data_10. Collecting Environment Parameters by executing at4st collectSettings
+2024-11-22T00:49:04.02 Data_20. Collecting Test Data
+2024-11-22T00:49:05.45 Data_30. Collecting Characterizing Data
+2024-11-22T00:49:05.45 Default Sampling Interval Seconds : 15
+2024-11-22T00:49:05.45 Default Sampling Interval Seconds : 15
+2024-11-22T00:49:05.45 Default Sampling Interval Seconds : 15
+2024-11-22T00:49:09.75 SNMP port 49684 created
+2024-11-22T00:49:10.58 Test Step 5 End: Start Data Collection - 0:3:42.015
+2024-11-22T00:49:10.60 ==================================================
+2024-11-22T00:49:10.61 Test step [6] begin Test Execution Validity Criteria
+2024-11-22T00:49:10.61 Test Step 6 End: Test Execution Validity Criteria - 0:0:0.001
+2024-11-22T00:49:10.61 Test specific steps
+2024-11-22T00:49:10.61 ==================================================
+2024-11-22T00:49:10.61 Test step [7] begin Start Test Evaluation Period
+2024-11-22T00:49:11.13 ccFindCBA json file not found, cannot say for certain that no capsules were found!
+2024-11-22T00:49:11.17 Estimated execution time: 180 minutes
+2024-11-22T01:04:10.86 ccFindCBA json file not found, cannot say for certain that no capsules were found!
+2024-11-22T01:04:11.18 Test case - StabilityTestCase is still running. Time left: approx. 02 h 45 min
+2024-11-22T01:19:10.83 ccFindCBA json file not found, cannot say for certain that no capsules were found!
+2024-11-22T01:19:11.20 Test case - StabilityTestCase is still running. Time left: approx. 02 h 30 min
+2024-11-22T01:34:10.83 ccFindCBA json file not found, cannot say for certain that no capsules were found!
+2024-11-22T01:34:11.21 Test case - StabilityTestCase is still running. Time left: approx. 02 h 15 min
+2024-11-22T01:49:10.85 ccFindCBA json file not found, cannot say for certain that no capsules were found!
+2024-11-22T01:49:11.23 Test case - StabilityTestCase is still running. Time left: approx. 02 h 00 min
+2024-11-22T02:04:10.83 ccFindCBA json file not found, cannot say for certain that no capsules were found!
+2024-11-22T02:04:11.25 Test case - StabilityTestCase is still running. Time left: approx. 01 h 45 min
+2024-11-22T02:19:10.83 ccFindCBA json file not found, cannot say for certain that no capsules were found!
+2024-11-22T02:19:11.26 Test case - StabilityTestCase is still running. Time left: approx. 01 h 30 min
+2024-11-22T02:34:10.82 ccFindCBA json file not found, cannot say for certain that no capsules were found!
+2024-11-22T02:34:11.28 Test case - StabilityTestCase is still running. Time left: approx. 01 h 15 min
+2024-11-22T02:49:10.81 ccFindCBA json file not found, cannot say for certain that no capsules were found!
+2024-11-22T02:49:11.29 Test case - StabilityTestCase is still running. Time left: approx. 01 h 00 min
+2024-11-22T03:04:10.87 ccFindCBA json file not found, cannot say for certain that no capsules were found!
+2024-11-22T03:04:11.31 Test case - StabilityTestCase is still running. Time left: approx. 00 h 45 min
+2024-11-22T03:19:10.85 ccFindCBA json file not found, cannot say for certain that no capsules were found!
+2024-11-22T03:19:11.33 Test case - StabilityTestCase is still running. Time left: approx. 00 h 30 min
+2024-11-22T03:34:10.84 ccFindCBA json file not found, cannot say for certain that no capsules were found!
+2024-11-22T03:34:11.34 Test case - StabilityTestCase is still running. Time left: approx. 00 h 15 min
+2024-11-22T03:49:10.82 ccFindCBA json file not found, cannot say for certain that no capsules were found!
+2024-11-22T03:49:11.17 ==================================================
+2024-11-22T03:49:11.17 Sub Test step [7_1] begin Post_25. MtasHealthCheck
+2024-11-22T03:49:11.17 Executing MTAS health check and collecting results...
+2024-11-22T03:49:11.74 MTAS release version: 1.35.0
+2024-11-22T03:49:11.75 Type: Full
+2024-11-22T03:50:53.88 MTAS release version: 1.35.0
+2024-11-22T03:50:55.06 MTAS release version: 1.35.0
+2024-11-22T03:50:55.49 Sub Test Step End: Post_25. MtasHealthCheck - 0:1:44.324
+2024-11-22T03:50:55.49 Test Step 7 End: Start Test Evaluation Period - 3:1:44.888
+2024-11-22T03:50:55.49 End of test specific steps
+2024-11-22T03:50:55.49 ==================================================
+2024-11-22T03:50:55.49 Test step [8] begin Stop Test Evaluation Period
+2024-11-22T03:50:55.49 Stop Samplers
+2024-11-22T03:51:09.33 ccFindCBA json file not found, cannot say for certain that no capsules were found!
+2024-11-22T03:51:09.96 Test Step 8 End: Stop Test Evaluation Period - 0:0:14.468
+2024-11-22T03:51:09.97 ==================================================
+2024-11-22T03:51:09.97 Test step [9] begin Collecting logs from SUT and traffic generators...
+2024-11-22T03:51:09.97 Data_10. Collecting Environment Parameters by executing at4st collectSettings
+2024-11-22T03:54:41.30 Collecting listhandler logs
+2024-11-22T03:54:42.32 Collected: /local/scratch/mtasbin/st/system_test/eSIPp/output/MMT_NA_Bin/cblisthandler
+2024-11-22T03:54:42.92 Collected: /local/scratch/mtasbin/st/system_test/eSIPp/output/MMT_NA_Bin/ccateglisthandler
+2024-11-22T03:54:42.93 Skip collecting /local/scratch/mtasbin/st/system_test/eSIPp/output/MMT_NA_Bin/icblisthandler, directory does not exist
+2024-11-22T03:54:42.94 Skip collecting /local/scratch/mtasbin/st/system_test/eSIPp/output/MMT_NA_Bin/sftpd, directory does not exist
+2024-11-22T03:54:43.32 Collecting DNS server data
+2024-11-22T03:54:43.93 Collected: /local/scratch/mtasbin/st/system_test/eSIPp/output/MMT_NA_Bin/bind
+2024-11-22T03:54:47.35 MTAS release version: 1.35.0
+2024-11-22T03:54:48.80 MtasCounterCheck executed, return code [0]
+2024-11-22T04:04:37.40 Created directory: /local/scratch/mtasbin/test-output-2024-11-21-23-07-56/sutLogs//dmidecode
+2024-11-22T04:04:38.00 Created directory: /local/scratch/mtasbin/test-output-2024-11-21-23-07-56/sutLogs//proc_cpuinfo
+2024-11-22T04:04:48.20 Test Step 9 End: Collecting logs from SUT and traffic generators... - 0:13:38.227
+2024-11-22T04:04:49.76 ==================================================
+2024-11-22T04:04:49.81 Test step [10] begin Test Result Evaluation Criteria
+2024-11-22T04:04:49.81 ==================================================
+2024-11-22T04:04:49.81 Sub Test step [10_1] begin EVAL_10. Evaluate visual monitoring
+2024-11-22T04:04:49.81 Not supported
+2024-11-22T04:04:49.81 Sub Test Step End: EVAL_10. Evaluate visual monitoring - 0:0:0.002
+2024-11-22T04:04:49.81 ==================================================
+2024-11-22T04:04:49.81 Sub Test step [10_2] begin EVAL_20. Number of node outages during the test
+2024-11-22T04:04:49.81 Nr of outage during the test: 0
+2024-11-22T04:04:49.81 Sub Test Step End: EVAL_20. Number of node outages during the test - 0:0:0.001
+2024-11-22T04:04:49.81 ==================================================
+2024-11-22T04:04:49.81 Sub Test step [10_3] begin EVAL_30. Number of alarms during the test
+2024-11-22T04:04:49.81 Nr of alarms: 0
+2024-11-22T04:04:49.81 Sub Test Step End: EVAL_30. Number of alarms during the test - 0:0:0.001
+2024-11-22T04:04:49.82 ==================================================
+2024-11-22T04:04:49.82 Sub Test step [10_4] begin EVAL_50. Evenly spread CPU load across TPs/PLs (CRS)
+2024-11-22T04:04:49.83 Average of CV value: 2.6545626640770252
+2024-11-22T04:04:49.83 Min CV value: 0.008210965385515807
+2024-11-22T04:04:49.83 Max CV value: 16.304867598173075
+2024-11-22T04:04:49.83 Sub Test Step End: EVAL_50. Evenly spread CPU load across TPs/PLs (CRS) - 0:0:0.012
+2024-11-22T04:04:49.83 ==================================================
+2024-11-22T04:04:49.83 Sub Test step [10_5] begin EVAL_51. Evenly spread Stable/Unstable Sessions across TPs/PLs (CRS)
+2024-11-22T04:04:49.83 Not supported
+2024-11-22T04:04:49.83 Sub Test Step End: EVAL_51. Evenly spread Stable/Unstable Sessions across TPs/PLs (CRS) - 0:0:0.001
+2024-11-22T04:04:49.83 ==================================================
+2024-11-22T04:04:49.83 Sub Test step [10_6] begin EVAL_52. Evenly spread System/Application Processes across TPs/PLs (CRS)
+2024-11-22T04:04:49.83 Average of CV value: 0.0
+2024-11-22T04:04:49.83 Min CV value: 0.0
+2024-11-22T04:04:49.83 Max CV value: 0.0
+2024-11-22T04:04:49.83 Average of CV value: 2.640903735664583
+2024-11-22T04:04:49.83 Min CV value: 0.0
+2024-11-22T04:04:49.83 Max CV value: 12.61730969760167
+2024-11-22T04:04:49.83 Sub Test Step End: EVAL_52. Evenly spread System/Application Processes across TPs/PLs (CRS) - 0:0:0.006
+2024-11-22T04:04:49.83 ==================================================
+2024-11-22T04:04:49.83 Sub Test step [10_7] begin EVAL_53. Evenly spread Initial Registration Requests Handled across TPs/PLs (CRS)
+2024-11-22T04:04:49.83 Not supported
+2024-11-22T04:04:49.84 Sub Test Step End: EVAL_53. Evenly spread Initial Registration Requests Handled across TPs/PLs (CRS) - 0:0:0.000
+2024-11-22T04:04:49.84 ==================================================
+2024-11-22T04:04:49.84 Sub Test step [10_8] begin EVAL_54. Evenly spread CAI3G and XCAP Requests Handled across TP/PL (CRS)
+2024-11-22T04:04:49.84 Not supported
+2024-11-22T04:04:49.84 Sub Test Step End: EVAL_54. Evenly spread CAI3G and XCAP Requests Handled across TP/PL (CRS) - 0:0:0.000
+2024-11-22T04:04:49.84 ==================================================
+2024-11-22T04:04:49.84 Sub Test step [10_9] begin EVAL_55. Evenly spread DBN utilization across TPs/PLs (CRS)
+2024-11-22T04:04:49.84 Average of CV value: 0.003696482389388348
+2024-11-22T04:04:49.84 Min CV value: 0.0
+2024-11-22T04:04:49.84 Max CV value: 0.9174311926605505
+2024-11-22T04:04:49.84 Sub Test Step End: EVAL_55. Evenly spread DBN utilization across TPs/PLs (CRS) - 0:0:0.005
+2024-11-22T04:04:49.84 ==================================================
+2024-11-22T04:04:49.84 Sub Test step [10_10] begin EVAL_56. Evenly spread Dicos MultiMap Memory utilization across PLs (vMTAS) (CRS)
+2024-11-22T04:04:49.85 Average of CV value: 1.454089096940752
+2024-11-22T04:04:49.85 Min CV value: 0.0
+2024-11-22T04:04:49.85 Max CV value: 4.761904761904762
+2024-11-22T04:04:49.85 Sub Test Step End: EVAL_56. Evenly spread Dicos MultiMap Memory utilization across PLs (vMTAS) (CRS) - 0:0:0.004
+2024-11-22T04:04:49.85 ==================================================
+2024-11-22T04:04:49.85 Sub Test step [10_11] begin EVAL_57. Evenly spread TIPC Signaller Queue Utilization across TP/PL (CRS)
+2024-11-22T04:04:49.85 Average of CV value: 1.8938056271321215
+2024-11-22T04:04:49.85 Min CV value: 0.0
+2024-11-22T04:04:49.85 Max CV value: 9.010339734121123
+2024-11-22T04:04:49.85 Sub Test Step End: EVAL_57. Evenly spread TIPC Signaller Queue Utilization across TP/PL (CRS) - 0:0:0.003
+2024-11-22T04:04:49.85 ==================================================
+2024-11-22T04:04:49.85 Sub Test step [10_12] begin Eval_59. Evenly spread VMShared Memory utilization across PLs (vMTAS) (CRS)
+2024-11-22T04:04:49.86 Average of CV value: 0.0
+2024-11-22T04:04:49.86 Min CV value: 0.0
+2024-11-22T04:04:49.86 Max CV value: 0.0
+2024-11-22T04:04:49.86 Sub Test Step End: Eval_59. Evenly spread VMShared Memory utilization across PLs (vMTAS) (CRS) - 0:0:0.006
+2024-11-22T04:04:49.86 ==================================================
+2024-11-22T04:04:49.86 Sub Test step [10_13] begin EVAL_60_TREND. Stable CPU load per TP/PL
+2024-11-22T04:04:49.86 Value: : 3.1943595788098476 , threshold: : 5.0
+2024-11-22T04:04:49.86 Value: : 0.8774718556501524 , threshold: : 5.0
+2024-11-22T04:04:49.86 Sub Test Step End: EVAL_60_TREND. Stable CPU load per TP/PL - 0:0:0.006
+2024-11-22T04:04:49.86 ==================================================
+2024-11-22T04:04:49.86 Sub Test step [10_14] begin EVAL_60_VAR. Stable CPU load per TP/PL
+2024-11-22T04:04:49.87 Value: {0}, threshold: {1}
+2024-11-22T04:04:49.87 Value: {0}, threshold: {1}
+2024-11-22T04:04:49.87 Sub Test Step End: EVAL_60_VAR. Stable CPU load per TP/PL - 0:0:0.003
+2024-11-22T04:04:49.87 ==================================================
+2024-11-22T04:04:49.87 Sub Test step [10_15] begin B-TESTING_EVAL_70_TREND. Stable total memory usage per TP/PL
+2024-11-22T04:04:49.87 Value: 1.2395929694727126, threshold: 5.0
+2024-11-22T04:04:49.87 Value: 0.0, threshold: 5.0
+2024-11-22T04:04:49.87 Sub Test Step End: B-TESTING_EVAL_70_TREND. Stable total memory usage per TP/PL - 0:0:0.003
+2024-11-22T04:04:49.87 ==================================================
+2024-11-22T04:04:49.87 Sub Test step [10_16] begin EVAL_70_VAR. Stable total memory usage per TP/PL
+2024-11-22T04:04:49.87 Value: {0}, threshold: {1}
+2024-11-22T04:04:49.87 Value: {0}, threshold: {1}
+2024-11-22T04:04:49.87 Sub Test Step End: EVAL_70_VAR. Stable total memory usage per TP/PL - 0:0:0.003
+2024-11-22T04:04:49.87 ==================================================
+2024-11-22T04:04:49.87 Sub Test step [10_17] begin B-TESTING_EVAL_80_TREND. Stable DBN usage per TP/PL
+2024-11-22T04:04:49.88 Value: 8.783691879882268, threshold: 7.000000000000001
+2024-11-22T04:04:49.88 Value: 8.783941480184032, threshold: 7.000000000000001
+2024-11-22T04:04:49.88 Sub Test Step End: B-TESTING_EVAL_80_TREND. Stable DBN usage per TP/PL - 0:0:0.003
+2024-11-22T04:04:49.88 ==================================================
+2024-11-22T04:04:49.88 Sub Test step [10_18] begin EVAL_80_VAR. Stable DBN usage per TP/PL
+2024-11-22T04:04:49.88 Value: {0}, threshold: {1}
+2024-11-22T04:04:49.88 Value: {0}, threshold: {1}
+2024-11-22T04:04:49.88 Sub Test Step End: EVAL_80_VAR. Stable DBN usage per TP/PL - 0:0:0.003
+2024-11-22T04:04:49.88 ==================================================
+2024-11-22T04:04:49.88 Sub Test step [10_19] begin EVAL_90_TREND. Stable number of system processes per TP/PL
+2024-11-22T04:04:49.88 Value: 0.0, threshold: 5.0
+2024-11-22T04:04:49.88 Value: 0.0, threshold: 5.0
+2024-11-22T04:04:49.88 Sub Test Step End: EVAL_90_TREND. Stable number of system processes per TP/PL - 0:0:0.003
+2024-11-22T04:04:49.88 ==================================================
+2024-11-22T04:04:49.88 Sub Test step [10_20] begin EVAL_90_VAR. Stable number of system processes per TP/PL
+2024-11-22T04:04:49.89 Value: {0}, threshold: {1}
+2024-11-22T04:04:49.89 Value: {0}, threshold: {1}
+2024-11-22T04:04:49.90 Sub Test Step End: EVAL_90_VAR. Stable number of system processes per TP/PL - 0:0:0.011
+2024-11-22T04:04:49.90 ==================================================
+2024-11-22T04:04:49.90 Sub Test step [10_21] begin B-TESTING_EVAL_100_TREND. Stable Static Processes memory usage per TP/PL
+2024-11-22T04:04:49.91 Sub Test Step End: B-TESTING_EVAL_100_TREND. Stable Static Processes memory usage per TP/PL - 0:0:0.015
+2024-11-22T04:04:49.91 ==================================================
+2024-11-22T04:04:49.91 Sub Test step [10_22] begin B-TESTING_EVAL_100_VAR. Stable Static Processes memory usage per TP/PL
+2024-11-22T04:04:49.91 Sub Test Step End: B-TESTING_EVAL_100_VAR. Stable Static Processes memory usage per TP/PL - 0:0:0.002
+2024-11-22T04:04:49.91 ==================================================
+2024-11-22T04:04:49.91 Sub Test step [10_23] begin EVAL_115. Result of Post Health Check
+2024-11-22T04:04:49.91 Healthcheck passed
+2024-11-22T04:04:49.91 Sub Test Step End: EVAL_115. Result of Post Health Check - 0:0:0.001
+2024-11-22T04:04:49.91 ==================================================
+2024-11-22T04:04:49.92 Sub Test step [10_24] begin EVAL_130. Evenly spread Total Memory utilization across TPs/PLs
+2024-11-22T04:04:49.92 Value: 0.5939313335215889 Threshold:15.0
+2024-11-22T04:04:49.92 Sub Test Step End: EVAL_130. Evenly spread Total Memory utilization across TPs/PLs - 0:0:0.002
+2024-11-22T04:04:49.92 ==================================================
+2024-11-22T04:04:49.92 Sub Test step [10_25] begin EVAL_140. CA Occurrences per TP/PL per hour in dynamic processes
+2024-11-22T04:04:49.92 Dynamic CA on PL-4: 0
+2024-11-22T04:04:49.92 Dynamic CA on PL-3: 0
+2024-11-22T04:04:49.92 Sub Test Step End: EVAL_140. CA Occurrences per TP/PL per hour in dynamic processes - 0:0:0.002
+2024-11-22T04:04:49.92 ==================================================
+2024-11-22T04:04:49.92 Sub Test step [10_26] begin EVAL_150. CA Occurrences per TP/PL per hour in static processes
+2024-11-22T04:04:49.92 Static CA on PL-4: 0
+2024-11-22T04:04:49.92 Static CA on PL-3: 0
+2024-11-22T04:04:49.92 Sub Test Step End: EVAL_150. CA Occurrences per TP/PL per hour in static processes - 0:0:0.000
+2024-11-22T04:04:49.92 ==================================================
+2024-11-22T04:04:49.92 Sub Test step [10_27] begin EVAL_160. PM counters must correlate to traffic
+2024-11-22T04:04:49.92 Not supported
+2024-11-22T04:04:49.92 Sub Test Step End: EVAL_160. PM counters must correlate to traffic   - 0:0:0.000
+2024-11-22T04:04:49.92 ==================================================
+2024-11-22T04:04:49.92 Sub Test step [10_28] begin EVAL_170_TITANSIM. No success rate trend at traffic generators/responders
+2024-11-22T04:04:49.92 Sub Test Step End: EVAL_170_TITANSIM. No success rate trend at traffic generators/responders - 0:0:0.000
+2024-11-22T04:04:49.92 ==================================================
+2024-11-22T04:04:49.92 Sub Test step [10_29] begin EVAL_170_SIPP. No success rate trend at traffic generators/responders
+2024-11-22T04:04:49.95 Sub Test Step End: EVAL_170_SIPP. No success rate trend at traffic generators/responders - 0:0:0.022
+2024-11-22T04:04:49.95 ==================================================
+2024-11-22T04:04:49.95 Sub Test step [10_30] begin EVAL_180. No external success rate trend according to MTAS PM counter
+2024-11-22T04:04:49.95 Not supported
+2024-11-22T04:04:49.95 Sub Test Step End: EVAL_180. No external success rate trend according to MTAS PM counter - 0:0:0.001
+2024-11-22T04:04:49.95 ==================================================
+2024-11-22T04:04:49.95 Sub Test step [10_31] begin EVAL_190. No internal success rate trend according to MTAS PM counter
+2024-11-22T04:04:49.95 Not supported
+2024-11-22T04:04:49.95 Sub Test Step End: EVAL_190. No internal success rate trend according to MTAS PM counter - 0:0:0.000
+2024-11-22T04:04:49.95 ==================================================
+2024-11-22T04:04:49.95 Sub Test step [10_32] begin B-TESTING_EVAL_200. System Availability
+2024-11-22T04:04:49.95 System Availability: 100.00000 % , threshold:  99.98 %
+2024-11-22T04:04:49.95 Sub Test Step End: B-TESTING_EVAL_200. System Availability - 0:0:0.005
+2024-11-22T04:04:49.95 ==================================================
+2024-11-22T04:04:49.96 Sub Test step [10_33] begin B-TESTING_EVAL_205. Service Accessability
+2024-11-22T04:04:49.96 System Accessibility: 100.00000% , threshold:
+2024-11-22T04:04:49.96 Sub Test Step End: B-TESTING_EVAL_205. Service Accessability - 0:0:0.001
+2024-11-22T04:04:49.96 ==================================================
+2024-11-22T04:04:49.96 Sub Test step [10_34] begin B-TESTING_EVAL_210. Session Retainability
+2024-11-22T04:04:49.96 Session Retainability: 100.00000%, threshold: 99.99%
+2024-11-22T04:04:49.96 Sub Test Step End: B-TESTING_EVAL_210. Session Retainability - 0:0:0.001
+2024-11-22T04:04:49.96 ==================================================
+2024-11-22T04:04:49.96 Sub Test step [10_35] begin EVAL_220_SIPP. Average success SIP rate at traffic generators/responders
+2024-11-22T04:04:49.96 Sub Test Step End: EVAL_220_SIPP. Average success SIP rate at traffic generators/responders - 0:0:0.001
+2024-11-22T04:04:49.96 ==================================================
+2024-11-22T04:04:49.96 Sub Test step [10_36] begin EVAL_220_TITANSIM. Average success TitanSim rate at traffic generators/responders
+2024-11-22T04:04:49.96 Average SIP success rate is: 100.00%
+2024-11-22T04:04:49.96 Average TitanSim success rate is: 100.00%
+2024-11-22T04:04:49.96 Sub Test Step End: EVAL_220_TITANSIM. Average success TitanSim rate at traffic generators/responders  - 0:0:0.002
+2024-11-22T04:04:49.96 ==================================================
+2024-11-22T04:04:49.96 Sub Test step [10_37] begin EVAL_230_SIPP. Average external success rate vs. average success rate at traffic generators/responders.
+2024-11-22T04:04:49.96 Not supported
+2024-11-22T04:04:49.96 Sub Test Step End: EVAL_230_SIPP. Average external success rate vs. average success rate at traffic generators/responders. - 0:0:0.000
+2024-11-22T04:04:49.96 ==================================================
+2024-11-22T04:04:49.96 Sub Test step [10_38] begin EVAL_230_TITANSIM. Average external success rate vs. average success rate at traffic generators/responders.
+2024-11-22T04:04:49.96 Not supported
+2024-11-22T04:04:49.96 Sub Test Step End: EVAL_230_TITANSIM. Average external success rate vs. average success rate at traffic generators/responders. - 0:0:0.000
+2024-11-22T04:04:49.96 ==================================================
+2024-11-22T04:04:49.96 Sub Test step [10_39] begin EVAL_240_SIPP. Lowest SIP Success rate per individual traffic scenario
+2024-11-22T04:04:49.96 Sub Test Step End: EVAL_240_SIPP. Lowest SIP Success rate per individual traffic scenario - 0:0:0.000
+2024-11-22T04:04:49.96 ==================================================
+2024-11-22T04:04:49.96 Sub Test step [10_40] begin EVAL_240_TITANSIM. Lowest TitanSim Success rate per individual traffic scenario
+2024-11-22T04:04:49.97 Lowest SIP traffic throughput for finished calls between 100 and 1000 is: 100.00%
+2024-11-22T04:04:49.97 Checking SIPP scenarios for finished calls more than 1000
+2024-11-22T04:04:49.97 Lowest TitanSim traffic throughput for finished calls between 100 and 1000 is:100.00%
+2024-11-22T04:04:49.97 Checking TitanSim scenarios for finished calls more than 1000
+2024-11-22T04:04:49.97 Sub Test Step End: EVAL_240_TITANSIM. Lowest TitanSim Success rate per individual traffic scenario - 0:0:0.010
+2024-11-22T04:04:49.97 ==================================================
+2024-11-22T04:04:49.98 Sub Test step [10_41] begin EVAL_250. Duration of Event with Low availability
+2024-11-22T04:04:49.98 Not supported
+2024-11-22T04:04:49.98 Sub Test Step End: EVAL_250. Duration of Event with Low availability  - 0:0:0.001
+2024-11-22T04:04:49.98 ==================================================
+2024-11-22T04:04:49.98 Sub Test step [10_42] begin EVAL_260. Duration of Event with Service Outage
+2024-11-22T04:04:49.98 Not supported
+2024-11-22T04:04:49.98 Sub Test Step End: EVAL_260. Duration of Event with Service Outage - 0:0:0.001
+2024-11-22T04:04:49.98 ==================================================
+2024-11-22T04:04:49.98 Sub Test step [10_43] begin EVAL_270. Maximum amount of terminated processes Occurrences in sliding window
+2024-11-22T04:04:49.98 Max amount of terminated processes is: 0
+2024-11-22T04:04:49.98 Sub Test Step End: EVAL_270. Maximum amount of terminated processes Occurrences in sliding window - 0:0:0.001
+2024-11-22T04:04:49.98 ==================================================
+2024-11-22T04:04:49.98 Sub Test step [10_44] begin EVAL_280. Maximum amount of removed POTs Occurrences in sliding window
+2024-11-22T04:04:49.98 Max amount of removed POTs is: 0
+2024-11-22T04:04:49.98 Sub Test Step End: EVAL_280. Maximum amount of removed POTs Occurrences in sliding window - 0:0:0.000
+2024-11-22T04:04:49.98 ==================================================
+2024-11-22T04:04:49.98 Sub Test step [10_45] begin EVAL_300. Maximum amount of process restarts Occurrences in sliding window
+2024-11-22T04:04:49.98 Max amount of Process Restarts is: 0
+2024-11-22T04:04:49.98 Sub Test Step End: EVAL_300. Maximum amount of process restarts Occurrences in sliding window - 0:0:0.001
+2024-11-22T04:04:49.98 ==================================================
+2024-11-22T04:04:49.98 Sub Test step [10_46] begin EVAL_350_TREND. Stable Dicos MultiMap memory usage per PL
+2024-11-22T04:04:49.98 Value: 2.7890238416554163, threshold: 5.0
+2024-11-22T04:04:49.98 Value: 1.7364203027604737, threshold: 5.0
+2024-11-22T04:04:49.98 Sub Test Step End: EVAL_350_TREND. Stable Dicos MultiMap memory usage per PL - 0:0:0.002
+2024-11-22T04:04:49.98 ==================================================
+2024-11-22T04:04:49.99 Sub Test step [10_47] begin EVAL_350_VAR. Stable Dicos MultiMap memory usage per PL
+2024-11-22T04:04:49.99 Value: {0}, threshold: {1}
+2024-11-22T04:04:49.99 Value: {0}, threshold: {1}
+2024-11-22T04:04:49.99 Sub Test Step End: EVAL_350_VAR. Stable Dicos MultiMap memory usage per PL - 0:0:0.002
+2024-11-22T04:04:49.99 ==================================================
+2024-11-22T04:04:49.99 Sub Test step [10_48] begin EVAL_360_TREND. Stable VMShared memory usage per PL
+2024-11-22T04:04:49.99 Sub Test Step End: EVAL_360_TREND. Stable VMShared memory usage per PL  - 0:0:0.000
+2024-11-22T04:04:49.99 ==================================================
+2024-11-22T04:04:49.99 Sub Test step [10_49] begin EVAL_360_VAR. Stable VMShared memory usage per PL
+2024-11-22T04:04:49.99 Value: 0.0, threshold: 5.0
+2024-11-22T04:04:49.99 Value: 0.0, threshold: 5.0
+2024-11-22T04:04:49.99 Value: {0}, threshold: {1}
+2024-11-22T04:04:49.99 Value: {0}, threshold: {1}
+2024-11-22T04:04:49.99 Sub Test Step End: EVAL_360_VAR. Stable VMShared memory usage per PL  - 0:0:0.004
+2024-11-22T04:04:49.99 ==================================================
+2024-11-22T04:04:49.99 Sub Test step [10_50] begin EVAL_400. Less than thirty Warning level AppTraceWarning per minute per type per file
+2024-11-22T04:04:50.05 Sub Test Step End: EVAL_400. Less than thirty Warning level AppTraceWarning per minute per type per file - 0:0:0.053
+2024-11-22T04:04:50.05 ==================================================
+2024-11-22T04:04:50.05 Sub Test step [10_51] begin EVAL_401. Number of Critical level AppTraceWarnings
+2024-11-22T04:04:50.05 Sub Test Step End: EVAL_401. Number of Critical level AppTraceWarnings - 0:0:0.006
+2024-11-22T04:04:50.05 ==================================================
+2024-11-22T04:04:50.05 Sub Test step [10_52] begin B-TESTING_EVAL_410. Less than fifty large outgoing IP packages per MTU cache refresh time per FEE
+2024-11-22T04:04:50.05 Not applicable
+2024-11-22T04:04:50.06 Sub Test Step End: B-TESTING_EVAL_410. Less than fifty large outgoing IP packages per MTU cache refresh time per FEE - 0:0:0.000
+2024-11-22T04:04:50.06 Test Step 10 End: Test Result Evaluation Criteria - 0:0:0.294
+2024-11-22T04:04:50.06 ==================================================
+2024-11-22T04:04:50.06 Test step [11] begin Collecting data and sending to Kafka
+2024-11-22T04:04:50.06 Collecting data to send to Kafka
+2024-11-22T04:04:50.06 MTAS failed to meet one or several evalution criterias defined in the test instruction. See test report page for more information.
+2024-11-22T04:04:50.06 ExecutionResult: FAILED
+2024-11-22T04:04:56.02 CXP number: ESM
+2024-11-22T04:04:56.89 Rstate: R36A67
+2024-11-22T04:04:56.89 Generating log file: <a href="./aia/AiaDataMessage.json">AiaDataMessage.json</a>
+2024-11-22T04:05:02.18 AiaDataMessage saved to <a href="./aia/AiaDataMessage.json">AiaDataMessage</a>
+2024-11-22T04:05:02.18 Sending data to Kafka, broker is: http://10.63.36.36:10074
+2024-11-22T04:05:02.19 Reflections took 5083 ms to scan 1 urls, producing 93 keys and 16722 values
+2024-11-22T04:05:07.19 Reflections took 4948 ms to scan 1 urls, producing 93 keys and 16722 values
+2024-11-22T04:06:07.30 Error happened during sending/evaluating AIA data
+2024-11-22T04:06:07.77 se.ericsson.mtas.st.aia.AiaException: Could not send data to Kafka
+2024-11-22T04:06:07.77 	at se.ericsson.mtas.st.aia.AiaDataHandler.sendToKafka(AiaDataHandler.java:291) ~[mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at se.ericsson.mtas.st.testcase.SystemTestCase.executeAiaRelatedTasksWithoutExceptionHandling(SystemTestCase.java:1249) ~[mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at se.ericsson.mtas.st.testcase.SystemTestCase.executeAiaRelatedTasks(SystemTestCase.java:1224) [mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at se.ericsson.mtas.st.testcase.StabilityTestCase.testResultEvaluation(StabilityTestCase.java:257) [mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at se.ericsson.mtas.st.testcase.SystemTestCase.test(SystemTestCase.java:520) [mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+2024-11-22T04:06:07.77 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+2024-11-22T04:06:07.77 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+2024-11-22T04:06:07.77 	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+2024-11-22T04:06:07.77 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86) [mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643) [mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820) [mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128) [mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129) [mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112) [mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at org.testng.TestRunner.privateRun(TestRunner.java:782) [mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at org.testng.TestRunner.run(TestRunner.java:632) [mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366) [mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361) [mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319) [mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at org.testng.SuiteRunner.run(SuiteRunner.java:268) [mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244) [mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169) [mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at org.testng.TestNG.run(TestNG.java:1064) [mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at org.testng.TestNG.privateMain(TestNG.java:1385) [mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at org.testng.TestNG.main(TestNG.java:1354) [mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 Caused by: java.util.concurrent.ExecutionException: org.apache.kafka.common.errors.TimeoutException: Failed to update metadata after 60000 ms.
+2024-11-22T04:06:07.77 	at org.apache.kafka.clients.producer.KafkaProducer$FutureFailure.<init>(KafkaProducer.java:1108) ~[mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at org.apache.kafka.clients.producer.KafkaProducer.doSend(KafkaProducer.java:808) ~[mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at org.apache.kafka.clients.producer.KafkaProducer.send(KafkaProducer.java:745) ~[mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at org.apache.kafka.clients.producer.KafkaProducer.send(KafkaProducer.java:634) ~[mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at com.ericsson.commonlibrary.kafka.avro.producer.KafkaAvroProducer.produce(KafkaAvroProducer.java:72) ~[mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	at se.ericsson.mtas.st.aia.AiaDataHandler.sendToKafka(AiaDataHandler.java:287) ~[mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar:?]
+2024-11-22T04:06:07.77 	... 27 more
+2024-11-22T04:06:07.77 Caused by: org.apache.kafka.common.errors.TimeoutException: Failed to update metadata after 60000 ms.
+2024-11-22T04:06:07.77 Test Step 11 End: Collecting data and sending to Kafka - 0:1:17.242
+2024-11-22T04:06:07.77 ==================================================
+2024-11-22T04:06:11.90 Test step [12] begin Postconditions
+2024-11-22T04:06:11.90 ==================================================
+2024-11-22T04:06:11.90 Sub Test step [12_1] begin Post_10.  Stop generating traffic
+2024-11-22T04:06:11.90 Sub Test Step End: Post_10.  Stop generating traffic - 0:0:4.133
+2024-11-22T04:06:11.91 ==================================================
+2024-11-22T04:06:11.91 Sub Test step [12_2] begin Post_20.  Let ongoing short S-CSCF calls complete
+2024-11-22T04:06:11.91 Wait for 7 minutes
+2024-11-22T04:06:11.91 Estimated execution time: 7 minutes
+2024-11-22T04:13:11.91 Sub Test Step End: Post_20.  Let ongoing short S-CSCF calls complete - 0:7:0.002
+2024-11-22T04:13:11.91 ==================================================
+2024-11-22T04:13:11.91 Sub Test step [12_3] begin Post_30.  Close S-CSCF traffic generators/responders
+2024-11-22T04:13:14.35 Sub Test Step End: Post_30.  Close S-CSCF traffic generators/responders - 0:0:2.443
+2024-11-22T04:13:14.36 ==================================================
+2024-11-22T04:13:14.36 Sub Test step [12_4] begin Post_40.  Terminate ongoing long S-CSCF calls
+2024-11-22T04:13:14.36 Wait for 30 minutes
+2024-11-22T04:13:14.36 Estimated execution time: 30 minutes
+2024-11-22T04:28:14.37 Test case - StabilityTestCase is still running. Time left: approx. 00 h 15 min
+2024-11-22T04:43:14.36 Sub Test Step End: Post_40.  Terminate ongoing long S-CSCF calls - 0:30:0.002
+2024-11-22T04:43:14.36 ==================================================
+2024-11-22T04:43:14.36 Sub Test step [12_5] begin Post_50.  Stop traffic and close traffic generators/responders
+2024-11-22T04:43:14.36 Closure not done at this point in time
+2024-11-22T04:43:15.43 Sub Test Step End: Post_50.  Stop traffic and close traffic generators/responders - 0:0:1.065
+2024-11-22T04:43:15.43 ==================================================
+2024-11-22T04:43:15.43 Sub Test step [12_6] begin POST_60. No SubscriberState_POTs left in DBN
+2024-11-22T04:43:15.44 Average number of POTs in DBN during traffic execution: 6485.777777777777
+2024-11-22T04:43:15.44 Number of POTs left in DBN after traffic: 0
+2024-11-22T04:43:15.44 POTs left in DBN: 0.0%, threshold: 1.0%
+2024-11-22T04:43:15.44 Sub Test Step End: POST_60. No SubscriberState_POTs left in DBN - 0:0:0.012
+2024-11-22T04:43:15.44 ==================================================
+2024-11-22T04:43:15.44 Sub Test step [12_7] begin Post_70.  Optional: Stop scripts/tools for visual monitoring
+2024-11-22T04:43:15.44 Not supported
+2024-11-22T04:43:15.44 Sub Test Step End: Post_70.  Optional: Stop scripts/tools for visual monitoring - 0:0:0.000
+2024-11-22T04:43:15.44 ==================================================
+2024-11-22T04:43:15.44 Sub Test step [12_8] begin Post_80.  Stop AppTrace
+2024-11-22T04:43:15.44 Stopping AppTrace on CBA.
+2024-11-22T04:43:18.33 Sub Test Step End: Post_80.  Stop AppTrace - 0:0:2.883
+2024-11-22T04:43:18.33 ==================================================
+2024-11-22T04:43:18.33 Sub Test step [12_9] begin Post_90.  Deactivate scheduled DBN backup
+2024-11-22T04:43:18.33 Stopping scheduler...
+2024-11-22T04:43:18.98 Scheduler stopped.
+2024-11-22T04:43:18.98 Sub Test Step End: Post_90.  Deactivate scheduled DBN backup - 0:0:0.650
+2024-11-22T04:43:18.98 ==================================================
+2024-11-22T04:43:18.98 Sub Test step [12_10] begin Post_100.  Issue trouble reports/tickets
+2024-11-22T04:43:18.98 Not supported
+2024-11-22T04:43:18.98 Sub Test Step End: Post_100.  Issue trouble reports/tickets - 0:0:0.000
+2024-11-22T04:43:18.98 ==================================================
+2024-11-22T04:43:18.98 Sub Test step [12_11] begin Post_105.  Stop IPSec configurations.
+2024-11-22T04:43:21.96 IPSec configuration is not present.
+2024-11-22T04:43:21.97 Sub Test Step End: Post_105.  Stop IPSec configurations. - 0:0:2.992
+2024-11-22T04:43:21.97 ==================================================
+2024-11-22T04:43:21.98 Sub Test step [12_12] begin Post_110.  Report status and link to the stored data
+2024-11-22T04:43:21.98 Not fully supported (only dumping CSV files to disk supported)
+2024-11-22T04:43:21.98 Sub Test Step End: Post_110.  Report status and link to the stored data - 0:0:0.001
+2024-11-22T04:43:21.98 Test Step 12 End: Postconditions - 0:37:14.208
+2024-11-22T04:43:21.98 ==================================================
+2024-11-22T04:43:21.98 Test step [13] begin Close CSV files used for raw values.
+2024-11-22T04:43:21.99 Test Step 13 End: Close CSV files used for raw values. - 0:0:0.012
+2024-11-22T04:43:29.21 Checking IF STC Environment
+2024-11-22T04:43:29.47 STC Environment
+2024-11-22T04:43:30.33 Fetching Hypervisor Information
+2024-11-22T04:43:33.13 *** OVERALL TESTCASE RESULT ***
+2024-11-22T04:43:33.16 Assertion Passed
+2024-11-22T04:43:33.16 ==================================================
+2024-11-22T04:43:33.16 Test step [1] begin Tearing down test
+2024-11-22T04:43:33.16 Tearing down SS7 stack and simulators
+2024-11-22T04:43:33.16 Trying to Stop SS7 Stack if running
+2024-11-22T04:43:33.43 Found 0 sip processes on machine: mtas-cba-mtas-stc-stability-14288-loadpc-sender
+2024-11-22T04:43:33.46 Found 0 sip processes on machine: mtas-cba-mtas-stc-stability-14288-loadpc-receiver
+2024-11-22T04:43:33.60 Removing backups
+2024-11-22T04:44:21.82 Backup mtas-configured_2024_11_21_232018 deleted successfully!
+2024-11-22T04:44:21.82 Could not stop AppTrace. Please check log files!
+2024-11-22T04:44:24.41 Ignored incoming exception <ScsvEndOfStreamException>: Reached end of stream.
+2024-11-22T04:44:24.41 Ignored incoming exception <ScsvEndOfStreamException>: Reached end of stream.
+2024-11-22T04:44:26.09 Test Step 1 End: Tearing down test - 0:0:52.935
+2024-11-22T04:44:26.09 ==================================================
+2024-11-22T04:44:26.09 Test step [2] begin Creating diagram and saving report
+2024-11-22T04:44:26.09 Create time based diagrams
+2024-11-22T04:45:57.87 MTAS failed to meet one or several evalution criterias defined in the test instruction. See test report page for more information.
+2024-11-22T04:46:03.55 Generating html report...
+2024-11-22T04:46:03.55 CONTENT GENERATOR: Capsule abortion html page was not generated due to lack of data
+2024-11-22T04:46:04.13 CONTENT GENERATOR: Alarms page html was not generated due to lack of data
+2024-11-22T04:46:04.13 CONTENT GENERATOR: Notifications html page was not generated due to lack of data
+2024-11-22T04:46:04.13 Test Step 2 End: Creating diagram and saving report - 0:1:38.038
+2024-11-22T04:46:04.13 *** OVERALL CONFIGURATION METHOD RESULT ***
+2024-11-22T04:46:04.14 Assertion Passed
+2024-11-22T04:46:04.14 ==================================================
+2024-11-22T04:46:04.14 Test step [1] begin Tearing down test suite
+2024-11-22T04:46:04.14 Save data samples
+2024-11-22T04:46:04.14 ################ Raw Data Statistics ##################
+2024-11-22T04:46:04.14 ### SUT ###
+2024-11-22T04:46:04.14 # Traffic Processors: [PL-3, PL-4]
+2024-11-22T04:46:04.14 ## Occurrences ##
+2024-11-22T04:46:04.14 # Alarms: 0
+2024-11-22T04:46:04.14 # Assertions: 0
+2024-11-22T04:46:04.14 # CapsuleAbortions: 0
+2024-11-22T04:46:04.14 # NodeOutages: 0
+2024-11-22T04:46:04.14 # Notifications: 0
+2024-11-22T04:46:04.14 # ProcessRestarts: 0
+2024-11-22T04:46:04.14 # RemovedPOTS: 0
+2024-11-22T04:46:04.14 # TerminatedProcesses: 0
+2024-11-22T04:46:04.14 # AppTraceWarnings: 12876
+2024-11-22T04:46:04.14 ## Samples ##
+2024-11-22T04:46:04.14 # CpuUsageSamples: 728
+2024-11-22T04:46:04.14 # DbnMemoryUsageSamples: 728
+2024-11-22T04:46:04.14 # DbnMemoryUsageKbSamples: 728
+2024-11-22T04:46:04.14 # DbnVmSharedMemoryUsageSamples: 674
+2024-11-22T04:46:04.14 # DbOpPartAppProcRatio: 0
+2024-11-22T04:46:04.14 # DiskSpaceSamples: 728
+2024-11-22T04:46:04.14 # LinuxCpuUsageSamples: 0
+2024-11-22T04:46:04.14 # LinuxDbnMemoryUsageSamples: 0
+2024-11-22T04:46:04.14 # LinuxTotalMemoryUsageSamples: 0
+2024-11-22T04:46:04.14 # LoaderCpuUsageSamples: 0
+2024-11-22T04:46:04.14 # LoaderDbnMemoryUsageSamples: 0
+2024-11-22T04:46:04.14 # LoaderTotalMemoryUsageSamples: 0
+2024-11-22T04:46:04.14 # MultiMMapUsageSamples: 691
+2024-11-22T04:46:04.15 # NetstatUsageSamples: 674
+2024-11-22T04:46:04.15 # PerformanceManagementCounter: 11
+2024-11-22T04:46:04.15 # xdmsPerformanceManagementCollection: 11
+2024-11-22T04:46:04.15 # QosCounter: 11
+2024-11-22T04:46:04.15 # QosXdmsCounter: 11
+2024-11-22T04:46:04.15 # guestVmStatisticsSamples: 37
+2024-11-22T04:46:04.15 # guestVmStatsProcessedSamples: 37
+2024-11-22T04:46:04.15 # hostVmStatisticsSamples: 37
+2024-11-22T04:46:04.15 # hostVmStatsProcessedSamples: 37
+2024-11-22T04:46:04.15 # StaticProcessesMemoryPerProcessUsage: 363
+2024-11-22T04:46:04.15 # StaticProcessesMemoryTotalUsage: 363
+2024-11-22T04:46:04.15 # SystemAppProcRatio: 363
+2024-11-22T04:46:04.15 # CBAMemoryUsageCollectionSC: 728
+2024-11-22T04:46:04.15 # TotalMemoryUsageSamples: 728
+2024-11-22T04:46:04.15 # TpLoadPerCoreSamples: 728
+2024-11-22T04:46:04.15 # vDicosProcessTypeStatusResourceStatisticsSamples: 363
+2024-11-22T04:46:04.15 # JvmGcStatisticsSamples: 0
+2024-11-22T04:46:04.15 # SipCounters: 11
+2024-11-22T04:46:04.15 # ChargingCounters: 11
+2024-11-22T04:46:04.15 # TraceCounters: 11
+2024-11-22T04:46:04.15 # IdPresCounters: 11
+2024-11-22T04:46:04.15 # OSProcessingUnitCounters: 11
+2024-11-22T04:46:04.15 # OSProcessingLogicalUnitCounters: 11
+2024-11-22T04:46:04.15 # OSMDeviceCounters: 11
+2024-11-22T04:46:04.15 # SubscriberCounters: 11
+2024-11-22T04:46:04.15 # PotsLeftInDbnSamples: 37
+2024-11-22T04:46:04.15 # DiameterCounters: 11
+2024-11-22T04:46:04.15 # C-DiameterCounters: 11
+2024-11-22T04:46:04.15 # ShCounters: 11
+2024-11-22T04:46:04.15 # SccCounters: 1
+2024-11-22T04:46:04.15 # MmtCounters: 11
+2024-11-22T04:46:04.15 ### Traffic Generators ###
+2024-11-22T04:46:04.15 # CpuUsagePerUnixProcessData: 296
+2024-11-22T04:46:04.15 # LoadMachinesCPUUsageSamples: 2181
+2024-11-22T04:46:04.15 # LoadPcMemoryUsageSample: 2184
+2024-11-22T04:46:04.15 # SIPpStatistics: 38
+2024-11-22T04:46:04.15 # SIPpResponseTimeStatistics: 37
+2024-11-22T04:46:04.15 # TitanSimProcessesUsageSamples: 37
+2024-11-22T04:46:04.15 # TitanSimProcessesUsageSamplesAtPreRegistrationPhase: 0
+2024-11-22T04:46:04.15 # TitanSimStatistics: 183
+2024-11-22T04:46:04.15 # UnixProcessesUsageSamples: 296
+2024-11-22T04:46:04.15 # SystemControllerCPUUsagesCollection: 728
+2024-11-22T04:46:04.15 # PerCoreSCCPUUsagesCollection: 728
+2024-11-22T04:46:04.15 #####################################################
+2024-11-22T04:46:04.15 Sub Test step [1_1] begin Remove Kafka Data Collectors
+2024-11-22T04:46:04.16 Sub Test Step End: Remove Kafka Data Collectors - 0:0:0.006
+2024-11-22T04:46:04.16 Test Step 1 End: Tearing down test suite - 0:0:0.015
+2024-11-22T04:46:04.16 *** OVERALL CONFIGURATION METHOD RESULT ***
+2024-11-22T04:46:04.17 Assertion Passed
+2024-11-22T04:46:04.17 /local/scratch/mtasbin/test-output-2024-11-21-23-07-56/jcatLogs/jcathtml/js/defaultTheme.js not a file or not exists, skip changing it
+2024-11-22T04:46:04.17 /local/scratch/mtasbin/test-output-2024-11-21-23-07-56/jcatLogs/jcathtml/json/jcatThemes.js not a file or not exists, skip changing it
+2024-11-22T04:46:04.20 
+2024-11-22T04:46:04.20  You can find the Mtas Jcat HTML at
+2024-11-22T04:46:04.20 /local/scratch/mtasbin/test-output-2024-11-21-23-07-56/index.html
+2024-11-22T04:46:04.20 jcat.zipFile.enable is disabled.
+2024-11-22T04:46:04.22 JCAT Lightning logs directory: /local/scratch/mtasbin/test-output-2024-11-21-23-07-56/jcatLogs/jcathtml
+2024-11-22T04:46:04.35 JCAT console logs: /local/scratch/mtasbin/test-output-2024-11-21-23-07-56/jcatLogs/jcathtml/console.log
+2024-11-22T04:46:04.35 Shutdown hook invocation.
+2024-11-22T04:46:04.35 Cleanup stfw working directory: /local/scratch/mtasbin/st
+2024-11-22T04:46:04.35 JCAT test execution is now finished
+2024-11-22T04:46:05.14 Cleanup st-data on remote: mtas-cba-mtas-stc-stability-14288-loadpc-sender:/local/scratch/mtasbin/st
+2024-11-22T04:46:06.02 Cleanup st-data on remote: mtas-cba-mtas-stc-stability-14288-loadpc-titansim:/local/scratch/mtasbin/st
+2024-11-22T04:46:06.92 End of Shutdown hook invocation execution.
+2024-11-22T04:46:07.54 WARNING: Illegal reflective access by com.sun.xml.bind.v2.runtime.reflect.opt.Injector$1 (file:/local/scratch/mtasbin/test-output-2024-11-21-23-07-56/jcatLogs/mtasST/artifacts/mtas-jcat-st-testcases-0.9.440-jar-with-dependencies.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int)
+2024-11-22T04:46:07.54 WARNING: Please consider reporting this to the maintainers of com.sun.xml.bind.v2.runtime.reflect.opt.Injector$1
+2024-11-22T04:46:07.54 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2024-11-22T04:46:07.54 WARNING: All illegal access operations will be denied in a future release
+2024-11-22T04:46:07.54 INFO:root:return_code: 1
+2024-11-22T04:46:10.62 [CIFW][INFO] Starting script=[/local/scratch/mtasbin/slave/workspace/MTAS_STC_Stability/setup_repos_new.sh] from repository=[mtas/ci]
+2024-11-22T04:46:10.63 =====================================================
+2024-11-22T04:46:11.12 [CIFW][INFO] Executing repo setup: git_repo=[ci] / git_branch=[universal] / git_spec=[fae2dc20df51641ad4c605543e53b146651e232e]
+2024-11-22T04:46:11.12 =====================================================
+2024-11-22T04:46:11.12 [CIFW][INFO] Commit detected...
+2024-11-22T04:46:12.25 [CIFW][INFO] Commit has been found in Gerrit: commit=[fae2dc20df51641ad4c605543e53b146651e232e]
+2024-11-22T04:46:15.37 [CIFW][INFO] Cloning ci into target_dir=[/local/scratch/mtasbin/slave/workspace/MTAS_STC_Stability/ci]...
+2024-11-22T04:46:15.37 
+2024-11-22T04:46:15.46 [CIFW][INFO] Submodule update in ci...
+2024-11-22T04:46:15.66 =====================================================
+2024-11-22T04:46:15.66 [CIFW][INFO] Current commit has been verified. verified_commit=[fae2dc20df51641ad4c605543e53b146651e232e]
+2024-11-22T04:46:15.66 =====================================================
+2024-11-22T04:46:15.66 [CIFW][INFO] Writing data from Git to file...
+2024-11-22T04:46:15.66 [CIFW][INFO] /local/scratch/mtasbin/slave/workspace/MTAS_STC_Stability/commits_of_cloned_repos.prop
+2024-11-22T04:46:15.66 [CIFW][INFO] ci_commit_to_pass=fae2dc20df51641ad4c605543e53b146651e232e
+2024-11-22T04:46:15.66 [CIFW][INFO] /local/scratch/mtasbin/slave/workspace/MTAS_STC_Stability/refs_of_cloned_repos.prop
+2024-11-22T04:46:15.66 [CIFW][INFO] ci_ref_to_pass=refs/changes/28/19018528/4
+2024-11-22T04:46:15.66 =====================================================
+2024-11-22T04:46:15.66 [CIFW][INFO] Repo setup ended! Exiting with: result=[0]
+2024-11-22T04:46:15.66 =====================================================
+2024-11-22T04:46:15.66 [CIFW][INFO] Finished script=[/local/scratch/mtasbin/slave/workspace/MTAS_STC_Stability/setup_repos_new.sh] from repository=[mtas/ci] with result=[SUCCESS]
+2024-11-22T04:46:18.39 Warning: Permanently added '[10.155.129.154]:2203' (ECDSA) to the list of known hosts.
+2024-11-22T04:46:26.19 Warning: Permanently added '[10.155.129.154]:2203' (ECDSA) to the list of known hosts.
+2024-11-22T04:46:27.83 [CIFW][INFO] Loading module: gcc/7.3.0
+2024-11-22T04:46:27.95 [CIFW][INFO] Unloading module: python/3.8.5
+2024-11-22T04:46:27.98 [CIFW][INFO] Loading module: python/3.8.5
+2024-11-22T04:46:28.14 [CIFW][INFO] Loading module: shellcheck/0.4.7
+2024-11-22T04:46:28.25 [CIFW][INFO] Loading module: perl/5.26.1-addons-ims
+2024-11-22T04:46:28.41 [CIFW][INFO] Loading module: maven/3.6.3
+2024-11-22T04:46:28.61 [CIFW][INFO] Unloading module: j2re/1.7.0_121(default)
+2024-11-22T04:46:28.75 [CIFW][INFO] Loading module: jdk/11.0.1
+2024-11-22T04:46:28.93 [CIFW][INFO] Unloading module: jfrogcli/2.9.0
+2024-11-22T04:46:28.98 [CIFW][INFO] Loading module: jfrogcli/1.29.1
+2024-11-22T04:46:29.09 [CIFW][INFO] Loading module: jq/1.6
+2024-11-22T04:46:29.15 [CIFW][INFO] =============================================================================================================
+2024-11-22T04:46:29.16 [CIFW][INFO] Setup virtualenv cifw...
+2024-11-22T04:46:29.16 [CIFW][INFO] =============================================================================================================
+2024-11-22T04:46:29.16 [CIFW][INFO] Virtualenv "cifw" not found in the workspace!
+2024-11-22T04:46:29.16 [CIFW][INFO] =============================================================================================================
+2024-11-22T04:46:29.16 [CIFW][INFO] Build virtualenv cifw...
+2024-11-22T04:46:29.16 [CIFW][INFO] =============================================================================================================
+2024-11-22T04:46:29.16 [CIFW][INFO] Creating virtualenv...
+2024-11-22T04:46:31.61 [CIFW][INFO] Upgrading pip...
+2024-11-22T04:46:34.32 [CIFW][INFO] Installing dependencies...
+2024-11-22T04:47:01.03 WARNING: Package 'pylint' has an invalid Requires-Python: Invalid specifier: '>=3.5.*'
+2024-11-22T04:47:09.07 WARNING: Package 'astroid' has an invalid Requires-Python: Invalid specifier: '>=3.5.*'
+2024-11-22T04:48:24.59 [CIFW][INFO] Activating virtualenv...
+2024-11-22T04:48:30.41 /local/scratch/mtasbin/slave/workspace/MTAS_STC_Stability/ci/refactor/components/jcat_report_summarizer/test-output-2024-11-21-23-07-56 /local/scratch/mtasbin/slave/workspace/MTAS_STC_Stability/ci/refactor/components/jcat_report_summarizer
+2024-11-22T04:48:45.31 /local/scratch/mtasbin/slave/workspace/MTAS_STC_Stability/ci/refactor/components/jcat_report_summarizer
